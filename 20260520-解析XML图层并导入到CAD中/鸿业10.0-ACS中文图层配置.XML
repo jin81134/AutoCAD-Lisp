@@ -1,0 +1,1298 @@
+<xml xmlns:s='uuid:BDC6E3F0-6DA3-11d1-A2A3-00AA00C14882'
+	xmlns:dt='uuid:C2F41010-65B3-11d1-A29F-00AA00C14882'
+	xmlns:rs='urn:schemas-microsoft-com:rowset'
+	xmlns:z='#RowsetSchema'>
+<s:Schema id='RowsetSchema'>
+	<s:ElementType name='row' content='eltOnly' rs:updatable='true'>
+		<s:AttributeType name='Color' rs:number='7' rs:nullable='true' rs:maydefer='true' rs:write='true' rs:basetable='UserLayer'
+			 rs:basecolumn='Color'>
+			<s:datatype dt:type='int' dt:maxLength='4' rs:precision='10' rs:fixedlength='true'/>
+		</s:AttributeType>
+		<s:AttributeType name='Comment' rs:number='11' rs:nullable='true' rs:maydefer='true' rs:write='true' rs:basetable='UserLayer'
+			 rs:basecolumn='Comment'>
+			<s:datatype dt:type='string' dt:maxLength='536870910' rs:long='true'/>
+		</s:AttributeType>
+		<s:AttributeType name='DefaultLayer' rs:number='3' rs:nullable='true' rs:maydefer='true' rs:write='true' rs:basetable='UserLayer'
+			 rs:basecolumn='DefaultLayer'>
+			<s:datatype dt:type='string' dt:maxLength='255'/>
+		</s:AttributeType>
+		<s:AttributeType name='ID' rs:number='1' rs:maydefer='true' rs:writeunknown='true' rs:basetable='UserLayer'
+			 rs:basecolumn='ID' rs:autoincrement='true'>
+			<s:datatype dt:type='int' dt:maxLength='4' rs:precision='10' rs:fixedlength='true'/>
+		</s:AttributeType>
+		<s:AttributeType name='LineType' rs:number='8' rs:nullable='true' rs:maydefer='true' rs:write='true' rs:basetable='UserLayer'
+			 rs:basecolumn='LineType'>
+			<s:datatype dt:type='string' dt:maxLength='255'/>
+		</s:AttributeType>
+		<s:AttributeType name='LineWeight' rs:number='9' rs:nullable='true' rs:maydefer='true' rs:write='true' rs:basetable='UserLayer'
+			 rs:basecolumn='LineWeight'>
+			<s:datatype dt:type='float' dt:maxLength='8' rs:precision='15' rs:fixedlength='true'/>
+		</s:AttributeType>
+		<s:AttributeType name='MaterialName' rs:number='10' rs:nullable='true' rs:maydefer='true' rs:write='true' rs:basetable='UserLayer'
+			 rs:basecolumn='MaterialName'>
+			<s:datatype dt:type='string' dt:maxLength='255'/>
+		</s:AttributeType>
+		<s:AttributeType name='Name' rs:number='5' rs:nullable='true' rs:maydefer='true' rs:write='true' rs:basetable='UserLayer'
+			 rs:basecolumn='Name'>
+			<s:datatype dt:type='string' dt:maxLength='255'/>
+		</s:AttributeType>
+		<s:AttributeType name='ShortMarker' rs:number='6' rs:nullable='true' rs:maydefer='true' rs:write='true' rs:basetable='UserLayer'
+			 rs:basecolumn='ShortMarker'>
+			<s:datatype dt:type='string' dt:maxLength='255'/>
+		</s:AttributeType>
+		<s:AttributeType name='TemplateName' rs:number='2' rs:nullable='true' rs:maydefer='true' rs:write='true' rs:basetable='UserLayer'
+			 rs:basecolumn='TemplateName'>
+			<s:datatype dt:type='string' dt:maxLength='255'/>
+		</s:AttributeType>
+		<s:AttributeType name='UserLayer' rs:number='4' rs:nullable='true' rs:maydefer='true' rs:write='true' rs:basetable='UserLayer'
+			 rs:basecolumn='UserLayer'>
+			<s:datatype dt:type='string' dt:maxLength='255'/>
+		</s:AttributeType>
+		<s:AttributeType name='Version' rs:number='12' rs:nullable='true' rs:maydefer='true' rs:write='true' rs:basetable='UserLayer'
+			 rs:basecolumn='Version'>
+			<s:datatype dt:type='i2' dt:maxLength='2' rs:precision='5' rs:fixedlength='true'/>
+		</s:AttributeType>
+		<s:extends type='rs:rowbase'/>
+	</s:ElementType>
+</s:Schema>
+<rs:data>
+	<z:row Color='16777220' Comment='暖通-除尘-扁圆风管中线' DefaultLayer='ACS_CFG_BRZX' ID='374' LineType='CENTER'
+		 LineWeight='-3' MaterialName='镀锌钢板' Name='暖通-除尘-扁圆风管中线' ShortMarker='CBR' TemplateName='ACS中文图层配置'
+		 UserLayer='暖通-除尘-扁圆风管中线' Version='0'/>
+	<z:row Color='65280' Comment='暖通-除尘-标注' DefaultLayer='ACS_CFG_BZ' ID='375' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-除尘-标注' TemplateName='ACS中文图层配置' UserLayer='暖通-除尘-标注'
+		 Version='0'/>
+	<z:row Color='16777219' Comment='暖通-除尘-单线系统' DefaultLayer='ACS_CFG_F1' ID='376' LineType='Continuous'
+		 LineWeight='0.5' Name='暖通-除尘-单线系统' TemplateName='ACS中文图层配置' UserLayer='暖通-除尘-单线系统'
+		 Version='0'/>
+	<z:row Color='16777219' Comment='暖通-除尘-2D边线' DefaultLayer='ACS_CFG_F2' ID='377' LineType='Continuous'
+		 LineWeight='0.5' MaterialName='镀锌钢板' Name='暖通-除尘-2D边线' TemplateName='ACS中文图层配置'
+		 UserLayer='暖通-除尘-2D边线' Version='0'/>
+	<z:row Color='16777219' Comment='暖通-除尘-3D边线' DefaultLayer='ACS_CFG_F3' ID='378' LineType='Continuous'
+		 LineWeight='0.5' MaterialName='镀锌钢板' Name='暖通-除尘-3D边线' TemplateName='ACS中文图层配置'
+		 UserLayer='暖通-除尘-3D边线' Version='0'/>
+	<z:row Color='16711680' Comment='暖通-除尘-圆风管中线' DefaultLayer='ACS_CFG_FCZX' ID='379' LineType='CENTER'
+		 LineWeight='0.5' MaterialName='镀锌钢板' Name='暖通-除尘-圆风管中线' ShortMarker='CCC' TemplateName='ACS中文图层配置'
+		 UserLayer='暖通-除尘-圆风管中线' Version='0'/>
+	<z:row Color='16776960' Comment='暖通-除尘-风向符号' DefaultLayer='ACS_CFG_FFX' ID='380' LineType='Continuous'
+		 LineWeight='0.34999999999999998' Name='暖通-除尘-风向符号' TemplateName='ACS中文图层配置' UserLayer='暖通-除尘-风向符号'
+		 Version='0'/>
+	<z:row Color='16777219' Comment='暖通-除尘-风管' DefaultLayer='ACS_CFG_FG' ID='381' LineType='Continuous'
+		 LineWeight='0.5' MaterialName='镀锌钢板' Name='暖通-除尘-风管' ShortMarker='CC' TemplateName='ACS中文图层配置'
+		 UserLayer='暖通-除尘-风管' Version='0'/>
+	<z:row Color='16711680' Comment='暖通-除尘-风口' DefaultLayer='ACS_CFG_FK' ID='382' LineType='Continuous'
+		 LineWeight='0.5' Name='暖通-除尘-风口' TemplateName='ACS中文图层配置' UserLayer='暖通-除尘-风口'
+		 Version='0'/>
+	<z:row Color='16711680' Comment='暖通-除尘-风口-电动' DefaultLayer='ACS_CFG_FK_E' ID='383' LineType='Continuous'
+		 LineWeight='0.5' Name='暖通-除尘-风口-电动' TemplateName='ACS中文图层配置' UserLayer='暖通-除尘-风口-电动'
+		 Version='0'/>
+	<z:row Color='16777217' Comment='暖通-除尘-法兰' DefaultLayer='ACS_CFG_FL' ID='384' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-除尘-法兰' TemplateName='ACS中文图层配置' UserLayer='暖通-除尘-法兰'
+		 Version='0'/>
+	<z:row Color='16711680' Comment='暖通-除尘-立管系统' DefaultLayer='ACS_CFG_FL1' ID='385' LineType='Continuous'
+		 LineWeight='0.5' Name='暖通-除尘-立管系统' TemplateName='ACS中文图层配置' UserLayer='暖通-除尘-立管系统'
+		 Version='0'/>
+	<z:row Color='16777222' Comment='暖通-除尘-阀门' DefaultLayer='ACS_CFG_FM' ID='386' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-除尘-阀门' TemplateName='ACS中文图层配置' UserLayer='暖通-除尘-阀门'
+		 Version='0'/>
+	<z:row Color='16777222' Comment='暖通-除尘-阀门-电动' DefaultLayer='ACS_CFG_FM_E' ID='387' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-除尘-阀门-电动' TemplateName='ACS中文图层配置' UserLayer='暖通-除尘-阀门-电动'
+		 Version='0'/>
+	<z:row Color='16777222' Comment='暖通-除尘-阀门-消防' DefaultLayer='ACS_CFG_FM_F' ID='388' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-除尘-阀门-消防' TemplateName='ACS中文图层配置' UserLayer='暖通-除尘-阀门-消防'
+		 Version='0'/>
+	<z:row Color='16777220' Comment='暖通-除尘-方风管中线' DefaultLayer='ACS_CFG_FRZX' ID='389' LineType='CENTER'
+		 LineWeight='0.25' MaterialName='镀锌钢板' Name='暖通-除尘-方风管中线' ShortMarker='CCR' TemplateName='ACS中文图层配置'
+		 UserLayer='暖通-除尘-方风管中线' Version='0'/>
+	<z:row Color='65280' Comment='暖通-除尘-风量' DefaultLayer='ACS_CFG_RATE' ID='6001' LineType='Continuous'
+		 LineWeight='-3' Name='暖通-除尘-风量' TemplateName='ACS中文图层配置' UserLayer='暖通-除尘-风量'
+		 Version='0'/>
+	<z:row Color='16776960' Comment='暖通-除尘-设备' DefaultLayer='ACS_CFG_SB' ID='390' LineType='Continuous'
+		 LineWeight='0.34999999999999998' Name='暖通-除尘-设备' TemplateName='ACS中文图层配置' UserLayer='暖通-除尘-设备'
+		 Version='0'/>
+	<z:row Color='16776960' Comment='暖通-除尘-设备标注' DefaultLayer='ACS_CFG_SBBZ' ID='391' LineType='Continuous'
+		 LineWeight='0.34999999999999998' Name='暖通-除尘-设备标注' TemplateName='ACS中文图层配置' UserLayer='暖通-除尘-设备标注'
+		 Version='0'/>
+	<z:row Color='65280' Comment='暖通-除尘-设中' DefaultLayer='ACS_CFG_SBZX' ID='392' LineType='CENTER' LineWeight='0.25'
+		 Name='暖通-除尘-设中' TemplateName='ACS中文图层配置' UserLayer='暖通-除尘-设中' Version='0'/>
+	<z:row Color='16777220' Comment='暖通-车库排风-扁圆风管中线' DefaultLayer='ACS_CKPF_BRZX' ID='5635'
+		 LineType='CENTER' LineWeight='-3' MaterialName='镀锌钢板' Name='暖通-车库排风-扁圆风管中线' ShortMarker='CFBR'
+		 TemplateName='ACS中文图层配置' UserLayer='暖通-车库排风-扁圆风管中线' Version='0'/>
+	<z:row Color='65280' Comment='暖通-车库排风-标注' DefaultLayer='ACS_CKPF_BZ' ID='5636' LineType='Continuous'
+		 LineWeight='-3' Name='暖通-车库排风-标注' TemplateName='ACS中文图层配置' UserLayer='暖通-车库排风-标注'
+		 Version='0'/>
+	<z:row Color='16776960' Comment='暖通-车库排风-单线系统' DefaultLayer='ACS_CKPF_F1' ID='5637' LineType='Continuous'
+		 LineWeight='0.5' Name='暖通-车库排风-单线系统' TemplateName='ACS中文图层配置' UserLayer='暖通-车库排风-单线系统'
+		 Version='0'/>
+	<z:row Color='16776960' Comment='暖通-车库排风-2D边线' DefaultLayer='ACS_CKPF_F2' ID='5638' LineType='Continuous'
+		 LineWeight='0.5' MaterialName='镀锌钢板' Name='暖通-车库排风-2D边线' TemplateName='ACS中文图层配置'
+		 UserLayer='暖通-车库排风-2D边线' Version='0'/>
+	<z:row Color='16776960' Comment='暖通-车库排风-3D边线' DefaultLayer='ACS_CKPF_F3' ID='5639' LineType='Continuous'
+		 LineWeight='0.5' MaterialName='镀锌钢板' Name='暖通-车库排风-3D边线' TemplateName='ACS中文图层配置'
+		 UserLayer='暖通-车库排风-3D边线' Version='0'/>
+	<z:row Color='16711680' Comment='暖通-车库排风-圆风管中线' DefaultLayer='ACS_CKPF_FCZX' ID='5640'
+		 LineType='CENTER' LineWeight='-3' MaterialName='镀锌钢板' Name='暖通-车库排风-圆风管中线' ShortMarker='CFC'
+		 TemplateName='ACS中文图层配置' UserLayer='暖通-车库排风-圆风管中线' Version='0'/>
+	<z:row Color='16776960' Comment='暖通-车库排风-风向符号' DefaultLayer='ACS_CKPF_FFX' ID='5641' LineType='Continuous'
+		 LineWeight='0.34999999999999998' Name='暖通-车库排风-风向符号' TemplateName='ACS中文图层配置'
+		 UserLayer='暖通-车库排风-风向符号' Version='0'/>
+	<z:row Color='16776960' Comment='暖通-车库排风-风管' DefaultLayer='ACS_CKPF_FG' ID='5642' LineType='Continuous'
+		 LineWeight='0.5' MaterialName='镀锌钢板' Name='暖通-车库排风-风管' ShortMarker='CKPF' TemplateName='ACS中文图层配置'
+		 UserLayer='暖通-车库排风-风管' Version='0'/>
+	<z:row Color='16776960' Comment='暖通-车库排风-风口' DefaultLayer='ACS_CKPF_FK' ID='5643' LineType='Continuous'
+		 LineWeight='-3' Name='暖通-车库排风-风口' TemplateName='ACS中文图层配置' UserLayer='暖通-车库排风-风口'
+		 Version='0'/>
+	<z:row Color='16776960' Comment='暖通-车库排风-风口-电动' DefaultLayer='ACS_CKPF_FK_E' ID='5644' LineType='Continuous'
+		 LineWeight='-3' Name='暖通-车库排风-风口-电动' TemplateName='ACS中文图层配置' UserLayer='暖通-车库排风-风口-电动'
+		 Version='0'/>
+	<z:row Color='16777217' Comment='暖通-车库排风-法兰' DefaultLayer='ACS_CKPF_FL' ID='5645' LineType='Continuous'
+		 LineWeight='-3' Name='暖通-车库排风-法兰' TemplateName='ACS中文图层配置' UserLayer='暖通-车库排风-法兰'
+		 Version='0'/>
+	<z:row Color='16776960' Comment='暖通-车库排风-立管系统' DefaultLayer='ACS_CKPF_FL1' ID='5646' LineType='Continuous'
+		 LineWeight='0.5' Name='暖通-车库排风-立管系统' TemplateName='ACS中文图层配置' UserLayer='暖通-车库排风-立管系统'
+		 Version='0'/>
+	<z:row Color='16777222' Comment='暖通-车库排风-阀门' DefaultLayer='ACS_CKPF_FM' ID='5647' LineType='Continuous'
+		 LineWeight='-3' Name='暖通-车库排风-阀门' TemplateName='ACS中文图层配置' UserLayer='暖通-车库排风-阀门'
+		 Version='0'/>
+	<z:row Color='16777222' Comment='暖通-车库排风-阀门-电动' DefaultLayer='ACS_CKPF_FM_E' ID='5648' LineType='Continuous'
+		 LineWeight='-3' Name='暖通-车库排风-阀门-电动' TemplateName='ACS中文图层配置' UserLayer='暖通-车库排风-阀门-电动'
+		 Version='0'/>
+	<z:row Color='16777222' Comment='暖通-车库排风-阀门-消防' DefaultLayer='ACS_CKPF_FM_F' ID='5649' LineType='Continuous'
+		 LineWeight='-3' Name='暖通-车库排风-阀门-消防' TemplateName='ACS中文图层配置' UserLayer='暖通-车库排风-阀门-消防'
+		 Version='0'/>
+	<z:row Color='16777220' Comment='暖通-车库排风-方风管中线' DefaultLayer='ACS_CKPF_FRZX' ID='5650'
+		 LineType='CENTER' LineWeight='-3' MaterialName='镀锌钢板' Name='暖通-车库排风-方风管中线' ShortMarker='CFR'
+		 TemplateName='ACS中文图层配置' UserLayer='暖通-车库排风-方风管中线' Version='0'/>
+	<z:row Color='65280' Comment='暖通-车库排风-风量' DefaultLayer='ACS_CKPF_RATE' ID='6006' LineType='Continuous'
+		 LineWeight='-3' Name='暖通-车库排风-风量' TemplateName='ACS中文图层配置' UserLayer='暖通-车库排风-风量'
+		 Version='0'/>
+	<z:row Color='16776960' Comment='暖通-车库排风-设备' DefaultLayer='ACS_CKPF_SB' ID='5651' LineType='Continuous'
+		 LineWeight='0.34999999999999998' Name='暖通-车库排风-设备' TemplateName='ACS中文图层配置' UserLayer='暖通-车库排风-设备'
+		 Version='0'/>
+	<z:row Color='16776960' Comment='暖通-车库排风-设备标注' DefaultLayer='ACS_CKPF_SBBZ' ID='5652' LineType='Continuous'
+		 LineWeight='0.34999999999999998' Name='暖通-车库排风-设备标注' TemplateName='ACS中文图层配置'
+		 UserLayer='暖通-车库排风-设备标注' Version='0'/>
+	<z:row Color='65280' Comment='暖通-车库排风-设中' DefaultLayer='ACS_CKPF_SBZX' ID='5653' LineType='CENTER'
+		 LineWeight='-3' Name='暖通-车库排风-设中' TemplateName='ACS中文图层配置' UserLayer='暖通-车库排风-设中'
+		 Version='0'/>
+	<z:row Color='16777220' Comment='暖通-车库排烟-扁圆风管中线' DefaultLayer='ACS_CKPY_BRZX' ID='5654'
+		 LineType='CENTER' LineWeight='-3' MaterialName='镀锌钢板' Name='暖通-车库排烟-扁圆风管中线' ShortMarker='CYBR'
+		 TemplateName='ACS中文图层配置' UserLayer='暖通-车库排烟-扁圆风管中线' Version='0'/>
+	<z:row Color='65280' Comment='暖通-车库排烟-标注' DefaultLayer='ACS_CKPY_BZ' ID='5656' LineType='Continuous'
+		 LineWeight='-3' Name='暖通-车库排烟-标注' TemplateName='ACS中文图层配置' UserLayer='暖通-车库排烟-标注'
+		 Version='0'/>
+	<z:row Color='16776960' Comment='暖通-车库排烟-单线系统' DefaultLayer='ACS_CKPY_F1' ID='5657' LineType='Continuous'
+		 LineWeight='0.5' Name='暖通-车库排烟-单线系统' TemplateName='ACS中文图层配置' UserLayer='暖通-车库排烟-单线系统'
+		 Version='0'/>
+	<z:row Color='16776960' Comment='暖通-车库排烟-2D边线' DefaultLayer='ACS_CKPY_F2' ID='5658' LineType='Continuous'
+		 LineWeight='0.5' MaterialName='镀锌钢板' Name='暖通-车库排烟-2D边线' TemplateName='ACS中文图层配置'
+		 UserLayer='暖通-车库排烟-2D边线' Version='0'/>
+	<z:row Color='16776960' Comment='暖通-车库排烟-3D边线' DefaultLayer='ACS_CKPY_F3' ID='5659' LineType='Continuous'
+		 LineWeight='0.5' MaterialName='镀锌钢板' Name='暖通-车库排烟-3D边线' TemplateName='ACS中文图层配置'
+		 UserLayer='暖通-车库排烟-3D边线' Version='0'/>
+	<z:row Color='16711680' Comment='暖通-车库排烟-圆风管中线' DefaultLayer='ACS_CKPY_FCZX' ID='5660'
+		 LineType='CENTER' LineWeight='-3' MaterialName='镀锌钢板' Name='暖通-车库排烟-圆风管中线' ShortMarker='CYC'
+		 TemplateName='ACS中文图层配置' UserLayer='暖通-车库排烟-圆风管中线' Version='0'/>
+	<z:row Color='16776960' Comment='暖通-车库排烟-风向符号' DefaultLayer='ACS_CKPY_FFX' ID='5662' LineType='Continuous'
+		 LineWeight='0.34999999999999998' Name='暖通-车库排烟-风向符号' TemplateName='ACS中文图层配置'
+		 UserLayer='暖通-车库排烟-风向符号' Version='0'/>
+	<z:row Color='16776960' Comment='暖通-车库排烟-风管' DefaultLayer='ACS_CKPY_FG' ID='5663' LineType='Continuous'
+		 LineWeight='0.5' MaterialName='镀锌钢板' Name='暖通-车库排烟-风管' ShortMarker='CKPY' TemplateName='ACS中文图层配置'
+		 UserLayer='暖通-车库排烟-风管' Version='0'/>
+	<z:row Color='16776960' Comment='暖通-车库排烟-风口' DefaultLayer='ACS_CKPY_FK' ID='5664' LineType='Continuous'
+		 LineWeight='-3' Name='暖通-车库排烟-风口' TemplateName='ACS中文图层配置' UserLayer='暖通-车库排烟-风口'
+		 Version='0'/>
+	<z:row Color='16776960' Comment='暖通-车库排烟-风口-电动' DefaultLayer='ACS_CKPY_FK_E' ID='5665' LineType='Continuous'
+		 LineWeight='-3' Name='暖通-车库排烟-风口-电动' TemplateName='ACS中文图层配置' UserLayer='暖通-车库排烟-风口-电动'
+		 Version='0'/>
+	<z:row Color='16777217' Comment='暖通-车库排烟-法兰' DefaultLayer='ACS_CKPY_FL' ID='5666' LineType='Continuous'
+		 LineWeight='-3' Name='暖通-车库排烟-法兰' TemplateName='ACS中文图层配置' UserLayer='暖通-车库排烟-法兰'
+		 Version='0'/>
+	<z:row Color='16776960' Comment='暖通-车库排烟-立管系统' DefaultLayer='ACS_CKPY_FL1' ID='5667' LineType='Continuous'
+		 LineWeight='0.5' Name='暖通-车库排烟-立管系统' TemplateName='ACS中文图层配置' UserLayer='暖通-车库排烟-立管系统'
+		 Version='0'/>
+	<z:row Color='16777222' Comment='暖通-车库排烟-阀门' DefaultLayer='ACS_CKPY_FM' ID='5668' LineType='Continuous'
+		 LineWeight='-3' Name='暖通-车库排烟-阀门' TemplateName='ACS中文图层配置' UserLayer='暖通-车库排烟-阀门'
+		 Version='0'/>
+	<z:row Color='16777222' Comment='暖通-车库排烟-阀门-电动' DefaultLayer='ACS_CKPY_FM_E' ID='5669' LineType='Continuous'
+		 LineWeight='-3' Name='暖通-车库排烟-阀门-电动' TemplateName='ACS中文图层配置' UserLayer='暖通-车库排烟-阀门-电动'
+		 Version='0'/>
+	<z:row Color='16777222' Comment='暖通-车库排烟-阀门-消防' DefaultLayer='ACS_CKPY_FM_F' ID='5670' LineType='Continuous'
+		 LineWeight='-3' Name='暖通-车库排烟-阀门-消防' TemplateName='ACS中文图层配置' UserLayer='暖通-车库排烟-阀门-消防'
+		 Version='0'/>
+	<z:row Color='16777220' Comment='暖通-车库排烟-方风管中线' DefaultLayer='ACS_CKPY_FRZX' ID='5671'
+		 LineType='CENTER' LineWeight='-3' MaterialName='镀锌钢板' Name='暖通-车库排烟-方风管中线' ShortMarker='CYR'
+		 TemplateName='ACS中文图层配置' UserLayer='暖通-车库排烟-方风管中线' Version='0'/>
+	<z:row Color='65280' Comment='暖通-车库排烟-风量' DefaultLayer='ACS_CKPY_RATE' ID='6007' LineType='Continuous'
+		 LineWeight='-3' Name='暖通-车库排烟-风量' TemplateName='ACS中文图层配置' UserLayer='暖通-车库排烟-风量'
+		 Version='0'/>
+	<z:row Color='16776960' Comment='暖通-车库排烟-设备' DefaultLayer='ACS_CKPY_SB' ID='5672' LineType='Continuous'
+		 LineWeight='0.34999999999999998' Name='暖通-车库排烟-设备' TemplateName='ACS中文图层配置' UserLayer='暖通-车库排烟-设备'
+		 Version='0'/>
+	<z:row Color='16776960' Comment='暖通-车库排烟-设备标注' DefaultLayer='ACS_CKPY_SBBZ' ID='5673' LineType='Continuous'
+		 LineWeight='0.34999999999999998' Name='暖通-车库排烟-设备标注' TemplateName='ACS中文图层配置'
+		 UserLayer='暖通-车库排烟-设备标注' Version='0'/>
+	<z:row Color='65280' Comment='暖通-车库排烟-设中' DefaultLayer='ACS_CKPY_SBZX' ID='5674' LineType='CENTER'
+		 LineWeight='-3' Name='暖通-车库排烟-设中' TemplateName='ACS中文图层配置' UserLayer='暖通-车库排烟-设中'
+		 Version='0'/>
+	<z:row Color='65280' Comment='暖通-采暖-标注' DefaultLayer='ACS_CN_BZ' ID='393' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-采暖-标注' TemplateName='ACS中文图层配置' UserLayer='暖通-采暖-标注'
+		 Version='0'/>
+	<z:row Color='65535' Comment='暖通-采暖-平面地沟' DefaultLayer='ACS_CN_DG' ID='394' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-采暖-平面地沟' TemplateName='ACS中文图层配置' UserLayer='暖通-采暖-平面地沟'
+		 Version='0'/>
+	<z:row Color='16776960' Comment='暖通-采暖-地热盘管' DefaultLayer='ACS_CN_DRPG' ID='395' LineType='Continuous'
+		 LineWeight='0.34999999999999998' MaterialName='PVC塑料管' Name='暖通-采暖-地热盘管' TemplateName='ACS中文图层配置'
+		 UserLayer='暖通-采暖-地热盘管' Version='0'/>
+	<z:row Color='16777215' Comment='暖通-采暖-大样图' DefaultLayer='ACS_CN_DYT' ID='396' LineType='Continuous'
+		 LineWeight='0.69999999999999996' Name='暖通-采暖-大样图' TemplateName='ACS中文图层配置' UserLayer='暖通-采暖-大样图'
+		 Version='0'/>
+	<z:row Color='65280' Comment='暖通-采暖-阀门' DefaultLayer='ACS_CN_FM' ID='397' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-采暖-阀门' TemplateName='ACS中文图层配置' UserLayer='暖通-采暖-阀门'
+		 Version='0'/>
+	<z:row Color='65280' Comment='暖通-采暖-阀门-电动' DefaultLayer='ACS_CN_FM_E' ID='398' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-采暖-阀门-电动' TemplateName='ACS中文图层配置' UserLayer='暖通-采暖-阀门-电动'
+		 Version='0'/>
+	<z:row Color='16777218' Comment='暖通-采暖-供水干管' DefaultLayer='ACS_CN_RG' ID='399' LineType='Continuous'
+		 LineWeight='0.69999999999999996' MaterialName='焊接钢管(1.0MPa)' Name='暖通-采暖-供水干管' ShortMarker='HWS'
+		 TemplateName='ACS中文图层配置' UserLayer='暖通-采暖-供水干管' Version='0'/>
+	<z:row Color='16777218' Comment='暖通-采暖-供水干管-中区' DefaultLayer='ACS_CN_RG_1' ID='400' LineType='Continuous'
+		 LineWeight='0.69999999999999996' MaterialName='焊接钢管(1.0MPa)' Name='暖通-采暖-供水干管-中区'
+		 ShortMarker='HWS' TemplateName='ACS中文图层配置' UserLayer='暖通-采暖-供水干管-中区' Version='0'/>
+	<z:row Color='16777218' Comment='暖通-采暖-供水干管-高区' DefaultLayer='ACS_CN_RG_2' ID='401' LineType='Continuous'
+		 LineWeight='0.69999999999999996' MaterialName='焊接钢管(1.0MPa)' Name='暖通-采暖-供水干管-高区'
+		 ShortMarker='HWS' TemplateName='ACS中文图层配置' UserLayer='暖通-采暖-供水干管-高区' Version='0'/>
+	<z:row Color='16777218' Comment='暖通-采暖-供水干管系统图' DefaultLayer='ACS_CN_RG1' ID='402' LineType='Continuous'
+		 LineWeight='0.69999999999999996' MaterialName='焊接钢管(1.0MPa)' Name='暖通-采暖-供水干管系统图'
+		 TemplateName='ACS中文图层配置' UserLayer='暖通-采暖-供水干管系统图' Version='0'/>
+	<z:row Color='16777218' Comment='暖通-采暖-供水立管' DefaultLayer='ACS_CN_RGLG' ID='403' LineType='Continuous'
+		 LineWeight='0.69999999999999996' MaterialName='焊接钢管(1.0MPa)' Name='暖通-采暖-供水立管' ShortMarker='HWS'
+		 TemplateName='ACS中文图层配置' UserLayer='暖通-采暖-供水立管' Version='0'/>
+	<z:row Color='16777218' Comment='暖通-采暖-供水立管系统图' DefaultLayer='ACS_CN_RGLG1' ID='404' LineType='Continuous'
+		 LineWeight='0.69999999999999996' MaterialName='焊接钢管(1.0MPa)' Name='暖通-采暖-供水立管系统图'
+		 TemplateName='ACS中文图层配置' UserLayer='暖通-采暖-供水立管系统图' Version='0'/>
+	<z:row Color='16777219' Comment='暖通-采暖-供水支管' DefaultLayer='ACS_CN_RGZG' ID='405' LineType='Continuous'
+		 LineWeight='0.69999999999999996' MaterialName='焊接钢管(1.0MPa)' Name='暖通-采暖-供水支管' TemplateName='ACS中文图层配置'
+		 UserLayer='暖通-采暖-供水支管' Version='0'/>
+	<z:row Color='16777219' Comment='暖通-采暖-供水支管系统图' DefaultLayer='ACS_CN_RGZG1' ID='406' LineType='Continuous'
+		 LineWeight='0.69999999999999996' MaterialName='焊接钢管(1.0MPa)' Name='暖通-采暖-供水支管系统图'
+		 TemplateName='ACS中文图层配置' UserLayer='暖通-采暖-供水支管系统图' Version='0'/>
+	<z:row Color='16777217' Comment='暖通-采暖-回水干管' DefaultLayer='ACS_CN_RH' ID='407' LineType='DASHED'
+		 LineWeight='0.69999999999999996' MaterialName='焊接钢管(1.0MPa)' Name='暖通-采暖-回水干管' ShortMarker='HWR'
+		 TemplateName='ACS中文图层配置' UserLayer='暖通-采暖-回水干管' Version='0'/>
+	<z:row Color='16777217' Comment='暖通-采暖-回水干管-中区' DefaultLayer='ACS_CN_RH_1' ID='408' LineType='DASHED'
+		 LineWeight='0.69999999999999996' MaterialName='焊接钢管(1.0MPa)' Name='暖通-采暖-回水干管-中区'
+		 ShortMarker='HWR' TemplateName='ACS中文图层配置' UserLayer='暖通-采暖-回水干管-中区' Version='0'/>
+	<z:row Color='16777217' Comment='暖通-采暖-回水干管-高区' DefaultLayer='ACS_CN_RH_2' ID='409' LineType='DASHED'
+		 LineWeight='0.69999999999999996' MaterialName='焊接钢管(1.0MPa)' Name='暖通-采暖-回水干管-高区'
+		 ShortMarker='HWR' TemplateName='ACS中文图层配置' UserLayer='暖通-采暖-回水干管-高区' Version='0'/>
+	<z:row Color='16777217' Comment='暖通-采暖-回水干管系统图' DefaultLayer='ACS_CN_RH1' ID='410' LineType='DASHED'
+		 LineWeight='0.69999999999999996' MaterialName='焊接钢管(1.0MPa)' Name='暖通-采暖-回水干管系统图'
+		 TemplateName='ACS中文图层配置' UserLayer='暖通-采暖-回水干管系统图' Version='0'/>
+	<z:row Color='16777217' Comment='暖通-采暖-回水立管' DefaultLayer='ACS_CN_RHLG' ID='411' LineType='DASHED'
+		 LineWeight='0.69999999999999996' MaterialName='焊接钢管(1.0MPa)' Name='暖通-采暖-回水立管' ShortMarker='HWR'
+		 TemplateName='ACS中文图层配置' UserLayer='暖通-采暖-回水立管' Version='0'/>
+	<z:row Color='16777217' Comment='暖通-采暖-回水立管系统图' DefaultLayer='ACS_CN_RHLG1' ID='412' LineType='DASHED'
+		 LineWeight='0.69999999999999996' MaterialName='焊接钢管(1.0MPa)' Name='暖通-采暖-回水立管系统图'
+		 TemplateName='ACS中文图层配置' UserLayer='暖通-采暖-回水立管系统图' Version='0'/>
+	<z:row Color='16777219' Comment='暖通-采暖-回水支管' DefaultLayer='ACS_CN_RHZG' ID='413' LineType='DASHED'
+		 LineWeight='0.69999999999999996' MaterialName='焊接钢管(1.0MPa)' Name='暖通-采暖-回水支管' TemplateName='ACS中文图层配置'
+		 UserLayer='暖通-采暖-回水支管' Version='0'/>
+	<z:row Color='16777219' Comment='暖通-采暖-回水支管系统图' DefaultLayer='ACS_CN_RHZG1' ID='414' LineType='DASHED'
+		 LineWeight='0.69999999999999996' MaterialName='焊接钢管(1.0MPa)' Name='暖通-采暖-回水支管系统图'
+		 TemplateName='ACS中文图层配置' UserLayer='暖通-采暖-回水支管系统图' Version='0'/>
+	<z:row Color='16777215' Comment='暖通-采暖-热力一次供水管' DefaultLayer='ACS_CN_RL1G' ID='415' LineType='Continuous'
+		 LineWeight='0.69999999999999996' MaterialName='焊接钢管(1.0MPa)' Name='暖通-采暖-热力一次供水管'
+		 ShortMarker='DHWS' TemplateName='ACS中文图层配置' UserLayer='暖通-采暖-热力一次供水管' Version='0'/>
+	<z:row Color='16777215' Comment='暖通-采暖-热力一次回水管' DefaultLayer='ACS_CN_RL1H' ID='416' LineType='DASHED'
+		 LineWeight='0.69999999999999996' MaterialName='焊接钢管(1.0MPa)' Name='暖通-采暖-热力一次回水管'
+		 ShortMarker='DHWR' TemplateName='ACS中文图层配置' UserLayer='暖通-采暖-热力一次回水管' Version='0'/>
+	<z:row Color='16776960' Comment='暖通-采暖-设备' DefaultLayer='ACS_CN_SB' ID='417' LineType='Continuous'
+		 LineWeight='0.34999999999999998' Name='暖通-采暖-设备' TemplateName='ACS中文图层配置' UserLayer='暖通-采暖-设备'
+		 Version='0'/>
+	<z:row Color='16776960' Comment='暖通-采暖-散热器系统图' DefaultLayer='ACS_CN_SB1' ID='418' LineType='Continuous'
+		 LineWeight='0.34999999999999998' Name='暖通-采暖-散热器系统图' TemplateName='ACS中文图层配置'
+		 UserLayer='暖通-采暖-散热器系统图' Version='0'/>
+	<z:row Color='65280' Comment='暖通-采暖-设中' DefaultLayer='ACS_CN_SBZX' ID='419' LineType='CENTER' LineWeight='0.25'
+		 Name='暖通-采暖-设中' TemplateName='ACS中文图层配置' UserLayer='暖通-采暖-设中' Version='0'/>
+	<z:row Color='16777215' Comment='公共层-图框' DefaultLayer='ACS_COM' ID='420' LineType='Continuous' LineWeight='0.69999999999999996'
+		 Name='公共层' TemplateName='ACS中文图层配置' UserLayer='公共层-图框' Version='0'/>
+	<z:row Color='65280' Comment='公共层-表格' DefaultLayer='ACS_COM_BZ' ID='421' LineType='Continuous' LineWeight='0.25'
+		 Name='公共层-材料设备编号标注' TemplateName='ACS中文图层配置' UserLayer='公共层-表格' Version='0'/>
+	<z:row Color='8684676' Comment='公共层-辅助定位线' DefaultLayer='ACS_COM_DW' ID='422' LineType='Continuous'
+		 LineWeight='0.25' Name='公共层-辅助定位线' TemplateName='ACS中文图层配置' UserLayer='公共层-辅助定位线'
+		 Version='0'/>
+	<z:row Color='65280' Comment='公共层-指北针' DefaultLayer='ACS_COM_DX' ID='423' LineType='Continuous'
+		 LineWeight='0.25' Name='公共层-单线水管' TemplateName='ACS中文图层配置' UserLayer='公共层-指北针'
+		 Version='0'/>
+	<z:row Color='65280' Comment='暖通-多联机-标注' DefaultLayer='ACS_DLJ_BZ' ID='424' LineType='continuous'
+		 LineWeight='0.25' Name='暖通-多联机-标注' TemplateName='ACS中文图层配置' UserLayer='暖通-多联机-标注'
+		 Version='0'/>
+	<z:row Color='16777215' Comment='暖通-多联机-分歧管' DefaultLayer='ACS_DLJ_FQG' ID='425' LineType='continuous'
+		 LineWeight='0.69999999999999996' Name='暖通-多联机-分歧管' TemplateName='ACS中文图层配置' UserLayer='暖通-多联机-分歧管'
+		 Version='0'/>
+	<z:row Color='65280' Comment='暖通-多联机-分歧管标注' DefaultLayer='ACS_DLJ_FQGBZ' ID='426' LineType='continuous'
+		 LineWeight='0.25' Name='暖通-多联机-分歧管标注' TemplateName='ACS中文图层配置' UserLayer='暖通-多联机-分歧管标注'
+		 Version='0'/>
+	<z:row Color='16711680' Comment='暖通-多联机-全热交换器' DefaultLayer='ACS_DLJ_JHQ' ID='427' LineType='continuous'
+		 LineWeight='0.5' Name='暖通-多联机-全热交换器' TemplateName='ACS中文图层配置' UserLayer='暖通-多联机-全热交换器'
+		 Version='0'/>
+	<z:row Color='16711935' Comment='暖通-多联机-冷凝水管' DefaultLayer='ACS_DLJ_LNSG' ID='428' LineType='DASHDOT'
+		 LineWeight='0.20000000000000001' MaterialName='PVC塑料管' Name='暖通-多联机-冷凝水管' TemplateName='ACS中文图层配置'
+		 UserLayer='暖通-多联机-冷凝水管' Version='0'/>
+	<z:row Color='65280' Comment='暖通-多联机-冷凝水管标注' DefaultLayer='ACS_DLJ_LNSGBZ' ID='429' LineType='continuous'
+		 LineWeight='0.25' Name='暖通-多联机-冷凝水管标注' TemplateName='ACS中文图层配置' UserLayer='暖通-多联机-冷凝水管标注'
+		 Version='0'/>
+	<z:row Color='16777216' Comment='暖通-多联机-气液管' DefaultLayer='ACS_DLJ_QYG' ID='430' LineType='continuous'
+		 LineWeight='0.29999999999999999' MaterialName='铜管' Name='暖通-多联机-气液管' TemplateName='ACS中文图层配置'
+		 UserLayer='暖通-多联机-气液管' Version='0'/>
+	<z:row Color='65280' Comment='暖通-多联机-冷媒管标注' DefaultLayer='ACS_DLJ_QYGBZ' ID='431' LineType='continuous'
+		 LineWeight='0.25' Name='暖通-多联机-冷媒管标注' TemplateName='ACS中文图层配置' UserLayer='暖通-多联机-冷媒管标注'
+		 Version='0'/>
+	<z:row Color='65280' Comment='暖通-多联机-设备型号标注' DefaultLayer='ACS_DLJ_SBBZ' ID='432' LineType='continuous'
+		 LineWeight='0.25' Name='暖通-多联机-设备型号标注' TemplateName='ACS中文图层配置' UserLayer='暖通-多联机-设备型号标注'
+		 Version='0'/>
+	<z:row Color='65280' Comment='暖通-多联机-室内机' DefaultLayer='ACS_DLJ_SNJ' ID='433' LineType='continuous'
+		 LineWeight='0.25' Name='暖通-多联机-室内机' TemplateName='ACS中文图层配置' UserLayer='暖通-多联机-室内机'
+		 Version='0'/>
+	<z:row Color='16711680' Comment='暖通-多联机-室外机' DefaultLayer='ACS_DLJ_SWJ' ID='434' LineType='continuous'
+		 LineWeight='0.5' Name='暖通-多联机-室外机' TemplateName='ACS中文图层配置' UserLayer='暖通-多联机-室外机'
+		 Version='0'/>
+	<z:row Color='16777220' Comment='暖通-新风-扁圆风管中线' DefaultLayer='ACS_FFG_BRZX' ID='435' LineType='CENTER'
+		 LineWeight='-3' MaterialName='镀锌钢板' Name='暖通-新风-扁圆风管中线' ShortMarker='FBR' TemplateName='ACS中文图层配置'
+		 UserLayer='暖通-新风-扁圆风管中线' Version='0'/>
+	<z:row Color='65280' Comment='暖通-新风-标注' DefaultLayer='ACS_FFG_BZ' ID='436' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-新风-标注' TemplateName='ACS中文图层配置' UserLayer='暖通-新风-标注'
+		 Version='0'/>
+	<z:row Color='16777218' Comment='暖通-新风-单线系统' DefaultLayer='ACS_FFG_F1' ID='437' LineType='Continuous'
+		 LineWeight='0.17999999999999999' Name='暖通-新风-单线系统' TemplateName='ACS中文图层配置' UserLayer='暖通-新风-单线系统'
+		 Version='0'/>
+	<z:row Color='16777218' Comment='暖通-新风-2D边线' DefaultLayer='ACS_FFG_F2' ID='438' LineType='Continuous'
+		 LineWeight='0.17999999999999999' MaterialName='镀锌钢板' Name='暖通-新风-2D边线' TemplateName='ACS中文图层配置'
+		 UserLayer='暖通-新风-2D边线' Version='0'/>
+	<z:row Color='16777218' Comment='暖通-新风-3D边线' DefaultLayer='ACS_FFG_F3' ID='439' LineType='Continuous'
+		 LineWeight='0.17999999999999999' MaterialName='镀锌钢板' Name='暖通-新风-3D边线' TemplateName='ACS中文图层配置'
+		 UserLayer='暖通-新风-3D边线' Version='0'/>
+	<z:row Color='16711680' Comment='暖通-新风-圆风管中线' DefaultLayer='ACS_FFG_FCZX' ID='440' LineType='CENTER'
+		 LineWeight='0.5' MaterialName='镀锌钢板' Name='暖通-新风-圆风管中线' ShortMarker='XFC' TemplateName='ACS中文图层配置'
+		 UserLayer='暖通-新风-圆风管中线' Version='0'/>
+	<z:row Color='16776960' Comment='暖通-新风-风向符号' DefaultLayer='ACS_FFG_FFX' ID='441' LineType='Continuous'
+		 LineWeight='0.34999999999999998' Name='暖通-新风-风向符号' TemplateName='ACS中文图层配置' UserLayer='暖通-新风-风向符号'
+		 Version='0'/>
+	<z:row Color='16777218' Comment='暖通-新风-风管' DefaultLayer='ACS_FFG_FG' ID='442' LineType='Continuous'
+		 LineWeight='0.17999999999999999' MaterialName='镀锌钢板' Name='暖通-新风-风管' ShortMarker='XF' TemplateName='ACS中文图层配置'
+		 UserLayer='暖通-新风-风管' Version='0'/>
+	<z:row Color='255' Comment='暖通-新风-风口' DefaultLayer='ACS_FFG_FK' ID='443' LineType='Continuous' LineWeight='0.17999999999999999'
+		 Name='暖通-新风-风口' TemplateName='ACS中文图层配置' UserLayer='暖通-新风-风口' Version='0'/>
+	<z:row Color='255' Comment='暖通-新风-风口-电动' DefaultLayer='ACS_FFG_FK_E' ID='444' LineType='Continuous'
+		 LineWeight='0.17999999999999999' Name='暖通-新风-风口-电动' TemplateName='ACS中文图层配置' UserLayer='暖通-新风-风口-电动'
+		 Version='0'/>
+	<z:row Color='16777217' Comment='暖通-新风-法兰' DefaultLayer='ACS_FFG_FL' ID='445' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-新风-法兰' TemplateName='ACS中文图层配置' UserLayer='暖通-新风-法兰'
+		 Version='0'/>
+	<z:row Color='255' Comment='暖通-新风-立管系统' DefaultLayer='ACS_FFG_FL1' ID='446' LineType='Continuous'
+		 LineWeight='0.17999999999999999' Name='暖通-新风-立管系统' TemplateName='ACS中文图层配置' UserLayer='暖通-新风-立管系统'
+		 Version='0'/>
+	<z:row Color='16777222' Comment='暖通-新风-阀门' DefaultLayer='ACS_FFG_FM' ID='447' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-新风-阀门' TemplateName='ACS中文图层配置' UserLayer='暖通-新风-阀门'
+		 Version='0'/>
+	<z:row Color='16777222' Comment='暖通-新风-阀门-电动' DefaultLayer='ACS_FFG_FM_E' ID='448' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-新风-阀门-电动' TemplateName='ACS中文图层配置' UserLayer='暖通-新风-阀门-电动'
+		 Version='0'/>
+	<z:row Color='16777222' Comment='暖通-新风-阀门-消防' DefaultLayer='ACS_FFG_FM_F' ID='449' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-新风-阀门-消防' TemplateName='ACS中文图层配置' UserLayer='暖通-新风-阀门-消防'
+		 Version='0'/>
+	<z:row Color='16777220' Comment='暖通-新风-方风管中线' DefaultLayer='ACS_FFG_FRZX' ID='450' LineType='CENTER'
+		 LineWeight='0.25' MaterialName='镀锌钢板' Name='暖通-新风-方风管中线' ShortMarker='XFR' TemplateName='ACS中文图层配置'
+		 UserLayer='暖通-新风-方风管中线' Version='0'/>
+	<z:row Color='65280' Comment='暖通-新风-风量' DefaultLayer='ACS_FFG_RATE' ID='5995' LineType='Continuous'
+		 LineWeight='-3' Name='暖通-新风-风量' TemplateName='ACS中文图层配置' UserLayer='暖通-新风-风量'
+		 Version='0'/>
+	<z:row Color='16776960' Comment='暖通-新风-设备' DefaultLayer='ACS_FFG_SB' ID='451' LineType='Continuous'
+		 LineWeight='0.34999999999999998' Name='暖通-新风-设备' TemplateName='ACS中文图层配置' UserLayer='暖通-新风-设备'
+		 Version='0'/>
+	<z:row Color='16776960' Comment='暖通-新风-设备标注' DefaultLayer='ACS_FFG_SBBZ' ID='452' LineType='Continuous'
+		 LineWeight='0.34999999999999998' Name='暖通-新风-设备标注' TemplateName='ACS中文图层配置' UserLayer='暖通-新风-设备标注'
+		 Version='0'/>
+	<z:row Color='65280' Comment='暖通-新风-设中' DefaultLayer='ACS_FFG_SBZX' ID='453' LineType='CENTER' LineWeight='0.25'
+		 Name='暖通-新风-设中' TemplateName='ACS中文图层配置' UserLayer='暖通-新风-设中' Version='0'/>
+	<z:row Color='8421504' Comment='暖通-负荷-焓湿图' DefaultLayer='ACS_FH_HST' ID='454' LineType='Continuous'
+		 LineWeight='0.17999999999999999' Name='暖通-负荷-焓湿图' TemplateName='ACS中文图层配置' UserLayer='暖通-负荷-焓湿图'
+		 Version='0'/>
+	<z:row Color='255' Comment='暖通-负荷-计算参数块' DefaultLayer='ACS_FH_KTFJCS' ID='455' LineType='Continuous'
+		 LineWeight='0.17999999999999999' Name='暖通-负荷-计算参数块' TemplateName='ACS中文图层配置' UserLayer='暖通-负荷-计算参数块'
+		 Version='0'/>
+	<z:row Color='16777220' Comment='暖通-风烟-扁圆风管中线' DefaultLayer='ACS_FYG_BRZX' ID='456' LineType='CENTER'
+		 LineWeight='-3' MaterialName='镀锌钢板' Name='暖通-风烟-扁圆风管中线' ShortMarker='XBR' TemplateName='ACS中文图层配置'
+		 UserLayer='暖通-风烟-扁圆风管中线' Version='0'/>
+	<z:row Color='65280' Comment='暖通-风烟-标注' DefaultLayer='ACS_FYG_BZ' ID='457' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-风烟-标注' TemplateName='ACS中文图层配置' UserLayer='暖通-风烟-标注'
+		 Version='0'/>
+	<z:row Color='16776960' Comment='暖通-风烟-单线系统' DefaultLayer='ACS_FYG_F1' ID='458' LineType='Continuous'
+		 LineWeight='0.34999999999999998' Name='暖通-风烟-单线系统' TemplateName='ACS中文图层配置' UserLayer='暖通-风烟-单线系统'
+		 Version='0'/>
+	<z:row Color='16776960' Comment='暖通-风烟-2D边线' DefaultLayer='ACS_FYG_F2' ID='459' LineType='Continuous'
+		 LineWeight='0.34999999999999998' MaterialName='镀锌钢板' Name='暖通-风烟-2D边线' TemplateName='ACS中文图层配置'
+		 UserLayer='暖通-风烟-2D边线' Version='0'/>
+	<z:row Color='16776960' Comment='暖通-风烟-3D边线' DefaultLayer='ACS_FYG_F3' ID='460' LineType='Continuous'
+		 LineWeight='0.34999999999999998' MaterialName='镀锌钢板' Name='暖通-风烟-3D边线' TemplateName='ACS中文图层配置'
+		 UserLayer='暖通-风烟-3D边线' Version='0'/>
+	<z:row Color='16711680' Comment='暖通-风烟-圆风管中线' DefaultLayer='ACS_FYG_FCZX' ID='461' LineType='CENTER'
+		 LineWeight='0.5' MaterialName='镀锌钢板' Name='暖通-风烟-圆风管中线' ShortMarker='FYC' TemplateName='ACS中文图层配置'
+		 UserLayer='暖通-风烟-圆风管中线' Version='0'/>
+	<z:row Color='16776960' Comment='暖通-风烟-风向符号' DefaultLayer='ACS_FYG_FFX' ID='462' LineType='Continuous'
+		 LineWeight='0.34999999999999998' Name='暖通-风烟-风向符号' TemplateName='ACS中文图层配置' UserLayer='暖通-风烟-风向符号'
+		 Version='0'/>
+	<z:row Color='16776960' Comment='暖通-风烟-风管' DefaultLayer='ACS_FYG_FG' ID='463' LineType='Continuous'
+		 LineWeight='0.34999999999999998' MaterialName='镀锌钢板' Name='暖通-风烟-风管' ShortMarker='FY' TemplateName='ACS中文图层配置'
+		 UserLayer='暖通-风烟-风管' Version='0'/>
+	<z:row Color='16776960' Comment='暖通-风烟-风口' DefaultLayer='ACS_FYG_FK' ID='464' LineType='Continuous'
+		 LineWeight='0.34999999999999998' Name='暖通-风烟-风口' TemplateName='ACS中文图层配置' UserLayer='暖通-风烟-风口'
+		 Version='0'/>
+	<z:row Color='16776960' Comment='暖通-风烟-风口-电动' DefaultLayer='ACS_FYG_FK_E' ID='465' LineType='Continuous'
+		 LineWeight='0.34999999999999998' Name='暖通-风烟-风口-电动' TemplateName='ACS中文图层配置' UserLayer='暖通-风烟-风口-电动'
+		 Version='0'/>
+	<z:row Color='16777217' Comment='暖通-风烟-法兰' DefaultLayer='ACS_FYG_FL' ID='466' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-风烟-法兰' TemplateName='ACS中文图层配置' UserLayer='暖通-风烟-法兰'
+		 Version='0'/>
+	<z:row Color='16776960' Comment='暖通-风烟-立管系统' DefaultLayer='ACS_FYG_FL1' ID='467' LineType='Continuous'
+		 LineWeight='0.34999999999999998' Name='暖通-风烟-立管系统' TemplateName='ACS中文图层配置' UserLayer='暖通-风烟-立管系统'
+		 Version='0'/>
+	<z:row Color='16777222' Comment='暖通-风烟-阀门' DefaultLayer='ACS_FYG_FM' ID='468' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-风烟-阀门' TemplateName='ACS中文图层配置' UserLayer='暖通-风烟-阀门'
+		 Version='0'/>
+	<z:row Color='16777222' Comment='暖通-风烟-阀门-电动' DefaultLayer='ACS_FYG_FM_E' ID='469' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-风烟-阀门-电动' TemplateName='ACS中文图层配置' UserLayer='暖通-风烟-阀门-电动'
+		 Version='0'/>
+	<z:row Color='16777222' Comment='暖通-风烟-阀门-消防' DefaultLayer='ACS_FYG_FM_F' ID='470' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-风烟-阀门-消防' TemplateName='ACS中文图层配置' UserLayer='暖通-风烟-阀门-消防'
+		 Version='0'/>
+	<z:row Color='16777220' Comment='暖通-风烟-方风管中线' DefaultLayer='ACS_FYG_FRZX' ID='471' LineType='CENTER'
+		 LineWeight='0.25' MaterialName='镀锌钢板' Name='暖通-风烟-方风管中线' ShortMarker='FYR' TemplateName='ACS中文图层配置'
+		 UserLayer='暖通-风烟-方风管中线' Version='0'/>
+	<z:row Color='65280' Comment='暖通-风烟-风量' DefaultLayer='ACS_FYG_RATE' ID='6000' LineType='Continuous'
+		 LineWeight='-3' Name='暖通-风烟-风量' TemplateName='ACS中文图层配置' UserLayer='暖通-风烟-风量'
+		 Version='0'/>
+	<z:row Color='16776960' Comment='暖通-风烟-设备' DefaultLayer='ACS_FYG_SB' ID='472' LineType='Continuous'
+		 LineWeight='0.34999999999999998' Name='暖通-风烟-设备' TemplateName='ACS中文图层配置' UserLayer='暖通-风烟-设备'
+		 Version='0'/>
+	<z:row Color='16776960' Comment='暖通-风烟-设备标注' DefaultLayer='ACS_FYG_SBBZ' ID='473' LineType='Continuous'
+		 LineWeight='0.34999999999999998' Name='暖通-风烟-设备标注' TemplateName='ACS中文图层配置' UserLayer='暖通-风烟-设备标注'
+		 Version='0'/>
+	<z:row Color='65280' Comment='暖通-风烟-设中' DefaultLayer='ACS_FYG_SBZX' ID='474' LineType='CENTER' LineWeight='0.25'
+		 Name='暖通-风烟-设中' TemplateName='ACS中文图层配置' UserLayer='暖通-风烟-设中' Version='0'/>
+	<z:row Color='16777215' Comment='暖通-供热-补水管线' DefaultLayer='ACS_GR_BS' ID='475' LineType='Continuous'
+		 LineWeight='0.69999999999999996' Name='暖通-供热-补水管线' TemplateName='ACS中文图层配置' UserLayer='暖通-供热-补水管线'
+		 Version='0'/>
+	<z:row Color='65280' Comment='暖通-供热-标注' DefaultLayer='ACS_GR_BZ' ID='476' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-供热-标注' TemplateName='ACS中文图层配置' UserLayer='暖通-供热-标注'
+		 Version='0'/>
+	<z:row Color='65280' Comment='暖通-供热-阀门' DefaultLayer='ACS_GR_FM' ID='477' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-供热-阀门' TemplateName='ACS中文图层配置' UserLayer='暖通-供热-阀门'
+		 Version='0'/>
+	<z:row Color='65280' Comment='暖通-供热-凝结水管线' DefaultLayer='ACS_GR_NJ' ID='478' LineType='DASHED'
+		 LineWeight='0.25' Name='暖通-供热-凝结水管线' TemplateName='ACS中文图层配置' UserLayer='暖通-供热-凝结水管线'
+		 Version='0'/>
+	<z:row Color='16777215' Comment='暖通-供热-膨胀管线' DefaultLayer='ACS_GR_PZ' ID='479' LineType='Continuous'
+		 LineWeight='0.69999999999999996' Name='暖通-供热-膨胀管线' TemplateName='ACS中文图层配置' UserLayer='暖通-供热-膨胀管线'
+		 Version='0'/>
+	<z:row Color='16776960' Comment='暖通-供热-设备' DefaultLayer='ACS_GR_SB' ID='480' LineType='Continuous'
+		 LineWeight='0.34999999999999998' Name='暖通-供热-设备' TemplateName='ACS中文图层配置' UserLayer='暖通-供热-设备'
+		 Version='0'/>
+	<z:row Color='65280' Comment='暖通-供热-设中' DefaultLayer='ACS_GR_SBZX' ID='481' LineType='CENTER' LineWeight='0.25'
+		 Name='暖通-供热-设中' TemplateName='ACS中文图层配置' UserLayer='暖通-供热-设中' Version='0'/>
+	<z:row Color='16777215' Comment='暖通-供热-循环管线' DefaultLayer='ACS_GR_XH' ID='482' LineType='Continuous'
+		 LineWeight='0.69999999999999996' Name='暖通-供热-循环管线' TemplateName='ACS中文图层配置' UserLayer='暖通-供热-循环管线'
+		 Version='0'/>
+	<z:row Color='16777215' Comment='暖通-供热-蒸汽管线' DefaultLayer='ACS_GR_ZQ' ID='483' LineType='Continuous'
+		 LineWeight='0.69999999999999996' Name='暖通-供热-蒸汽管线' TemplateName='ACS中文图层配置' UserLayer='暖通-供热-蒸汽管线'
+		 Version='0'/>
+	<z:row Color='16777220' Comment='暖通-回风-扁圆风管中线' DefaultLayer='ACS_HFG_BRZX' ID='484' LineType='CENTER'
+		 LineWeight='-3' MaterialName='镀锌钢板' Name='暖通-回风-扁圆风管中线' ShortMarker='HBR' TemplateName='ACS中文图层配置'
+		 UserLayer='暖通-回风-扁圆风管中线' Version='0'/>
+	<z:row Color='65280' Comment='暖通-回风-标注' DefaultLayer='ACS_HFG_BZ' ID='485' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-回风-标注' TemplateName='ACS中文图层配置' UserLayer='暖通-回风-标注'
+		 Version='0'/>
+	<z:row Color='16777221' Comment='暖通-回风-单线系统' DefaultLayer='ACS_HFG_F1' ID='486' LineType='Continuous'
+		 LineWeight='0.69999999999999996' Name='暖通-回风-单线系统' TemplateName='ACS中文图层配置' UserLayer='暖通-回风-单线系统'
+		 Version='0'/>
+	<z:row Color='16777221' Comment='暖通-回风-2D边线' DefaultLayer='ACS_HFG_F2' ID='487' LineType='Continuous'
+		 LineWeight='0.69999999999999996' MaterialName='镀锌钢板' Name='暖通-回风-2D边线' TemplateName='ACS中文图层配置'
+		 UserLayer='暖通-回风-2D边线' Version='0'/>
+	<z:row Color='16777221' Comment='暖通-回风-3D边线' DefaultLayer='ACS_HFG_F3' ID='488' LineType='Continuous'
+		 LineWeight='0.69999999999999996' MaterialName='镀锌钢板' Name='暖通-回风-3D边线' TemplateName='ACS中文图层配置'
+		 UserLayer='暖通-回风-3D边线' Version='0'/>
+	<z:row Color='16711680' Comment='暖通-回风-圆风管中线' DefaultLayer='ACS_HFG_FCZX' ID='489' LineType='CENTER'
+		 LineWeight='0.5' MaterialName='镀锌钢板' Name='暖通-回风-圆风管中线' ShortMarker='HFC' TemplateName='ACS中文图层配置'
+		 UserLayer='暖通-回风-圆风管中线' Version='0'/>
+	<z:row Color='16776960' Comment='暖通-回风-风向符号' DefaultLayer='ACS_HFG_FFX' ID='490' LineType='Continuous'
+		 LineWeight='0.34999999999999998' Name='暖通-回风-风向符号' TemplateName='ACS中文图层配置' UserLayer='暖通-回风-风向符号'
+		 Version='0'/>
+	<z:row Color='16777221' Comment='暖通-回风-风管' DefaultLayer='ACS_HFG_FG' ID='491' LineType='Continuous'
+		 LineWeight='0.69999999999999996' MaterialName='镀锌钢板' Name='暖通-回风-风管' ShortMarker='HF' TemplateName='ACS中文图层配置'
+		 UserLayer='暖通-回风-风管' Version='0'/>
+	<z:row Color='16711871' Comment='暖通-回风-风口' DefaultLayer='ACS_HFG_FK' ID='492' LineType='Continuous'
+		 LineWeight='0.69999999999999996' Name='暖通-回风-风口' TemplateName='ACS中文图层配置' UserLayer='暖通-回风-风口'
+		 Version='0'/>
+	<z:row Color='16711871' Comment='暖通-回风-风口-电动' DefaultLayer='ACS_HFG_FK_E' ID='493' LineType='Continuous'
+		 LineWeight='0.69999999999999996' Name='暖通-回风-风口-电动' TemplateName='ACS中文图层配置' UserLayer='暖通-回风-风口-电动'
+		 Version='0'/>
+	<z:row Color='16777217' Comment='暖通-回风-法兰' DefaultLayer='ACS_HFG_FL' ID='494' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-回风-法兰' TemplateName='ACS中文图层配置' UserLayer='暖通-回风-法兰'
+		 Version='0'/>
+	<z:row Color='16711871' Comment='暖通-回风-立管系统' DefaultLayer='ACS_HFG_FL1' ID='495' LineType='Continuous'
+		 LineWeight='0.69999999999999996' Name='暖通-回风-立管系统' TemplateName='ACS中文图层配置' UserLayer='暖通-回风-立管系统'
+		 Version='0'/>
+	<z:row Color='16777222' Comment='暖通-回风-阀门' DefaultLayer='ACS_HFG_FM' ID='496' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-回风-阀门' TemplateName='ACS中文图层配置' UserLayer='暖通-回风-阀门'
+		 Version='0'/>
+	<z:row Color='16777222' Comment='暖通-回风-阀门-电动' DefaultLayer='ACS_HFG_FM_E' ID='497' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-回风-阀门-电动' TemplateName='ACS中文图层配置' UserLayer='暖通-回风-阀门-电动'
+		 Version='0'/>
+	<z:row Color='16777222' Comment='暖通-回风-阀门-消防' DefaultLayer='ACS_HFG_FM_F' ID='498' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-回风-阀门-消防' TemplateName='ACS中文图层配置' UserLayer='暖通-回风-阀门-消防'
+		 Version='0'/>
+	<z:row Color='16777220' Comment='暖通-回风-方风管中线' DefaultLayer='ACS_HFG_FRZX' ID='499' LineType='CENTER'
+		 LineWeight='0.25' MaterialName='镀锌钢板' Name='暖通-回风-方风管中线' ShortMarker='HFR' TemplateName='ACS中文图层配置'
+		 UserLayer='暖通-回风-方风管中线' Version='0'/>
+	<z:row Color='65280' Comment='暖通-回风-风量' DefaultLayer='ACS_HFG_RATE' ID='5994' LineType='Continuous'
+		 LineWeight='-3' Name='暖通-回风-风量' TemplateName='ACS中文图层配置' UserLayer='暖通-回风-风量'
+		 Version='0'/>
+	<z:row Color='16776960' Comment='暖通-回风-设备' DefaultLayer='ACS_HFG_SB' ID='500' LineType='Continuous'
+		 LineWeight='0.34999999999999998' Name='暖通-回风-设备' TemplateName='ACS中文图层配置' UserLayer='暖通-回风-设备'
+		 Version='0'/>
+	<z:row Color='16776960' Comment='暖通-回风-设备标注' DefaultLayer='ACS_HFG_SBBZ' ID='501' LineType='Continuous'
+		 LineWeight='0.34999999999999998' Name='暖通-回风-设备标注' TemplateName='ACS中文图层配置' UserLayer='暖通-回风-设备标注'
+		 Version='0'/>
+	<z:row Color='65280' Comment='暖通-回风-设中' DefaultLayer='ACS_HFG_SBZX' ID='502' LineType='CENTER' LineWeight='0.25'
+		 Name='暖通-回风-设中' TemplateName='ACS中文图层配置' UserLayer='暖通-回风-设中' Version='0'/>
+	<z:row Color='16777220' Comment='暖通-加压-扁圆风管中线' DefaultLayer='ACS_JFG_BRZX' ID='503' LineType='CENTER'
+		 LineWeight='-3' MaterialName='镀锌钢板' Name='暖通-加压-扁圆风管中线' ShortMarker='JBR' TemplateName='ACS中文图层配置'
+		 UserLayer='暖通-加压-扁圆风管中线' Version='0'/>
+	<z:row Color='65280' Comment='暖通-加压-标注' DefaultLayer='ACS_JFG_BZ' ID='504' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-加压-标注' TemplateName='ACS中文图层配置' UserLayer='暖通-加压-标注'
+		 Version='0'/>
+	<z:row Color='16777216' Comment='暖通-加压-单线系统' DefaultLayer='ACS_JFG_F1' ID='505' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-加压-单线系统' TemplateName='ACS中文图层配置' UserLayer='暖通-加压-单线系统'
+		 Version='0'/>
+	<z:row Color='16777216' Comment='暖通-加压-2D边线' DefaultLayer='ACS_JFG_F2' ID='506' LineType='Continuous'
+		 LineWeight='0.25' MaterialName='镀锌钢板' Name='暖通-加压-2D边线' TemplateName='ACS中文图层配置'
+		 UserLayer='暖通-加压-2D边线' Version='0'/>
+	<z:row Color='16777216' Comment='暖通-加压-3D边线' DefaultLayer='ACS_JFG_F3' ID='507' LineType='Continuous'
+		 LineWeight='0.25' MaterialName='镀锌钢板' Name='暖通-加压-3D边线' TemplateName='ACS中文图层配置'
+		 UserLayer='暖通-加压-3D边线' Version='0'/>
+	<z:row Color='16711680' Comment='暖通-加压-圆风管中线' DefaultLayer='ACS_JFG_FCZX' ID='508' LineType='CENTER'
+		 LineWeight='0.5' MaterialName='镀锌钢板' Name='暖通-加压-圆风管中线' ShortMarker='JYC' TemplateName='ACS中文图层配置'
+		 UserLayer='暖通-加压-圆风管中线' Version='0'/>
+	<z:row Color='16776960' Comment='暖通-加压-风向符号' DefaultLayer='ACS_JFG_FFX' ID='509' LineType='Continuous'
+		 LineWeight='0.34999999999999998' Name='暖通-加压-风向符号' TemplateName='ACS中文图层配置' UserLayer='暖通-加压-风向符号'
+		 Version='0'/>
+	<z:row Color='16777216' Comment='暖通-加压-风管' DefaultLayer='ACS_JFG_FG' ID='510' LineType='Continuous'
+		 LineWeight='0.25' MaterialName='镀锌钢板' Name='暖通-加压-风管' ShortMarker='JY' TemplateName='ACS中文图层配置'
+		 UserLayer='暖通-加压-风管' Version='0'/>
+	<z:row Color='65535' Comment='暖通-加压-风口' DefaultLayer='ACS_JFG_FK' ID='511' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-加压-风口' TemplateName='ACS中文图层配置' UserLayer='暖通-加压-风口'
+		 Version='0'/>
+	<z:row Color='65535' Comment='暖通-加压-风口-电动' DefaultLayer='ACS_JFG_FK_E' ID='512' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-加压-风口-电动' TemplateName='ACS中文图层配置' UserLayer='暖通-加压-风口-电动'
+		 Version='0'/>
+	<z:row Color='16777217' Comment='暖通-加压-法兰' DefaultLayer='ACS_JFG_FL' ID='513' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-加压-法兰' TemplateName='ACS中文图层配置' UserLayer='暖通-加压-法兰'
+		 Version='0'/>
+	<z:row Color='65535' Comment='暖通-加压-立管系统' DefaultLayer='ACS_JFG_FL1' ID='514' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-加压-立管系统' TemplateName='ACS中文图层配置' UserLayer='暖通-加压-立管系统'
+		 Version='0'/>
+	<z:row Color='16777222' Comment='暖通-加压-阀门' DefaultLayer='ACS_JFG_FM' ID='515' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-加压-阀门' TemplateName='ACS中文图层配置' UserLayer='暖通-加压-阀门'
+		 Version='0'/>
+	<z:row Color='16777222' Comment='暖通-加压-阀门-电动' DefaultLayer='ACS_JFG_FM_E' ID='516' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-加压-阀门-电动' TemplateName='ACS中文图层配置' UserLayer='暖通-加压-阀门-电动'
+		 Version='0'/>
+	<z:row Color='16777222' Comment='暖通-加压-阀门-消防' DefaultLayer='ACS_JFG_FM_F' ID='517' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-加压-阀门-消防' TemplateName='ACS中文图层配置' UserLayer='暖通-加压-阀门-消防'
+		 Version='0'/>
+	<z:row Color='16777220' Comment='暖通-加压-方风管中线' DefaultLayer='ACS_JFG_FRZX' ID='518' LineType='CENTER'
+		 LineWeight='0.25' MaterialName='镀锌钢板' Name='暖通-加压-方风管中线' ShortMarker='JYR' TemplateName='ACS中文图层配置'
+		 UserLayer='暖通-加压-方风管中线' Version='0'/>
+	<z:row Color='65280' Comment='暖通-加压-风量' DefaultLayer='ACS_JFG_RATE' ID='5997' LineType='Continuous'
+		 LineWeight='-3' Name='暖通-加压-风量' TemplateName='ACS中文图层配置' UserLayer='暖通-加压-风量'
+		 Version='0'/>
+	<z:row Color='16776960' Comment='暖通-加压-设备' DefaultLayer='ACS_JFG_SB' ID='519' LineType='Continuous'
+		 LineWeight='0.34999999999999998' Name='暖通-加压-设备' TemplateName='ACS中文图层配置' UserLayer='暖通-加压-设备'
+		 Version='0'/>
+	<z:row Color='16776960' Comment='暖通-加压-设备标注' DefaultLayer='ACS_JFG_SBBZ' ID='520' LineType='Continuous'
+		 LineWeight='0.34999999999999998' Name='暖通-加压-设备标注' TemplateName='ACS中文图层配置' UserLayer='暖通-加压-设备标注'
+		 Version='0'/>
+	<z:row Color='65280' Comment='暖通-加压-设中' DefaultLayer='ACS_JFG_SBZX' ID='521' LineType='CENTER' LineWeight='0.25'
+		 Name='暖通-加压-设中' TemplateName='ACS中文图层配置' UserLayer='暖通-加压-设中' Version='0'/>
+	<z:row Color='65280' Comment='建筑-轴线编号标注' DefaultLayer='ACS_JZ_BZ' ID='522' LineType='Continuous'
+		 LineWeight='0.25' Name='建筑-轴线编号标注' TemplateName='ACS中文图层配置' UserLayer='建筑-轴线编号标注'
+		 Version='0'/>
+	<z:row Color='16777217' Comment='建筑-窗' DefaultLayer='ACS_JZ_C' ID='523' LineType='Continuous' LineWeight='0.69999999999999996'
+		 Name='建筑-窗' TemplateName='ACS中文图层配置' UserLayer='建筑-窗' Version='0'/>
+	<z:row Color='65280' Comment='建筑-隔断' DefaultLayer='ACS_JZ_GD' ID='524' LineType='Continuous' LineWeight='0.25'
+		 Name='建筑-隔断' TemplateName='ACS中文图层配置' UserLayer='建筑-隔断' Version='0'/>
+	<z:row Color='16777219' Comment='建筑-楼梯' DefaultLayer='ACS_JZ_LT' ID='525' LineType='Continuous' LineWeight='0.69999999999999996'
+		 Name='建筑-楼梯' TemplateName='ACS中文图层配置' UserLayer='建筑-楼梯' Version='0'/>
+	<z:row Color='16777224' Comment='建筑-墙线' DefaultLayer='ACS_JZ_QX' ID='526' LineType='Continuous' LineWeight='0.69999999999999996'
+		 Name='建筑-墙线' TemplateName='ACS中文图层配置' UserLayer='建筑-墙线' Version='0'/>
+	<z:row Color='16777224' Comment='建筑-柱子' DefaultLayer='ACS_JZ_Z' ID='527' LineType='Continuous' LineWeight='0.69999999999999996'
+		 Name='建筑-柱子' TemplateName='ACS中文图层配置' UserLayer='建筑-柱子' Version='0'/>
+	<z:row Color='16777216' Comment='建筑-轴线' DefaultLayer='ACS_JZ_ZX' ID='528' LineType='CENTER' LineWeight='0.25'
+		 Name='建筑-轴线' TemplateName='ACS中文图层配置' UserLayer='建筑-轴线' Version='0'/>
+	<z:row Color='16777226' Comment='暖通-空调-补水管' DefaultLayer='ACS_KT_BJ' ID='529' LineType='Continuous'
+		 LineWeight='0.34999999999999998' MaterialName='焊接钢管(1.0MPa)' Name='暖通-空调-补水管' ShortMarker='W'
+		 TemplateName='ACS中文图层配置' UserLayer='暖通-空调-补水管' Version='0'/>
+	<z:row Color='16777226' Comment='暖通-空调-补水立管' DefaultLayer='ACS_KT_BJ_L' ID='530' LineType='Continuous'
+		 LineWeight='0.34999999999999998' MaterialName='焊接钢管(1.0MPa)' Name='暖通-空调-补水立管' ShortMarker='W'
+		 TemplateName='ACS中文图层配置' UserLayer='暖通-空调-补水立管' Version='0'/>
+	<z:row Color='65280' Comment='暖通-空调-标注' DefaultLayer='ACS_KT_BZ' ID='531' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-空调-标注' TemplateName='ACS中文图层配置' UserLayer='暖通-空调-标注'
+		 Version='0'/>
+	<z:row Color='65280' Comment='暖通-空调-阀门' DefaultLayer='ACS_KT_FM' ID='532' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-空调-阀门' TemplateName='ACS中文图层配置' UserLayer='暖通-空调-阀门'
+		 Version='0'/>
+	<z:row Color='65280' Comment='暖通-空调-阀门-电动' DefaultLayer='ACS_KT_FM_E' ID='533' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-空调-阀门-电动' TemplateName='ACS中文图层配置' UserLayer='暖通-空调-阀门-电动'
+		 Version='0'/>
+	<z:row Color='16777337' Comment='暖通-空调-冷水供水管' DefaultLayer='ACS_KT_LG' ID='534' LineType='Continuous'
+		 LineWeight='0.69999999999999996' MaterialName='焊接钢管(1.0MPa)' Name='暖通-空调-冷水供水管' ShortMarker='CHWS'
+		 TemplateName='ACS中文图层配置' UserLayer='暖通-空调-冷水供水管' Version='0'/>
+	<z:row Color='16777337' Comment='暖通-空调-冷水供水管-中区' DefaultLayer='ACS_KT_LG_1' ID='535' LineType='Continuous'
+		 LineWeight='0.69999999999999996' MaterialName='焊接钢管(1.0MPa)' Name='暖通-空调-冷水供水管-中区'
+		 ShortMarker='CHWS' TemplateName='ACS中文图层配置' UserLayer='暖通-空调-冷水供水管-中区' Version='0'/>
+	<z:row Color='16777337' Comment='暖通-空调-冷水供水管-高区' DefaultLayer='ACS_KT_LG_2' ID='536' LineType='Continuous'
+		 LineWeight='0.69999999999999996' MaterialName='焊接钢管(1.0MPa)' Name='暖通-空调-冷水供水管-高区'
+		 ShortMarker='CHWS' TemplateName='ACS中文图层配置' UserLayer='暖通-空调-冷水供水管-高区' Version='0'/>
+	<z:row Color='16777337' Comment='暖通-空调-冷水供水立管' DefaultLayer='ACS_KT_LG_L' ID='537' LineType='Continuous'
+		 LineWeight='0.69999999999999996' MaterialName='焊接钢管(1.0MPa)' Name='暖通-空调-冷水供水立管'
+		 ShortMarker='CHWS' TemplateName='ACS中文图层配置' UserLayer='暖通-空调-冷水供水立管' Version='0'/>
+	<z:row Color='16777337' Comment='暖通-空调-冷水回水管' DefaultLayer='ACS_KT_LH' ID='538' LineType='DASHED'
+		 LineWeight='0.69999999999999996' MaterialName='焊接钢管(1.0MPa)' Name='暖通-空调-冷水回水管' ShortMarker='CHWR'
+		 TemplateName='ACS中文图层配置' UserLayer='暖通-空调-冷水回水管' Version='0'/>
+	<z:row Color='16777337' Comment='暖通-空调-冷水回水管-中区' DefaultLayer='ACS_KT_LH_1' ID='539' LineType='DASHED'
+		 LineWeight='0.69999999999999996' MaterialName='焊接钢管(1.0MPa)' Name='暖通-空调-冷水回水管-中区'
+		 ShortMarker='CHWR' TemplateName='ACS中文图层配置' UserLayer='暖通-空调-冷水回水管-中区' Version='0'/>
+	<z:row Color='16777337' Comment='暖通-空调-冷水回水管-高区' DefaultLayer='ACS_KT_LH_2' ID='540' LineType='DASHED'
+		 LineWeight='0.69999999999999996' MaterialName='焊接钢管(1.0MPa)' Name='暖通-空调-冷水回水管-高区'
+		 ShortMarker='CHWR' TemplateName='ACS中文图层配置' UserLayer='暖通-空调-冷水回水管-高区' Version='0'/>
+	<z:row Color='16777337' Comment='暖通-空调-冷水回水立管' DefaultLayer='ACS_KT_LH_L' ID='541' LineType='DASHED'
+		 LineWeight='0.69999999999999996' MaterialName='焊接钢管(1.0MPa)' Name='暖通-空调-冷水回水立管'
+		 ShortMarker='CHWR' TemplateName='ACS中文图层配置' UserLayer='暖通-空调-冷水回水立管' Version='0'/>
+	<z:row Color='16744192' Comment='暖通-空调-冷凝水管' DefaultLayer='ACS_KT_LN' ID='542' LineType='CENTER'
+		 LineWeight='0.5' MaterialName='焊接钢管(1.0MPa)' Name='暖通-空调-冷凝水管' ShortMarker='AC' TemplateName='ACS中文图层配置'
+		 UserLayer='暖通-空调-冷凝水管' Version='0'/>
+	<z:row Color='16777365' Comment='暖通-空调-冷凝水立管' DefaultLayer='ACS_KT_LN_L' ID='543' LineType='Continuous'
+		 LineWeight='0.5' MaterialName='焊接钢管(1.0MPa)' Name='暖通-空调-冷凝水立管' ShortMarker='AC' TemplateName='ACS中文图层配置'
+		 UserLayer='暖通-空调-冷凝水立管' Version='0'/>
+	<z:row Color='16777396' Comment='暖通-空调-冷热水供水管' DefaultLayer='ACS_KT_LRG' ID='544' LineType='Continuous'
+		 LineWeight='0.69999999999999996' MaterialName='焊接钢管(1.0MPa)' Name='暖通-空调-冷热水供水管'
+		 ShortMarker='ACHS' TemplateName='ACS中文图层配置' UserLayer='暖通-空调-冷热水供水管' Version='0'/>
+	<z:row Color='16777396' Comment='暖通-空调-冷热水供水管-中区' DefaultLayer='ACS_KT_LRG_1' ID='545'
+		 LineType='Continuous' LineWeight='0.69999999999999996' MaterialName='焊接钢管(1.0MPa)' Name='暖通-空调-冷热水供水管-中区'
+		 ShortMarker='ACHS' TemplateName='ACS中文图层配置' UserLayer='暖通-空调-冷热水供水管-中区' Version='0'/>
+	<z:row Color='16777396' Comment='暖通-空调-冷热水供水管-高区' DefaultLayer='ACS_KT_LRG_2' ID='546'
+		 LineType='Continuous' LineWeight='0.69999999999999996' MaterialName='焊接钢管(1.0MPa)' Name='暖通-空调-冷热水供水管-高区'
+		 ShortMarker='ACHS' TemplateName='ACS中文图层配置' UserLayer='暖通-空调-冷热水供水管-高区' Version='0'/>
+	<z:row Color='16777396' Comment='暖通-空调-冷热水供水立管' DefaultLayer='ACS_KT_LRG_L' ID='547' LineType='Continuous'
+		 LineWeight='0.69999999999999996' MaterialName='焊接钢管(1.0MPa)' Name='暖通-空调-冷热水供水立管'
+		 ShortMarker='ACHS' TemplateName='ACS中文图层配置' UserLayer='暖通-空调-冷热水供水立管' Version='0'/>
+	<z:row Color='16777396' Comment='暖通-空调-冷热水回水管' DefaultLayer='ACS_KT_LRH' ID='548' LineType='DASHED'
+		 LineWeight='0.69999999999999996' MaterialName='焊接钢管(1.0MPa)' Name='暖通-空调-冷热水回水管'
+		 ShortMarker='ACHR' TemplateName='ACS中文图层配置' UserLayer='暖通-空调-冷热水回水管' Version='0'/>
+	<z:row Color='16777396' Comment='暖通-空调-冷热水回水管-中区' DefaultLayer='ACS_KT_LRH_1' ID='549'
+		 LineType='DASHED' LineWeight='0.69999999999999996' MaterialName='焊接钢管(1.0MPa)' Name='暖通-空调-冷热水回水管-中区'
+		 ShortMarker='ACHR' TemplateName='ACS中文图层配置' UserLayer='暖通-空调-冷热水回水管-中区' Version='0'/>
+	<z:row Color='16777396' Comment='暖通-空调-冷热水回水管-高区' DefaultLayer='ACS_KT_LRH_2' ID='550'
+		 LineType='DASHED' LineWeight='0.69999999999999996' MaterialName='焊接钢管(1.0MPa)' Name='暖通-空调-冷热水回水管-高区'
+		 ShortMarker='ACHR' TemplateName='ACS中文图层配置' UserLayer='暖通-空调-冷热水回水管-高区' Version='0'/>
+	<z:row Color='16777396' Comment='暖通-空调-冷热水回水立管' DefaultLayer='ACS_KT_LRH_L' ID='551' LineType='DASHED'
+		 LineWeight='0.69999999999999996' MaterialName='焊接钢管(1.0MPa)' Name='暖通-空调-冷热水回水立管'
+		 ShortMarker='ACHR' TemplateName='ACS中文图层配置' UserLayer='暖通-空调-冷热水回水立管' Version='0'/>
+	<z:row Color='16777365' Comment='暖通-空调-凝结水管' DefaultLayer='ACS_KT_NJ' ID='552' LineType='CENTER'
+		 LineWeight='0.25' MaterialName='焊接钢管(1.0MPa)' Name='暖通-空调-凝结水管' ShortMarker='C' TemplateName='ACS中文图层配置'
+		 UserLayer='暖通-空调-凝结水管' Version='0'/>
+	<z:row Color='16777365' Comment='暖通-空调-凝结水立管' DefaultLayer='ACS_KT_NJ_L' ID='553' LineType='CENTER'
+		 LineWeight='0.25' MaterialName='焊接钢管(1.0MPa)' Name='暖通-空调-凝结水立管' ShortMarker='C' TemplateName='ACS中文图层配置'
+		 UserLayer='暖通-空调-凝结水立管' Version='0'/>
+	<z:row Color='16777249' Comment='暖通-空调-冷却供水管' DefaultLayer='ACS_KT_QG' ID='554' LineType='Continuous'
+		 LineWeight='0.17999999999999999' MaterialName='焊接钢管(1.0MPa)' Name='暖通-空调-冷却供水管' ShortMarker='CWS'
+		 TemplateName='ACS中文图层配置' UserLayer='暖通-空调-冷却供水管' Version='0'/>
+	<z:row Color='16777249' Comment='暖通-空调-冷却供水立管' DefaultLayer='ACS_KT_QG_L' ID='555' LineType='Continuous'
+		 LineWeight='0.17999999999999999' MaterialName='焊接钢管(1.0MPa)' Name='暖通-空调-冷却供水立管'
+		 ShortMarker='CWS' TemplateName='ACS中文图层配置' UserLayer='暖通-空调-冷却供水立管' Version='0'/>
+	<z:row Color='16777249' Comment='暖通-空调-冷却回水管' DefaultLayer='ACS_KT_QH' ID='556' LineType='DASHED'
+		 LineWeight='0.5' MaterialName='焊接钢管(1.0MPa)' Name='暖通-空调-冷却回水管' ShortMarker='CWR' TemplateName='ACS中文图层配置'
+		 UserLayer='暖通-空调-冷却回水管' Version='0'/>
+	<z:row Color='16777249' Comment='暖通-空调-冷却回水立管' DefaultLayer='ACS_KT_QH_L' ID='557' LineType='DASHED'
+		 LineWeight='0.5' MaterialName='焊接钢管(1.0MPa)' Name='暖通-空调-冷却回水立管' ShortMarker='CWR'
+		 TemplateName='ACS中文图层配置' UserLayer='暖通-空调-冷却回水立管' Version='0'/>
+	<z:row Color='65280' Comment='暖通-空调-流量' DefaultLayer='ACS_KT_RATE' ID='6115' LineType='Continuous'
+		 LineWeight='-3' Name='暖通-空调-流量' TemplateName='ACS中文图层配置' UserLayer='暖通-空调-流量'
+		 Version='0'/>
+	<z:row Color='16777221' Comment='暖通-空调-热水供水管' DefaultLayer='ACS_KT_RG' ID='558' LineType='Continuous'
+		 LineWeight='0.69999999999999996' MaterialName='焊接钢管(1.0MPa)' Name='暖通-空调-热水供水管' ShortMarker='AHWS'
+		 TemplateName='ACS中文图层配置' UserLayer='暖通-空调-热水供水管' Version='0'/>
+	<z:row Color='16777221' Comment='暖通-空调-热水供水管-中区' DefaultLayer='ACS_KT_RG_1' ID='559' LineType='Continuous'
+		 LineWeight='0.69999999999999996' MaterialName='焊接钢管(1.0MPa)' Name='暖通-空调-热水供水管-中区'
+		 ShortMarker='AHWS' TemplateName='ACS中文图层配置' UserLayer='暖通-空调-热水供水管-中区' Version='0'/>
+	<z:row Color='16777221' Comment='暖通-空调-热水供水管-高区' DefaultLayer='ACS_KT_RG_2' ID='560' LineType='Continuous'
+		 LineWeight='0.69999999999999996' MaterialName='焊接钢管(1.0MPa)' Name='暖通-空调-热水供水管-高区'
+		 ShortMarker='AHWS' TemplateName='ACS中文图层配置' UserLayer='暖通-空调-热水供水管-高区' Version='0'/>
+	<z:row Color='16777221' Comment='暖通-空调-热水供水立管' DefaultLayer='ACS_KT_RG_L' ID='561' LineType='Continuous'
+		 LineWeight='0.69999999999999996' MaterialName='焊接钢管(1.0MPa)' Name='暖通-空调-热水供水立管'
+		 ShortMarker='AHWS' TemplateName='ACS中文图层配置' UserLayer='暖通-空调-热水供水立管' Version='0'/>
+	<z:row Color='16777221' Comment='暖通-空调-热水回水管' DefaultLayer='ACS_KT_RH' ID='562' LineType='DASHED'
+		 LineWeight='0.69999999999999996' MaterialName='焊接钢管(1.0MPa)' Name='暖通-空调-热水回水管' ShortMarker='AHWR'
+		 TemplateName='ACS中文图层配置' UserLayer='暖通-空调-热水回水管' Version='0'/>
+	<z:row Color='16777221' Comment='暖通-空调-热水回水管-中区' DefaultLayer='ACS_KT_RH_1' ID='563' LineType='DASHED'
+		 LineWeight='0.69999999999999996' MaterialName='焊接钢管(1.0MPa)' Name='暖通-空调-热水回水管-中区'
+		 ShortMarker='AHWR' TemplateName='ACS中文图层配置' UserLayer='暖通-空调-热水回水管-中区' Version='0'/>
+	<z:row Color='16777221' Comment='暖通-空调-热水回水管-高区' DefaultLayer='ACS_KT_RH_2' ID='564' LineType='DASHED'
+		 LineWeight='0.69999999999999996' MaterialName='焊接钢管(1.0MPa)' Name='暖通-空调-热水回水管-高区'
+		 ShortMarker='AHWR' TemplateName='ACS中文图层配置' UserLayer='暖通-空调-热水回水管-高区' Version='0'/>
+	<z:row Color='16777221' Comment='暖通-空调-热水回水立管' DefaultLayer='ACS_KT_RH_L' ID='565' LineType='DASHED'
+		 LineWeight='0.69999999999999996' MaterialName='焊接钢管(1.0MPa)' Name='暖通-空调-热水回水立管'
+		 ShortMarker='AHWR' TemplateName='ACS中文图层配置' UserLayer='暖通-空调-热水回水立管' Version='0'/>
+	<z:row Color='65280' Comment='暖通-空调-软化水管' DefaultLayer='ACS_KT_RUH' ID='566' LineType='Continuous'
+		 LineWeight='0.25' MaterialName='焊接钢管(1.0MPa)' Name='暖通-空调-软化水管' ShortMarker='R' TemplateName='ACS中文图层配置'
+		 UserLayer='暖通-空调-软化水管' Version='0'/>
+	<z:row Color='65282' Comment='暖通-空调-软化水立管' DefaultLayer='ACS_KT_RUH_L' ID='567' LineType='Continuous'
+		 LineWeight='0.25' MaterialName='焊接钢管(1.0MPa)' Name='暖通-空调-软化水立管' ShortMarker='R' TemplateName='ACS中文图层配置'
+		 UserLayer='暖通-空调-软化水立管' Version='0'/>
+	<z:row Color='16776960' Comment='暖通-空调-设备' DefaultLayer='ACS_KT_SB' ID='568' LineType='Continuous'
+		 LineWeight='0.34999999999999998' Name='暖通-空调-设备' TemplateName='ACS中文图层配置' UserLayer='暖通-空调-设备'
+		 Version='0'/>
+	<z:row Color='65280' Comment='暖通-空调-设备标注' DefaultLayer='ACS_KT_SBBZ' ID='569' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-空调-设备标注' TemplateName='ACS中文图层配置' UserLayer='暖通-空调-设备标注'
+		 Version='0'/>
+	<z:row Color='65280' Comment='暖通-空调-设中' DefaultLayer='ACS_KT_SBZX' ID='570' LineType='CENTER' LineWeight='0.25'
+		 Name='暖通-空调-设中' TemplateName='ACS中文图层配置' UserLayer='暖通-空调-设中' Version='0'/>
+	<z:row Color='65281' Comment='暖通-空调-自来水管' DefaultLayer='ACS_KT_ZL' ID='571' LineType='Continuous'
+		 LineWeight='0.25' MaterialName='焊接钢管(1.0MPa)' Name='暖通-空调-自来水管' ShortMarker='ZL' TemplateName='ACS中文图层配置'
+		 UserLayer='暖通-空调-自来水管' Version='0'/>
+	<z:row Color='65283' Comment='暖通-空调-自来水立管' DefaultLayer='ACS_KT_ZL_L' ID='572' LineType='Continuous'
+		 LineWeight='0.25' MaterialName='焊接钢管(1.0MPa)' Name='暖通-空调-自来水立管' ShortMarker='ZL' TemplateName='ACS中文图层配置'
+		 UserLayer='暖通-空调-自来水立管' Version='0'/>
+	<z:row Color='16777226' Comment='暖通-空调-蒸汽管' DefaultLayer='ACS_KT_ZQ' ID='573' LineType='Continuous'
+		 LineWeight='0.69999999999999996' MaterialName='焊接钢管(1.0MPa)' Name='暖通-空调-蒸汽管' ShortMarker='S'
+		 TemplateName='ACS中文图层配置' UserLayer='暖通-空调-蒸汽管' Version='0'/>
+	<z:row Color='16777226' Comment='暖通-空调-蒸汽立管' DefaultLayer='ACS_KT_ZQ_L' ID='574' LineType='Continuous'
+		 LineWeight='0.69999999999999996' MaterialName='焊接钢管(1.0MPa)' Name='暖通-空调-蒸汽立管' ShortMarker='S'
+		 TemplateName='ACS中文图层配置' UserLayer='暖通-空调-蒸汽立管' Version='0'/>
+	<z:row Color='16777223' Comment='建筑' DefaultLayer='ACS_OTHER_AC' ID='575' LineType='Continuous' LineWeight='0'
+		 Name='建筑' TemplateName='ACS中文图层配置' UserLayer='建筑' Version='0'/>
+	<z:row Color='16777223' Comment='结构' DefaultLayer='ACS_OTHER_BS' ID='576' LineType='Continuous' LineWeight='0'
+		 Name='结构' TemplateName='ACS中文图层配置' UserLayer='结构' Version='0'/>
+	<z:row Color='8421504' Comment='电力' DefaultLayer='ACS_OTHER_EL' ID='577' LineType='Continuous' LineWeight='0'
+		 Name='电力' TemplateName='ACS中文图层配置' UserLayer='电力' Version='0'/>
+	<z:row Color='65535' Comment='暖通-风幕' DefaultLayer='ACS_OTHER_FM' ID='578' LineType='Continuous' LineWeight='0.25'
+		 Name='暖通-风幕' TemplateName='ACS中文图层配置' UserLayer='暖通-风幕' Version='0'/>
+	<z:row Color='16711935' Comment='风口标注' DefaultLayer='ACS_OTHER_HV_AO_DIM' ID='579' LineType='Continuous'
+		 LineWeight='0' Name='风口标注' TemplateName='ACS中文图层配置' UserLayer='风口标注' Version='0'/>
+	<z:row Color='16777219' Comment='设备' DefaultLayer='ACS_OTHER_HV_EQ' ID='580' LineType='Continuous' LineWeight='0'
+		 Name='设备' TemplateName='ACS中文图层配置' UserLayer='设备' Version='0'/>
+	<z:row Color='16777222' Comment='采暖' DefaultLayer='ACS_OTHER_HV_HT' ID='581' LineType='Continuous' LineWeight='0'
+		 Name='采暖' TemplateName='ACS中文图层配置' UserLayer='采暖' Version='0'/>
+	<z:row Color='16777222' Comment='建筑条件' DefaultLayer='ACS_OTHER_HV_INF_AC' ID='582' LineType='Continuous'
+		 LineWeight='0' Name='建筑条件' TemplateName='ACS中文图层配置' UserLayer='建筑条件' Version='0'/>
+	<z:row Color='16777222' Comment='结构条件' DefaultLayer='ACS_OTHER_HV_INF_BS' ID='583' LineType='Continuous'
+		 LineWeight='0' Name='结构条件' TemplateName='ACS中文图层配置' UserLayer='结构条件' Version='0'/>
+	<z:row Color='16777222' Comment='电力条件' DefaultLayer='ACS_OTHER_HV_INF_EL' ID='584' LineType='Continuous'
+		 LineWeight='0' Name='电力条件' TemplateName='ACS中文图层配置' UserLayer='电力条件' Version='0'/>
+	<z:row Color='16777222' Comment='工艺条件' DefaultLayer='ACS_OTHER_HV_INF_PR' ID='585' LineType='Continuous'
+		 LineWeight='0' Name='工艺条件' TemplateName='ACS中文图层配置' UserLayer='工艺条件' Version='0'/>
+	<z:row Color='16777222' Comment='给排水条件' DefaultLayer='ACS_OTHER_HV_INF_WS' ID='586' LineType='Continuous'
+		 LineWeight='0' Name='给排水条件' TemplateName='ACS中文图层配置' UserLayer='给排水条件' Version='0'/>
+	<z:row Color='16777222' Comment='空调配管' DefaultLayer='ACS_OTHER_HV_PP' ID='587' LineType='Continuous'
+		 LineWeight='0' Name='空调配管' TemplateName='ACS中文图层配置' UserLayer='空调配管' Version='0'/>
+	<z:row Color='16777222' Comment='房间压差' DefaultLayer='ACS_OTHER_HV_PRESS' ID='588' LineType='Continuous'
+		 LineWeight='0' Name='房间压差' TemplateName='ACS中文图层配置' UserLayer='房间压差' Version='0'/>
+	<z:row Color='16777222' Comment='空调系统' DefaultLayer='ACS_OTHER_HV_SYS' ID='589' LineType='Continuous'
+		 LineWeight='0' Name='空调系统' TemplateName='ACS中文图层配置' UserLayer='空调系统' Version='0'/>
+	<z:row Color='16777217' Comment='文字' DefaultLayer='ACS_OTHER_HV_TEXT' ID='590' LineType='Continuous' LineWeight='0'
+		 Name='文字' TemplateName='ACS中文图层配置' UserLayer='文字' Version='0'/>
+	<z:row Color='16777222' Comment='系统分区' DefaultLayer='ACS_OTHER_HV_ZONE' ID='591' LineType='Continuous'
+		 LineWeight='0' Name='系统分区' TemplateName='ACS中文图层配置' UserLayer='系统分区' Version='0'/>
+	<z:row Color='16777223' Comment='工艺' DefaultLayer='ACS_OTHER_PR' ID='592' LineType='Continuous' LineWeight='0'
+		 Name='工艺' TemplateName='ACS中文图层配置' UserLayer='工艺' Version='0'/>
+	<z:row Color='16777223' Comment='给排水' DefaultLayer='ACS_OTHER_WS' ID='593' LineType='Continuous' LineWeight='0'
+		 Name='给排水' TemplateName='ACS中文图层配置' UserLayer='给排水' Version='0'/>
+	<z:row Color='65280' Comment='暖通-说明' DefaultLayer='ACS_OTHR_NOTE' ID='594' LineType='Continuous' LineWeight='0.25'
+		 Name='暖通-说明' TemplateName='ACS中文图层配置' UserLayer='暖通-说明' Version='0'/>
+	<z:row Color='16777220' Comment='暖通-排风-扁圆风管中线' DefaultLayer='ACS_PFG_BRZX' ID='595' LineType='CENTER'
+		 LineWeight='-3' MaterialName='镀锌钢板' Name='暖通-排风-扁圆风管中线' ShortMarker='PBR' TemplateName='ACS中文图层配置'
+		 UserLayer='暖通-排风-扁圆风管中线' Version='0'/>
+	<z:row Color='65280' Comment='暖通-排风-标注' DefaultLayer='ACS_PFG_BZ' ID='596' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-排风-标注' TemplateName='ACS中文图层配置' UserLayer='暖通-排风-标注'
+		 Version='0'/>
+	<z:row Color='16777246' Comment='暖通-排风-单线系统' DefaultLayer='ACS_PFG_F1' ID='597' LineType='Continuous'
+		 LineWeight='0.69999999999999996' Name='暖通-排风-单线系统' TemplateName='ACS中文图层配置' UserLayer='暖通-排风-单线系统'
+		 Version='0'/>
+	<z:row Color='16777246' Comment='暖通-排风-2D边线' DefaultLayer='ACS_PFG_F2' ID='598' LineType='Continuous'
+		 LineWeight='0.69999999999999996' MaterialName='镀锌钢板' Name='暖通-排风-2D边线' TemplateName='ACS中文图层配置'
+		 UserLayer='暖通-排风-2D边线' Version='0'/>
+	<z:row Color='16777246' Comment='暖通-排风-3D边线' DefaultLayer='ACS_PFG_F3' ID='599' LineType='Continuous'
+		 LineWeight='0.69999999999999996' MaterialName='镀锌钢板' Name='暖通-排风-3D边线' TemplateName='ACS中文图层配置'
+		 UserLayer='暖通-排风-3D边线' Version='0'/>
+	<z:row Color='16711680' Comment='暖通-排风-圆风管中线' DefaultLayer='ACS_PFG_FCZX' ID='600' LineType='CENTER'
+		 LineWeight='0.5' MaterialName='镀锌钢板' Name='暖通-排风-圆风管中线' ShortMarker='PFC' TemplateName='ACS中文图层配置'
+		 UserLayer='暖通-排风-圆风管中线' Version='0'/>
+	<z:row Color='16776960' Comment='暖通-排风-风向符号' DefaultLayer='ACS_PFG_FFX' ID='601' LineType='Continuous'
+		 LineWeight='0.34999999999999998' Name='暖通-排风-风向符号' TemplateName='ACS中文图层配置' UserLayer='暖通-排风-风向符号'
+		 Version='0'/>
+	<z:row Color='16777246' Comment='暖通-排风-风管' DefaultLayer='ACS_PFG_FG' ID='602' LineType='Continuous'
+		 LineWeight='0.69999999999999996' MaterialName='镀锌钢板' Name='暖通-排风-风管' ShortMarker='PF' TemplateName='ACS中文图层配置'
+		 UserLayer='暖通-排风-风管' Version='0'/>
+	<z:row Color='32767' Comment='暖通-排风-风口' DefaultLayer='ACS_PFG_FK' ID='603' LineType='Continuous'
+		 LineWeight='0.69999999999999996' Name='暖通-排风-风口' TemplateName='ACS中文图层配置' UserLayer='暖通-排风-风口'
+		 Version='0'/>
+	<z:row Color='32767' Comment='暖通-排风-风口-电动' DefaultLayer='ACS_PFG_FK_E' ID='604' LineType='Continuous'
+		 LineWeight='0.69999999999999996' Name='暖通-排风-风口-电动' TemplateName='ACS中文图层配置' UserLayer='暖通-排风-风口-电动'
+		 Version='0'/>
+	<z:row Color='16777217' Comment='暖通-排风-法兰' DefaultLayer='ACS_PFG_FL' ID='605' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-排风-法兰' TemplateName='ACS中文图层配置' UserLayer='暖通-排风-法兰'
+		 Version='0'/>
+	<z:row Color='32767' Comment='暖通-排风-立管系统' DefaultLayer='ACS_PFG_FL1' ID='606' LineType='Continuous'
+		 LineWeight='0.69999999999999996' Name='暖通-排风-立管系统' TemplateName='ACS中文图层配置' UserLayer='暖通-排风-立管系统'
+		 Version='0'/>
+	<z:row Color='16777222' Comment='暖通-排风-阀门' DefaultLayer='ACS_PFG_FM' ID='607' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-排风-阀门' TemplateName='ACS中文图层配置' UserLayer='暖通-排风-阀门'
+		 Version='0'/>
+	<z:row Color='16777222' Comment='暖通-排风-阀门-电动' DefaultLayer='ACS_PFG_FM_E' ID='608' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-排风-阀门-电动' TemplateName='ACS中文图层配置' UserLayer='暖通-排风-阀门-电动'
+		 Version='0'/>
+	<z:row Color='16777222' Comment='暖通-排风-阀门-消防' DefaultLayer='ACS_PFG_FM_F' ID='609' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-排风-阀门-消防' TemplateName='ACS中文图层配置' UserLayer='暖通-排风-阀门-消防'
+		 Version='0'/>
+	<z:row Color='16777220' Comment='暖通-排风-方风管中线' DefaultLayer='ACS_PFG_FRZX' ID='610' LineType='CENTER'
+		 LineWeight='0.25' MaterialName='镀锌钢板' Name='暖通-排风-方风管中线' ShortMarker='PFR' TemplateName='ACS中文图层配置'
+		 UserLayer='暖通-排风-方风管中线' Version='0'/>
+	<z:row Color='65280' Comment='暖通-排风-风量' DefaultLayer='ACS_PFG_RATE' ID='5996' LineType='Continuous'
+		 LineWeight='-3' Name='暖通-排风-风量' TemplateName='ACS中文图层配置' UserLayer='暖通-排风-风量'
+		 Version='0'/>
+	<z:row Color='16776960' Comment='暖通-排风-设备' DefaultLayer='ACS_PFG_SB' ID='611' LineType='Continuous'
+		 LineWeight='0.34999999999999998' Name='暖通-排风-设备' TemplateName='ACS中文图层配置' UserLayer='暖通-排风-设备'
+		 Version='0'/>
+	<z:row Color='16776960' Comment='暖通-排风-设备标注' DefaultLayer='ACS_PFG_SBBZ' ID='612' LineType='Continuous'
+		 LineWeight='0.34999999999999998' Name='暖通-排风-设备标注' TemplateName='ACS中文图层配置' UserLayer='暖通-排风-设备标注'
+		 Version='0'/>
+	<z:row Color='65280' Comment='暖通-排风-设中' DefaultLayer='ACS_PFG_SBZX' ID='613' LineType='CENTER' LineWeight='0.25'
+		 Name='暖通-排风-设中' TemplateName='ACS中文图层配置' UserLayer='暖通-排风-设中' Version='0'/>
+	<z:row Color='65306' Comment='暖通-人防排风-扁圆风管中线' DefaultLayer='ACS_RPG_BRZX' ID='614' LineType='Continuous'
+		 LineWeight='0.25' MaterialName='镀锌钢板' Name='暖通-人防排风-扁圆风管中线' ShortMarker='RPBR'
+		 TemplateName='ACS中文图层配置' UserLayer='暖通-人防排风-扁圆风管中线' Version='0'/>
+	<z:row Color='65306' Comment='暖通-人防排风-标注' DefaultLayer='ACS_RPG_BZ' ID='615' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-人防排风-标注' TemplateName='ACS中文图层配置' UserLayer='暖通-人防排风-标注'
+		 Version='0'/>
+	<z:row Color='65306' Comment='暖通-人防排风-单线系统' DefaultLayer='ACS_RPG_F1' ID='616' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-人防排风-单线系统' TemplateName='ACS中文图层配置' UserLayer='暖通-人防排风-单线系统'
+		 Version='0'/>
+	<z:row Color='65306' Comment='暖通-人防排风-2D边线' DefaultLayer='ACS_RPG_F2' ID='617' LineType='Continuous'
+		 LineWeight='0.25' MaterialName='镀锌钢板' Name='暖通-人防排风-2D边线' TemplateName='ACS中文图层配置'
+		 UserLayer='暖通-人防排风-2D边线' Version='0'/>
+	<z:row Color='65306' Comment='暖通-人防排风-3D边线' DefaultLayer='ACS_RPG_F3' ID='618' LineType='Continuous'
+		 LineWeight='0.25' MaterialName='镀锌钢板' Name='暖通-人防排风-3D边线' TemplateName='ACS中文图层配置'
+		 UserLayer='暖通-人防排风-3D边线' Version='0'/>
+	<z:row Color='65306' Comment='暖通-人防排风-圆风管中线' DefaultLayer='ACS_RPG_FCZX' ID='619' LineType='Continuous'
+		 LineWeight='0.25' MaterialName='镀锌钢板' Name='暖通-人防排风-圆风管中线' ShortMarker='RPC' TemplateName='ACS中文图层配置'
+		 UserLayer='暖通-人防排风-圆风管中线' Version='0'/>
+	<z:row Color='65306' Comment='暖通-人防排风-风向符号' DefaultLayer='ACS_RPG_FFX' ID='620' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-人防排风-风向符号' TemplateName='ACS中文图层配置' UserLayer='暖通-人防排风-风向符号'
+		 Version='0'/>
+	<z:row Color='65306' Comment='暖通-人防排风-风管' DefaultLayer='ACS_RPG_FG' ID='621' LineType='Continuous'
+		 LineWeight='0.25' MaterialName='镀锌钢板' Name='暖通-人防排风-风管' ShortMarker='RP' TemplateName='ACS中文图层配置'
+		 UserLayer='暖通-人防排风-风管' Version='0'/>
+	<z:row Color='65306' Comment='暖通-人防排风-风口' DefaultLayer='ACS_RPG_FK' ID='622' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-人防排风-风口' TemplateName='ACS中文图层配置' UserLayer='暖通-人防排风-风口'
+		 Version='0'/>
+	<z:row Color='65306' Comment='暖通-人防排风-风口-电动' DefaultLayer='ACS_RPG_FK_E' ID='623' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-人防排风-风口-电动' TemplateName='ACS中文图层配置' UserLayer='暖通-人防排风-风口-电动'
+		 Version='0'/>
+	<z:row Color='65306' Comment='暖通-人防排风-法兰' DefaultLayer='ACS_RPG_FL' ID='624' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-人防排风-法兰' TemplateName='ACS中文图层配置' UserLayer='暖通-人防排风-法兰'
+		 Version='0'/>
+	<z:row Color='65306' Comment='暖通-人防排风-立管系统' DefaultLayer='ACS_RPG_FL1' ID='625' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-人防排风-立管系统' TemplateName='ACS中文图层配置' UserLayer='暖通-人防排风-立管系统'
+		 Version='0'/>
+	<z:row Color='65306' Comment='暖通-人防排风-阀门' DefaultLayer='ACS_RPG_FM' ID='626' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-人防排风-阀门' TemplateName='ACS中文图层配置' UserLayer='暖通-人防排风-阀门'
+		 Version='0'/>
+	<z:row Color='65306' Comment='暖通-人防排风-阀门-电动' DefaultLayer='ACS_RPG_FM_E' ID='627' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-人防排风-阀门-电动' TemplateName='ACS中文图层配置' UserLayer='暖通-人防排风-阀门-电动'
+		 Version='0'/>
+	<z:row Color='65306' Comment='暖通-人防排风-阀门-消防' DefaultLayer='ACS_RPG_FM_F' ID='628' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-人防排风-阀门-消防' TemplateName='ACS中文图层配置' UserLayer='暖通-人防排风-阀门-消防'
+		 Version='0'/>
+	<z:row Color='65306' Comment='暖通-人防排风-方风管中线' DefaultLayer='ACS_RPG_FRZX' ID='629' LineType='Continuous'
+		 LineWeight='0.25' MaterialName='镀锌钢板' Name='暖通-人防排风-方风管中线' ShortMarker='RPR' TemplateName='ACS中文图层配置'
+		 UserLayer='暖通-人防排风-方风管中线' Version='0'/>
+	<z:row Color='65280' Comment='暖通-人防排风-风量' DefaultLayer='ACS_RPG_RATE' ID='6005' LineType='Continuous'
+		 LineWeight='-3' Name='暖通-人防排风-风量' TemplateName='ACS中文图层配置' UserLayer='暖通-人防排风-风量'
+		 Version='0'/>
+	<z:row Color='65306' Comment='暖通-人防排风-设备' DefaultLayer='ACS_RPG_SB' ID='630' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-人防排风-设备' TemplateName='ACS中文图层配置' UserLayer='暖通-人防排风-设备'
+		 Version='0'/>
+	<z:row Color='65306' Comment='暖通-人防排风-设备标注' DefaultLayer='ACS_RPG_SBBZ' ID='631' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-人防排风-设备标注' TemplateName='ACS中文图层配置' UserLayer='暖通-人防排风-设备标注'
+		 Version='0'/>
+	<z:row Color='65306' Comment='暖通-人防排风-设中' DefaultLayer='ACS_RPG_SBZX' ID='632' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-人防排风-设中' TemplateName='ACS中文图层配置' UserLayer='暖通-人防排风-设中'
+		 Version='0'/>
+	<z:row Color='65291' Comment='暖通-人防送风-扁圆风管中线' DefaultLayer='ACS_RSG_BRZX' ID='633' LineType='Continuous'
+		 LineWeight='0.25' MaterialName='镀锌钢板' Name='暖通-人防送风-扁圆风管中线' ShortMarker='RSBR'
+		 TemplateName='ACS中文图层配置' UserLayer='暖通-人防送风-扁圆风管中线' Version='0'/>
+	<z:row Color='65301' Comment='暖通-人防送风-标注' DefaultLayer='ACS_RSG_BZ' ID='634' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-人防送风-标注' TemplateName='ACS中文图层配置' UserLayer='暖通-人防送风-标注'
+		 Version='0'/>
+	<z:row Color='65304' Comment='暖通-人防送风-单线系统' DefaultLayer='ACS_RSG_F1' ID='635' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-人防送风-单线系统' TemplateName='ACS中文图层配置' UserLayer='暖通-人防送风-单线系统'
+		 Version='0'/>
+	<z:row Color='65302' Comment='暖通-人防送风-2D边线' DefaultLayer='ACS_RSG_F2' ID='636' LineType='Continuous'
+		 LineWeight='0.25' MaterialName='镀锌钢板' Name='暖通-人防送风-2D边线' TemplateName='ACS中文图层配置'
+		 UserLayer='暖通-人防送风-2D边线' Version='0'/>
+	<z:row Color='65303' Comment='暖通-人防送风-3D边线' DefaultLayer='ACS_RSG_F3' ID='637' LineType='Continuous'
+		 LineWeight='0.25' MaterialName='镀锌钢板' Name='暖通-人防送风-3D边线' TemplateName='ACS中文图层配置'
+		 UserLayer='暖通-人防送风-3D边线' Version='0'/>
+	<z:row Color='65290' Comment='暖通-人防送风-圆风管中线' DefaultLayer='ACS_RSG_FCZX' ID='638' LineType='Continuous'
+		 LineWeight='0.25' MaterialName='镀锌钢板' Name='暖通-人防送风-圆风管中线' ShortMarker='RSC' TemplateName='ACS中文图层配置'
+		 UserLayer='暖通-人防送风-圆风管中线' Version='0'/>
+	<z:row Color='65306' Comment='暖通-人防送风-风向符号' DefaultLayer='ACS_RSG_FFX' ID='639' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-人防送风-风向符号' TemplateName='ACS中文图层配置' UserLayer='暖通-人防送风-风向符号'
+		 Version='0'/>
+	<z:row Color='65288' Comment='暖通-人防送风-风管' DefaultLayer='ACS_RSG_FG' ID='640' LineType='Continuous'
+		 LineWeight='0.25' MaterialName='镀锌钢板' Name='暖通-人防送风-风管' ShortMarker='RS' TemplateName='ACS中文图层配置'
+		 UserLayer='暖通-人防送风-风管' Version='0'/>
+	<z:row Color='65292' Comment='暖通-人防送风-风口' DefaultLayer='ACS_RSG_FK' ID='641' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-人防送风-风口' TemplateName='ACS中文图层配置' UserLayer='暖通-人防送风-风口'
+		 Version='0'/>
+	<z:row Color='65293' Comment='暖通-人防送风-风口-电动' DefaultLayer='ACS_RSG_FK_E' ID='642' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-人防送风-风口-电动' TemplateName='ACS中文图层配置' UserLayer='暖通-人防送风-风口-电动'
+		 Version='0'/>
+	<z:row Color='65294' Comment='暖通-人防送风-法兰' DefaultLayer='ACS_RSG_FL' ID='643' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-人防送风-法兰' TemplateName='ACS中文图层配置' UserLayer='暖通-人防送风-法兰'
+		 Version='0'/>
+	<z:row Color='65305' Comment='暖通-人防送风-立管系统' DefaultLayer='ACS_RSG_FL1' ID='644' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-人防送风-立管系统' TemplateName='ACS中文图层配置' UserLayer='暖通-人防送风-立管系统'
+		 Version='0'/>
+	<z:row Color='65295' Comment='暖通-人防送风-阀门' DefaultLayer='ACS_RSG_FM' ID='645' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-人防送风-阀门' TemplateName='ACS中文图层配置' UserLayer='暖通-人防送风-阀门'
+		 Version='0'/>
+	<z:row Color='65296' Comment='暖通-人防送风-阀门-电动' DefaultLayer='ACS_RSG_FM_E' ID='646' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-人防送风-阀门-电动' TemplateName='ACS中文图层配置' UserLayer='暖通-人防送风-阀门-电动'
+		 Version='0'/>
+	<z:row Color='65297' Comment='暖通-人防送风-阀门-消防' DefaultLayer='ACS_RSG_FM_F' ID='647' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-人防送风-阀门-消防' TemplateName='ACS中文图层配置' UserLayer='暖通-人防送风-阀门-消防'
+		 Version='0'/>
+	<z:row Color='65289' Comment='暖通-人防送风-方风管中线' DefaultLayer='ACS_RSG_FRZX' ID='648' LineType='Continuous'
+		 LineWeight='0.25' MaterialName='镀锌钢板' Name='暖通-人防送风-方风管中线' ShortMarker='RSR' TemplateName='ACS中文图层配置'
+		 UserLayer='暖通-人防送风-方风管中线' Version='0'/>
+	<z:row Color='65280' Comment='暖通-人防送风-风量' DefaultLayer='ACS_RSG_RATE' ID='6004' LineType='Continuous'
+		 LineWeight='-3' Name='暖通-人防送风-风量' TemplateName='ACS中文图层配置' UserLayer='暖通-人防送风-风量'
+		 Version='0'/>
+	<z:row Color='65298' Comment='暖通-人防送风-设备' DefaultLayer='ACS_RSG_SB' ID='649' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-人防送风-设备' TemplateName='ACS中文图层配置' UserLayer='暖通-人防送风-设备'
+		 Version='0'/>
+	<z:row Color='65300' Comment='暖通-人防送风-设备标注' DefaultLayer='ACS_RSG_SBBZ' ID='650' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-人防送风-设备标注' TemplateName='ACS中文图层配置' UserLayer='暖通-人防送风-设备标注'
+		 Version='0'/>
+	<z:row Color='65299' Comment='暖通-人防送风-设中' DefaultLayer='ACS_RSG_SBZX' ID='651' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-人防送风-设中' TemplateName='ACS中文图层配置' UserLayer='暖通-人防送风-设中'
+		 Version='0'/>
+	<z:row Color='16777220' Comment='暖通-送补-扁圆风管中线' DefaultLayer='ACS_SBG_BRZX' ID='652' LineType='CENTER'
+		 LineWeight='-3' MaterialName='镀锌钢板' Name='暖通-送补-扁圆风管中线' ShortMarker='SBBR' TemplateName='ACS中文图层配置'
+		 UserLayer='暖通-送补-扁圆风管中线' Version='0'/>
+	<z:row Color='65280' Comment='暖通-送补-标注' DefaultLayer='ACS_SBG_BZ' ID='653' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-送补-标注' TemplateName='ACS中文图层配置' UserLayer='暖通-送补-标注'
+		 Version='0'/>
+	<z:row Color='16777219' Comment='暖通-送补-单线系统' DefaultLayer='ACS_SBG_F1' ID='654' LineType='Continuous'
+		 LineWeight='0.69999999999999996' Name='暖通-送补-单线系统' TemplateName='ACS中文图层配置' UserLayer='暖通-送补-单线系统'
+		 Version='0'/>
+	<z:row Color='16777355' Comment='暖通-送补-2D边线' DefaultLayer='ACS_SBG_F2' ID='655' LineType='Continuous'
+		 LineWeight='0.69999999999999996' MaterialName='镀锌钢板' Name='暖通-送补-2D边线' TemplateName='ACS中文图层配置'
+		 UserLayer='暖通-送补-2D边线' Version='0'/>
+	<z:row Color='16777355' Comment='暖通-送补-3D边线' DefaultLayer='ACS_SBG_F3' ID='656' LineType='Continuous'
+		 LineWeight='0.69999999999999996' MaterialName='镀锌钢板' Name='暖通-送补-3D边线' TemplateName='ACS中文图层配置'
+		 UserLayer='暖通-送补-3D边线' Version='0'/>
+	<z:row Color='16711680' Comment='暖通-送补-圆风管中线' DefaultLayer='ACS_SBG_FCZX' ID='657' LineType='CENTER'
+		 LineWeight='0.5' MaterialName='镀锌钢板' Name='暖通-送补-圆风管中线' ShortMarker='SBC' TemplateName='ACS中文图层配置'
+		 UserLayer='暖通-送补-圆风管中线' Version='0'/>
+	<z:row Color='16776960' Comment='暖通-送补-风向符号' DefaultLayer='ACS_SBG_FFX' ID='658' LineType='Continuous'
+		 LineWeight='0.34999999999999998' Name='暖通-送补-风向符号' TemplateName='ACS中文图层配置' UserLayer='暖通-送补-风向符号'
+		 Version='0'/>
+	<z:row Color='16777355' Comment='暖通-送补-风管' DefaultLayer='ACS_SBG_FG' ID='659' LineType='Continuous'
+		 LineWeight='0.69999999999999996' MaterialName='镀锌钢板' Name='暖通-送补-风管' ShortMarker='SBF' TemplateName='ACS中文图层配置'
+		 UserLayer='暖通-送补-风管' Version='0'/>
+	<z:row Color='16777215' Comment='暖通-送补-风口' DefaultLayer='ACS_SBG_FK' ID='660' LineType='Continuous'
+		 LineWeight='0.69999999999999996' Name='暖通-送补-风口' TemplateName='ACS中文图层配置' UserLayer='暖通-送补-风口'
+		 Version='0'/>
+	<z:row Color='16777215' Comment='暖通-送补-风口-电动' DefaultLayer='ACS_SBG_FK_E' ID='661' LineType='Continuous'
+		 LineWeight='0.69999999999999996' Name='暖通-送补-风口-电动' TemplateName='ACS中文图层配置' UserLayer='暖通-送补-风口-电动'
+		 Version='0'/>
+	<z:row Color='16777217' Comment='暖通-送补-法兰' DefaultLayer='ACS_SBG_FL' ID='662' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-送补-法兰' TemplateName='ACS中文图层配置' UserLayer='暖通-送补-法兰'
+		 Version='0'/>
+	<z:row Color='16777215' Comment='暖通-送补-立管系统' DefaultLayer='ACS_SBG_FL1' ID='663' LineType='Continuous'
+		 LineWeight='0.69999999999999996' Name='暖通-送补-立管系统' TemplateName='ACS中文图层配置' UserLayer='暖通-送补-立管系统'
+		 Version='0'/>
+	<z:row Color='16777222' Comment='暖通-送补-阀门' DefaultLayer='ACS_SBG_FM' ID='664' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-送补-阀门' TemplateName='ACS中文图层配置' UserLayer='暖通-送补-阀门'
+		 Version='0'/>
+	<z:row Color='16777222' Comment='暖通-送补-阀门-电动' DefaultLayer='ACS_SBG_FM_E' ID='665' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-送补-阀门-电动' TemplateName='ACS中文图层配置' UserLayer='暖通-送补-阀门-电动'
+		 Version='0'/>
+	<z:row Color='16777222' Comment='暖通-送补-阀门-消防' DefaultLayer='ACS_SBG_FM_F' ID='666' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-送补-阀门-消防' TemplateName='ACS中文图层配置' UserLayer='暖通-送补-阀门-消防'
+		 Version='0'/>
+	<z:row Color='16777220' Comment='暖通-送补-方风管中线' DefaultLayer='ACS_SBG_FRZX' ID='667' LineType='CENTER'
+		 LineWeight='0.25' MaterialName='镀锌钢板' Name='暖通-送补-方风管中线' ShortMarker='SBR' TemplateName='ACS中文图层配置'
+		 UserLayer='暖通-送补-方风管中线' Version='0'/>
+	<z:row Color='65280' Comment='暖通-送补-风量' DefaultLayer='ACS_SBG_RATE' ID='6002' LineType='Continuous'
+		 LineWeight='-3' Name='暖通-送补-风量' TemplateName='ACS中文图层配置' UserLayer='暖通-送补-风量'
+		 Version='0'/>
+	<z:row Color='16776960' Comment='暖通-送补-设备' DefaultLayer='ACS_SBG_SB' ID='668' LineType='Continuous'
+		 LineWeight='0.34999999999999998' Name='暖通-送补-设备' TemplateName='ACS中文图层配置' UserLayer='暖通-送补-设备'
+		 Version='0'/>
+	<z:row Color='16776960' Comment='暖通-送补-设备标注' DefaultLayer='ACS_SBG_SBBZ' ID='669' LineType='Continuous'
+		 LineWeight='0.34999999999999998' Name='暖通-送补-设备标注' TemplateName='ACS中文图层配置' UserLayer='暖通-送补-设备标注'
+		 Version='0'/>
+	<z:row Color='65280' Comment='暖通-送补-设中' DefaultLayer='ACS_SBG_SBZX' ID='670' LineType='CENTER' LineWeight='0.25'
+		 Name='暖通-送补-设中' TemplateName='ACS中文图层配置' UserLayer='暖通-送补-设中' Version='0'/>
+	<z:row Color='16777220' Comment='暖通-送风-扁圆风管中线' DefaultLayer='ACS_SFG_BRZX' ID='671' LineType='CENTER'
+		 LineWeight='-3' MaterialName='镀锌钢板' Name='暖通-送风-扁圆风管中线' ShortMarker='SBR' TemplateName='ACS中文图层配置'
+		 UserLayer='暖通-送风-扁圆风管中线' Version='0'/>
+	<z:row Color='65280' Comment='暖通-送风-标注' DefaultLayer='ACS_SFG_BZ' ID='672' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-送风-标注' TemplateName='ACS中文图层配置' UserLayer='暖通-送风-标注'
+		 Version='0'/>
+	<z:row Color='16777219' Comment='暖通-送风-单线系统' DefaultLayer='ACS_SFG_F1' ID='673' LineType='Continuous'
+		 LineWeight='0.69999999999999996' Name='暖通-送风-单线系统' TemplateName='ACS中文图层配置' UserLayer='暖通-送风-单线系统'
+		 Version='0'/>
+	<z:row Color='16777219' Comment='暖通-送风-2D边线' DefaultLayer='ACS_SFG_F2' ID='674' LineType='Continuous'
+		 LineWeight='0.69999999999999996' MaterialName='镀锌钢板' Name='暖通-送风-2D边线' TemplateName='ACS中文图层配置'
+		 UserLayer='暖通-送风-2D边线' Version='0'/>
+	<z:row Color='16777219' Comment='暖通-送风-3D边线' DefaultLayer='ACS_SFG_F3' ID='675' LineType='Continuous'
+		 LineWeight='0.69999999999999996' MaterialName='镀锌钢板' Name='暖通-送风-3D边线' TemplateName='ACS中文图层配置'
+		 UserLayer='暖通-送风-3D边线' Version='0'/>
+	<z:row Color='16711680' Comment='暖通-送风-圆风管中线' DefaultLayer='ACS_SFG_FCZX' ID='676' LineType='CENTER'
+		 LineWeight='0.5' MaterialName='镀锌钢板' Name='暖通-送风-圆风管中线' ShortMarker='SFC' TemplateName='ACS中文图层配置'
+		 UserLayer='暖通-送风-圆风管中线' Version='0'/>
+	<z:row Color='16776960' Comment='暖通-送风-风向符号' DefaultLayer='ACS_SFG_FFX' ID='677' LineType='Continuous'
+		 LineWeight='0.34999999999999998' Name='暖通-送风-风向符号' TemplateName='ACS中文图层配置' UserLayer='暖通-送风-风向符号'
+		 Version='0'/>
+	<z:row Color='16777219' Comment='暖通-送风-风管' DefaultLayer='ACS_SFG_FG' ID='678' LineType='Continuous'
+		 LineWeight='0.69999999999999996' MaterialName='镀锌钢板' Name='暖通-送风-风管' ShortMarker='SF' TemplateName='ACS中文图层配置'
+		 UserLayer='暖通-送风-风管' Version='0'/>
+	<z:row Color='16777215' Comment='暖通-送风-风口' DefaultLayer='ACS_SFG_FK' ID='679' LineType='Continuous'
+		 LineWeight='0.69999999999999996' Name='暖通-送风-风口' TemplateName='ACS中文图层配置' UserLayer='暖通-送风-风口'
+		 Version='0'/>
+	<z:row Color='16777215' Comment='暖通-送风-风口-电动' DefaultLayer='ACS_SFG_FK_E' ID='680' LineType='Continuous'
+		 LineWeight='0.69999999999999996' Name='暖通-送风-风口-电动' TemplateName='ACS中文图层配置' UserLayer='暖通-送风-风口-电动'
+		 Version='0'/>
+	<z:row Color='16777217' Comment='暖通-送风-法兰' DefaultLayer='ACS_SFG_FL' ID='681' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-送风-法兰' TemplateName='ACS中文图层配置' UserLayer='暖通-送风-法兰'
+		 Version='0'/>
+	<z:row Color='16777215' Comment='暖通-送风-立管系统' DefaultLayer='ACS_SFG_FL1' ID='682' LineType='Continuous'
+		 LineWeight='0.69999999999999996' Name='暖通-送风-立管系统' TemplateName='ACS中文图层配置' UserLayer='暖通-送风-立管系统'
+		 Version='0'/>
+	<z:row Color='16777222' Comment='暖通-送风-阀门' DefaultLayer='ACS_SFG_FM' ID='683' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-送风-阀门' TemplateName='ACS中文图层配置' UserLayer='暖通-送风-阀门'
+		 Version='0'/>
+	<z:row Color='16777222' Comment='暖通-送风-阀门-电动' DefaultLayer='ACS_SFG_FM_E' ID='684' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-送风-阀门-电动' TemplateName='ACS中文图层配置' UserLayer='暖通-送风-阀门-电动'
+		 Version='0'/>
+	<z:row Color='16777222' Comment='暖通-送风-阀门-消防' DefaultLayer='ACS_SFG_FM_F' ID='685' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-送风-阀门-消防' TemplateName='ACS中文图层配置' UserLayer='暖通-送风-阀门-消防'
+		 Version='0'/>
+	<z:row Color='16777220' Comment='暖通-送风-方风管中线' DefaultLayer='ACS_SFG_FRZX' ID='686' LineType='CENTER'
+		 LineWeight='0.25' MaterialName='镀锌钢板' Name='暖通-送风-方风管中线' ShortMarker='SFR' TemplateName='ACS中文图层配置'
+		 UserLayer='暖通-送风-方风管中线' Version='0'/>
+	<z:row Color='65280' Comment='暖通-送风-风量' DefaultLayer='ACS_SFG_RATE' ID='5993' LineType='Continuous'
+		 LineWeight='-3' Name='暖通-送风-风量' TemplateName='ACS中文图层配置' UserLayer='暖通-送风-风量'
+		 Version='0'/>
+	<z:row Color='16776960' Comment='暖通-送风-设备' DefaultLayer='ACS_SFG_SB' ID='687' LineType='Continuous'
+		 LineWeight='0.34999999999999998' Name='暖通-送风-设备' TemplateName='ACS中文图层配置' UserLayer='暖通-送风-设备'
+		 Version='0'/>
+	<z:row Color='16776960' Comment='暖通-送风-设备标注' DefaultLayer='ACS_SFG_SBBZ' ID='688' LineType='Continuous'
+		 LineWeight='0.34999999999999998' Name='暖通-送风-设备标注' TemplateName='ACS中文图层配置' UserLayer='暖通-送风-设备标注'
+		 Version='0'/>
+	<z:row Color='65280' Comment='暖通-送风-设中' DefaultLayer='ACS_SFG_SBZX' ID='689' LineType='CENTER' LineWeight='0.25'
+		 Name='暖通-送风-设中' TemplateName='ACS中文图层配置' UserLayer='暖通-送风-设中' Version='0'/>
+	<z:row Color='16777220' Comment='暖通-净化-扁圆风管中线' DefaultLayer='ACS_UFG_BRZX' ID='690' LineType='CENTER'
+		 LineWeight='-3' MaterialName='镀锌钢板' Name='暖通-净化-扁圆风管中线' ShortMarker='UBR' TemplateName='ACS中文图层配置'
+		 UserLayer='暖通-净化-扁圆风管中线' Version='0'/>
+	<z:row Color='65280' Comment='暖通-净化-标注' DefaultLayer='ACS_UFG_BZ' ID='691' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-净化-标注' TemplateName='ACS中文图层配置' UserLayer='暖通-净化-标注'
+		 Version='0'/>
+	<z:row Color='16711935' Comment='暖通-净化-单线系统' DefaultLayer='ACS_UFG_F1' ID='692' LineType='Continuous'
+		 LineWeight='0.5' Name='暖通-净化-单线系统' TemplateName='ACS中文图层配置' UserLayer='暖通-净化-单线系统'
+		 Version='0'/>
+	<z:row Color='16711935' Comment='暖通-净化-2D边线' DefaultLayer='ACS_UFG_F2' ID='693' LineType='Continuous'
+		 LineWeight='0.5' MaterialName='镀锌钢板' Name='暖通-净化-2D边线' TemplateName='ACS中文图层配置'
+		 UserLayer='暖通-净化-2D边线' Version='0'/>
+	<z:row Color='16711935' Comment='暖通-净化-3D边线' DefaultLayer='ACS_UFG_F3' ID='694' LineType='Continuous'
+		 LineWeight='0.5' MaterialName='镀锌钢板' Name='暖通-净化-3D边线' TemplateName='ACS中文图层配置'
+		 UserLayer='暖通-净化-3D边线' Version='0'/>
+	<z:row Color='16711680' Comment='暖通-净化-圆风管中线' DefaultLayer='ACS_UFG_FCZX' ID='695' LineType='CENTER'
+		 LineWeight='0.5' MaterialName='镀锌钢板' Name='暖通-净化-圆风管中线' ShortMarker='JHC' TemplateName='ACS中文图层配置'
+		 UserLayer='暖通-净化-圆风管中线' Version='0'/>
+	<z:row Color='16776960' Comment='暖通-净化-风向符号' DefaultLayer='ACS_UFG_FFX' ID='696' LineType='Continuous'
+		 LineWeight='0.34999999999999998' Name='暖通-净化-风向符号' TemplateName='ACS中文图层配置' UserLayer='暖通-净化-风向符号'
+		 Version='0'/>
+	<z:row Color='16711935' Comment='暖通-净化-风管' DefaultLayer='ACS_UFG_FG' ID='697' LineType='Continuous'
+		 LineWeight='0.5' MaterialName='镀锌钢板' Name='暖通-净化-风管' ShortMarker='JH' TemplateName='ACS中文图层配置'
+		 UserLayer='暖通-净化-风管' Version='0'/>
+	<z:row Color='16711935' Comment='暖通-净化-风口' DefaultLayer='ACS_UFG_FK' ID='698' LineType='Continuous'
+		 LineWeight='0.5' Name='暖通-净化-风口' TemplateName='ACS中文图层配置' UserLayer='暖通-净化-风口'
+		 Version='0'/>
+	<z:row Color='16711935' Comment='暖通-净化-风口-电动' DefaultLayer='ACS_UFG_FK_E' ID='699' LineType='Continuous'
+		 LineWeight='0.5' Name='暖通-净化-风口-电动' TemplateName='ACS中文图层配置' UserLayer='暖通-净化-风口-电动'
+		 Version='0'/>
+	<z:row Color='65280' Comment='暖通-净化-法兰' DefaultLayer='ACS_UFG_FL' ID='700' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-净化-法兰' TemplateName='ACS中文图层配置' UserLayer='暖通-净化-法兰'
+		 Version='0'/>
+	<z:row Color='16711935' Comment='暖通-净化-立管系统' DefaultLayer='ACS_UFG_FL1' ID='701' LineType='Continuous'
+		 LineWeight='0.5' Name='暖通-净化-立管系统' TemplateName='ACS中文图层配置' UserLayer='暖通-净化-立管系统'
+		 Version='0'/>
+	<z:row Color='16777222' Comment='暖通-净化-阀门' DefaultLayer='ACS_UFG_FM' ID='702' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-净化-阀门' TemplateName='ACS中文图层配置' UserLayer='暖通-净化-阀门'
+		 Version='0'/>
+	<z:row Color='16777222' Comment='暖通-净化-阀门-电动' DefaultLayer='ACS_UFG_FM_E' ID='703' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-净化-阀门-电动' TemplateName='ACS中文图层配置' UserLayer='暖通-净化-阀门-电动'
+		 Version='0'/>
+	<z:row Color='16777222' Comment='暖通-净化-阀门-消防' DefaultLayer='ACS_UFG_FM_F' ID='704' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-净化-阀门-消防' TemplateName='ACS中文图层配置' UserLayer='暖通-净化-阀门-消防'
+		 Version='0'/>
+	<z:row Color='16777220' Comment='暖通-净化-方风管中线' DefaultLayer='ACS_UFG_FRZX' ID='705' LineType='CENTER'
+		 LineWeight='0.25' MaterialName='镀锌钢板' Name='暖通-净化-方风管中线' ShortMarker='JHR' TemplateName='ACS中文图层配置'
+		 UserLayer='暖通-净化-方风管中线' Version='0'/>
+	<z:row Color='65280' Comment='暖通-净化-风量' DefaultLayer='ACS_UFG_RATE' ID='5998' LineType='Continuous'
+		 LineWeight='-3' Name='暖通-净化-风量' TemplateName='ACS中文图层配置' UserLayer='暖通-净化-风量'
+		 Version='0'/>
+	<z:row Color='16776960' Comment='暖通-净化-设备' DefaultLayer='ACS_UFG_SB' ID='706' LineType='Continuous'
+		 LineWeight='0.34999999999999998' Name='暖通-净化-设备' TemplateName='ACS中文图层配置' UserLayer='暖通-净化-设备'
+		 Version='0'/>
+	<z:row Color='16776960' Comment='暖通-净化-设备标注' DefaultLayer='ACS_UFG_SBBZ' ID='707' LineType='Continuous'
+		 LineWeight='0.34999999999999998' Name='暖通-净化-设备标注' TemplateName='ACS中文图层配置' UserLayer='暖通-净化-设备标注'
+		 Version='0'/>
+	<z:row Color='65280' Comment='暖通-净化-设中' DefaultLayer='ACS_UFG_SBZX' ID='708' LineType='CENTER' LineWeight='0.25'
+		 Name='暖通-净化-设中' TemplateName='ACS中文图层配置' UserLayer='暖通-净化-设中' Version='0'/>
+	<z:row Color='16777220' Comment='暖通-消防-扁圆风管中线' DefaultLayer='ACS_XFG_BRZX' ID='709' LineType='CENTER'
+		 LineWeight='-3' MaterialName='镀锌钢板' Name='暖通-消防-扁圆风管中线' ShortMarker='NXBR' TemplateName='ACS中文图层配置'
+		 UserLayer='暖通-消防-扁圆风管中线' Version='0'/>
+	<z:row Color='65280' Comment='暖通-消防-标注' DefaultLayer='ACS_XFG_BZ' ID='710' LineType='Continuous'
+		 LineWeight='-3' Name='暖通-消防-标注' TemplateName='ACS中文图层配置' UserLayer='暖通-消防-标注'
+		 Version='0'/>
+	<z:row Color='16776960' Comment='暖通-消防-单线系统' DefaultLayer='ACS_XFG_F1' ID='711' LineType='Continuous'
+		 LineWeight='0.5' Name='暖通-消防-单线系统' TemplateName='ACS中文图层配置' UserLayer='暖通-消防-单线系统'
+		 Version='0'/>
+	<z:row Color='16776960' Comment='暖通-消防-2D边线' DefaultLayer='ACS_XFG_F2' ID='712' LineType='Continuous'
+		 LineWeight='0.5' MaterialName='镀锌钢板' Name='暖通-消防-2D边线' TemplateName='ACS中文图层配置'
+		 UserLayer='暖通-消防-2D边线' Version='0'/>
+	<z:row Color='16776960' Comment='暖通-消防-3D边线' DefaultLayer='ACS_XFG_F3' ID='713' LineType='Continuous'
+		 LineWeight='0.5' MaterialName='镀锌钢板' Name='暖通-消防-3D边线' TemplateName='ACS中文图层配置'
+		 UserLayer='暖通-消防-3D边线' Version='0'/>
+	<z:row Color='16711680' Comment='暖通-消防-圆风管中线' DefaultLayer='ACS_XFG_FCZX' ID='714' LineType='CENTER'
+		 LineWeight='-3' MaterialName='镀锌钢板' Name='暖通-消防-圆风管中线' ShortMarker='NXFC' TemplateName='ACS中文图层配置'
+		 UserLayer='暖通-消防-圆风管中线' Version='0'/>
+	<z:row Color='16776960' Comment='暖通-消防-风向符号' DefaultLayer='ACS_XFG_FFX' ID='715' LineType='Continuous'
+		 LineWeight='0.34999999999999998' Name='暖通-消防-风向符号' TemplateName='ACS中文图层配置' UserLayer='暖通-消防-风向符号'
+		 Version='0'/>
+	<z:row Color='16776960' Comment='暖通-消防-风管' DefaultLayer='ACS_XFG_FG' ID='716' LineType='Continuous'
+		 LineWeight='0.5' MaterialName='镀锌钢板' Name='暖通-消防-风管' ShortMarker='NXF' TemplateName='ACS中文图层配置'
+		 UserLayer='暖通-消防-风管' Version='0'/>
+	<z:row Color='16776960' Comment='暖通-消防-风口' DefaultLayer='ACS_XFG_FK' ID='717' LineType='Continuous'
+		 LineWeight='-3' Name='暖通-消防-风口' TemplateName='ACS中文图层配置' UserLayer='暖通-消防-风口'
+		 Version='0'/>
+	<z:row Color='16776960' Comment='暖通-消防-风口-电动' DefaultLayer='ACS_XFG_FK_E' ID='718' LineType='Continuous'
+		 LineWeight='-3' Name='暖通-消防-风口-电动' TemplateName='ACS中文图层配置' UserLayer='暖通-消防-风口-电动'
+		 Version='0'/>
+	<z:row Color='16777217' Comment='暖通-消防-法兰' DefaultLayer='ACS_XFG_FL' ID='719' LineType='Continuous'
+		 LineWeight='-3' Name='暖通-消防-法兰' TemplateName='ACS中文图层配置' UserLayer='暖通-消防-法兰'
+		 Version='0'/>
+	<z:row Color='16776960' Comment='暖通-消防-立管系统' DefaultLayer='ACS_XFG_FL1' ID='720' LineType='Continuous'
+		 LineWeight='0.5' Name='暖通-消防-立管系统' TemplateName='ACS中文图层配置' UserLayer='暖通-消防-立管系统'
+		 Version='0'/>
+	<z:row Color='16777222' Comment='暖通-消防-阀门' DefaultLayer='ACS_XFG_FM' ID='721' LineType='Continuous'
+		 LineWeight='-3' Name='暖通-消防-阀门' TemplateName='ACS中文图层配置' UserLayer='暖通-消防-阀门'
+		 Version='0'/>
+	<z:row Color='16777222' Comment='暖通-消防-阀门-电动' DefaultLayer='ACS_XFG_FM_E' ID='722' LineType='Continuous'
+		 LineWeight='-3' Name='暖通-消防-阀门-电动' TemplateName='ACS中文图层配置' UserLayer='暖通-消防-阀门-电动'
+		 Version='0'/>
+	<z:row Color='16777222' Comment='暖通-消防-阀门-消防' DefaultLayer='ACS_XFG_FM_F' ID='723' LineType='Continuous'
+		 LineWeight='-3' Name='暖通-消防-阀门-消防' TemplateName='ACS中文图层配置' UserLayer='暖通-消防-阀门-消防'
+		 Version='0'/>
+	<z:row Color='16777220' Comment='暖通-消防-方风管中线' DefaultLayer='ACS_XFG_FRZX' ID='724' LineType='CENTER'
+		 LineWeight='-3' MaterialName='镀锌钢板' Name='暖通-消防-方风管中线' ShortMarker='NXFR' TemplateName='ACS中文图层配置'
+		 UserLayer='暖通-消防-方风管中线' Version='0'/>
+	<z:row Color='65280' Comment='暖通-消防-风量' DefaultLayer='ACS_XFG_RATE' ID='6003' LineType='Continuous'
+		 LineWeight='-3' Name='暖通-消防-风量' TemplateName='ACS中文图层配置' UserLayer='暖通-消防-风量'
+		 Version='0'/>
+	<z:row Color='16776960' Comment='暖通-消防-设备' DefaultLayer='ACS_XFG_SB' ID='725' LineType='Continuous'
+		 LineWeight='0.34999999999999998' Name='暖通-消防-设备' TemplateName='ACS中文图层配置' UserLayer='暖通-消防-设备'
+		 Version='0'/>
+	<z:row Color='16776960' Comment='暖通-消防-设备标注' DefaultLayer='ACS_XFG_SBBZ' ID='726' LineType='Continuous'
+		 LineWeight='0.34999999999999998' Name='暖通-消防-设备标注' TemplateName='ACS中文图层配置' UserLayer='暖通-消防-设备标注'
+		 Version='0'/>
+	<z:row Color='65280' Comment='暖通-消防-设中' DefaultLayer='ACS_XFG_SBZX' ID='727' LineType='CENTER' LineWeight='-3'
+		 Name='暖通-消防-设中' TemplateName='ACS中文图层配置' UserLayer='暖通-消防-设中' Version='0'/>
+	<z:row Color='16777220' Comment='暖通-排烟-扁圆风管中线' DefaultLayer='ACS_YFG_BRZX' ID='728' LineType='CENTER'
+		 LineWeight='-3' MaterialName='镀锌钢板' Name='暖通-排烟-扁圆风管中线' ShortMarker='YBR' TemplateName='ACS中文图层配置'
+		 UserLayer='暖通-排烟-扁圆风管中线' Version='0'/>
+	<z:row Color='65280' Comment='暖通-排烟-标注' DefaultLayer='ACS_YFG_BZ' ID='729' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-排烟-标注' TemplateName='ACS中文图层配置' UserLayer='暖通-排烟-标注'
+		 Version='0'/>
+	<z:row Color='16777217' Comment='暖通-排烟-单线系统' DefaultLayer='ACS_YFG_F1' ID='730' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-排烟-单线系统' TemplateName='ACS中文图层配置' UserLayer='暖通-排烟-单线系统'
+		 Version='0'/>
+	<z:row Color='16777217' Comment='暖通-排烟-2D边线' DefaultLayer='ACS_YFG_F2' ID='731' LineType='Continuous'
+		 LineWeight='0.25' MaterialName='镀锌钢板' Name='暖通-排烟-2D边线' TemplateName='ACS中文图层配置'
+		 UserLayer='暖通-排烟-2D边线' Version='0'/>
+	<z:row Color='16777217' Comment='暖通-排烟-3D边线' DefaultLayer='ACS_YFG_F3' ID='732' LineType='Continuous'
+		 LineWeight='0.25' MaterialName='镀锌钢板' Name='暖通-排烟-3D边线' TemplateName='ACS中文图层配置'
+		 UserLayer='暖通-排烟-3D边线' Version='0'/>
+	<z:row Color='16711680' Comment='暖通-排烟-圆风管中线' DefaultLayer='ACS_YFG_FCZX' ID='733' LineType='CENTER'
+		 LineWeight='0.5' MaterialName='镀锌钢板' Name='暖通-排烟-圆风管中线' ShortMarker='PYC' TemplateName='ACS中文图层配置'
+		 UserLayer='暖通-排烟-圆风管中线' Version='0'/>
+	<z:row Color='16776960' Comment='暖通-排烟-风向符号' DefaultLayer='ACS_YFG_FFX' ID='734' LineType='Continuous'
+		 LineWeight='0.34999999999999998' Name='暖通-排烟-风向符号' TemplateName='ACS中文图层配置' UserLayer='暖通-排烟-风向符号'
+		 Version='0'/>
+	<z:row Color='16777217' Comment='暖通-排烟-风管' DefaultLayer='ACS_YFG_FG' ID='735' LineType='Continuous'
+		 LineWeight='0.25' MaterialName='镀锌钢板' Name='暖通-排烟-风管' ShortMarker='PY' TemplateName='ACS中文图层配置'
+		 UserLayer='暖通-排烟-风管' Version='0'/>
+	<z:row Color='65407' Comment='暖通-排烟-风口' DefaultLayer='ACS_YFG_FK' ID='736' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-排烟-风口' TemplateName='ACS中文图层配置' UserLayer='暖通-排烟-风口'
+		 Version='0'/>
+	<z:row Color='65407' Comment='暖通-排烟-风口-电动' DefaultLayer='ACS_YFG_FK_E' ID='737' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-排烟-风口-电动' TemplateName='ACS中文图层配置' UserLayer='暖通-排烟-风口-电动'
+		 Version='0'/>
+	<z:row Color='16777217' Comment='暖通-排烟-法兰' DefaultLayer='ACS_YFG_FL' ID='738' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-排烟-法兰' TemplateName='ACS中文图层配置' UserLayer='暖通-排烟-法兰'
+		 Version='0'/>
+	<z:row Color='65407' Comment='暖通-排烟-立管系统' DefaultLayer='ACS_YFG_FL1' ID='739' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-排烟-立管系统' TemplateName='ACS中文图层配置' UserLayer='暖通-排烟-立管系统'
+		 Version='0'/>
+	<z:row Color='16777222' Comment='暖通-排烟-阀门' DefaultLayer='ACS_YFG_FM' ID='740' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-排烟-阀门' TemplateName='ACS中文图层配置' UserLayer='暖通-排烟-阀门'
+		 Version='0'/>
+	<z:row Color='16777222' Comment='暖通-排烟-阀门-电动' DefaultLayer='ACS_YFG_FM_E' ID='741' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-排烟-阀门-电动' TemplateName='ACS中文图层配置' UserLayer='暖通-排烟-阀门-电动'
+		 Version='0'/>
+	<z:row Color='16777222' Comment='暖通-排烟-阀门-消防' DefaultLayer='ACS_YFG_FM_F' ID='742' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-排烟-阀门-消防' TemplateName='ACS中文图层配置' UserLayer='暖通-排烟-阀门-消防'
+		 Version='0'/>
+	<z:row Color='16777220' Comment='暖通-排烟-方风管中线' DefaultLayer='ACS_YFG_FRZX' ID='743' LineType='CENTER'
+		 LineWeight='0.25' MaterialName='镀锌钢板' Name='暖通-排烟-方风管中线' ShortMarker='PYR' TemplateName='ACS中文图层配置'
+		 UserLayer='暖通-排烟-方风管中线' Version='0'/>
+	<z:row Color='65280' Comment='暖通-排烟-风量' DefaultLayer='ACS_YFG_RATE' ID='5999' LineType='Continuous'
+		 LineWeight='-3' Name='暖通-排烟-风量' TemplateName='ACS中文图层配置' UserLayer='暖通-排烟-风量'
+		 Version='0'/>
+	<z:row Color='16776960' Comment='暖通-排烟-设备' DefaultLayer='ACS_YFG_SB' ID='744' LineType='Continuous'
+		 LineWeight='0.34999999999999998' Name='暖通-排烟-设备' TemplateName='ACS中文图层配置' UserLayer='暖通-排烟-设备'
+		 Version='0'/>
+	<z:row Color='16776960' Comment='暖通-排烟-设备标注' DefaultLayer='ACS_YFG_SBBZ' ID='745' LineType='Continuous'
+		 LineWeight='0.34999999999999998' Name='暖通-排烟-设备标注' TemplateName='ACS中文图层配置' UserLayer='暖通-排烟-设备标注'
+		 Version='0'/>
+	<z:row Color='65280' Comment='暖通-排烟-设中' DefaultLayer='ACS_YFG_SBZX' ID='746' LineType='CENTER' LineWeight='0.25'
+		 Name='暖通-排烟-设中' TemplateName='ACS中文图层配置' UserLayer='暖通-排烟-设中' Version='0'/>
+</rs:data>
+</xml>

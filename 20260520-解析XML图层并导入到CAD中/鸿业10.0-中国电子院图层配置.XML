@@ -1,0 +1,1308 @@
+<xml xmlns:s='uuid:BDC6E3F0-6DA3-11d1-A2A3-00AA00C14882'
+	xmlns:dt='uuid:C2F41010-65B3-11d1-A29F-00AA00C14882'
+	xmlns:rs='urn:schemas-microsoft-com:rowset'
+	xmlns:z='#RowsetSchema'>
+<s:Schema id='RowsetSchema'>
+	<s:ElementType name='row' content='eltOnly' rs:updatable='true'>
+		<s:AttributeType name='Color' rs:number='7' rs:nullable='true' rs:maydefer='true' rs:write='true' rs:basetable='UserLayer'
+			 rs:basecolumn='Color'>
+			<s:datatype dt:type='int' dt:maxLength='4' rs:precision='10' rs:fixedlength='true'/>
+		</s:AttributeType>
+		<s:AttributeType name='Comment' rs:number='11' rs:nullable='true' rs:maydefer='true' rs:write='true' rs:basetable='UserLayer'
+			 rs:basecolumn='Comment'>
+			<s:datatype dt:type='string' dt:maxLength='536870910' rs:long='true'/>
+		</s:AttributeType>
+		<s:AttributeType name='DefaultLayer' rs:number='3' rs:nullable='true' rs:maydefer='true' rs:write='true' rs:basetable='UserLayer'
+			 rs:basecolumn='DefaultLayer'>
+			<s:datatype dt:type='string' dt:maxLength='255'/>
+		</s:AttributeType>
+		<s:AttributeType name='ID' rs:number='1' rs:maydefer='true' rs:writeunknown='true' rs:basetable='UserLayer'
+			 rs:basecolumn='ID' rs:autoincrement='true'>
+			<s:datatype dt:type='int' dt:maxLength='4' rs:precision='10' rs:fixedlength='true'/>
+		</s:AttributeType>
+		<s:AttributeType name='LineType' rs:number='8' rs:nullable='true' rs:maydefer='true' rs:write='true' rs:basetable='UserLayer'
+			 rs:basecolumn='LineType'>
+			<s:datatype dt:type='string' dt:maxLength='255'/>
+		</s:AttributeType>
+		<s:AttributeType name='LineWeight' rs:number='9' rs:nullable='true' rs:maydefer='true' rs:write='true' rs:basetable='UserLayer'
+			 rs:basecolumn='LineWeight'>
+			<s:datatype dt:type='float' dt:maxLength='8' rs:precision='15' rs:fixedlength='true'/>
+		</s:AttributeType>
+		<s:AttributeType name='MaterialName' rs:number='10' rs:nullable='true' rs:maydefer='true' rs:write='true' rs:basetable='UserLayer'
+			 rs:basecolumn='MaterialName'>
+			<s:datatype dt:type='string' dt:maxLength='255'/>
+		</s:AttributeType>
+		<s:AttributeType name='Name' rs:number='5' rs:nullable='true' rs:maydefer='true' rs:write='true' rs:basetable='UserLayer'
+			 rs:basecolumn='Name'>
+			<s:datatype dt:type='string' dt:maxLength='255'/>
+		</s:AttributeType>
+		<s:AttributeType name='ShortMarker' rs:number='6' rs:nullable='true' rs:maydefer='true' rs:write='true' rs:basetable='UserLayer'
+			 rs:basecolumn='ShortMarker'>
+			<s:datatype dt:type='string' dt:maxLength='255'/>
+		</s:AttributeType>
+		<s:AttributeType name='TemplateName' rs:number='2' rs:nullable='true' rs:maydefer='true' rs:write='true' rs:basetable='UserLayer'
+			 rs:basecolumn='TemplateName'>
+			<s:datatype dt:type='string' dt:maxLength='255'/>
+		</s:AttributeType>
+		<s:AttributeType name='UserLayer' rs:number='4' rs:nullable='true' rs:maydefer='true' rs:write='true' rs:basetable='UserLayer'
+			 rs:basecolumn='UserLayer'>
+			<s:datatype dt:type='string' dt:maxLength='255'/>
+		</s:AttributeType>
+		<s:AttributeType name='Version' rs:number='12' rs:nullable='true' rs:maydefer='true' rs:write='true' rs:basetable='UserLayer'
+			 rs:basecolumn='Version'>
+			<s:datatype dt:type='i2' dt:maxLength='2' rs:precision='5' rs:fixedlength='true'/>
+		</s:AttributeType>
+		<s:extends type='rs:rowbase'/>
+	</s:ElementType>
+</s:Schema>
+<rs:data>
+	<z:row Color='16777219' Comment='暖通-除尘-扁圆风管中线' DefaultLayer='ACS_CFG_BRZX' ID='1866' LineType='CENTER'
+		 LineWeight='-3' MaterialName='镀锌钢板' Name='暖通-除尘-扁圆风管中线' ShortMarker='CBR' TemplateName='中国电子院图层配置'
+		 UserLayer='H-DUST-DCBR' Version='0'/>
+	<z:row Color='65280' Comment='暖通-除尘-标注' DefaultLayer='ACS_CFG_BZ' ID='1867' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-除尘-标注' TemplateName='中国电子院图层配置' UserLayer='H-DUST-DIMS'
+		 Version='0'/>
+	<z:row Color='16777220' Comment='暖通-除尘-单线系统' DefaultLayer='ACS_CFG_F1' ID='1868' LineType='Continuous'
+		 LineWeight='0.69999999999999996' Name='暖通-除尘-单线系统' TemplateName='中国电子院图层配置'
+		 UserLayer='H-DUST-SYSM' Version='0'/>
+	<z:row Color='16777220' Comment='暖通-除尘-2D边线' DefaultLayer='ACS_CFG_F2' ID='1869' LineType='Continuous'
+		 LineWeight='0.69999999999999996' MaterialName='镀锌钢板' Name='暖通-除尘-2D边线' TemplateName='中国电子院图层配置'
+		 UserLayer='H-DUST-DSDP' Version='0'/>
+	<z:row Color='16777220' Comment='暖通-除尘-3D边线' DefaultLayer='ACS_CFG_F3' ID='1870' LineType='Continuous'
+		 LineWeight='0.69999999999999996' MaterialName='镀锌钢板' Name='暖通-除尘-3D边线' TemplateName='中国电子院图层配置'
+		 UserLayer='H-DUST-DSDT' Version='0'/>
+	<z:row Color='16777223' Comment='暖通-除尘-圆风管中线' DefaultLayer='ACS_CFG_FCZX' ID='1871' LineType='CENTER'
+		 LineWeight='0.25' MaterialName='镀锌钢板' Name='暖通-除尘-圆风管中线' ShortMarker='CCC' TemplateName='中国电子院图层配置'
+		 UserLayer='H-DUST-DCNC' Version='0'/>
+	<z:row Color='16776960' Comment='暖通-除尘-风向符号' DefaultLayer='ACS_CFG_FFX' ID='1872' LineType='Continuous'
+		 LineWeight='0.34999999999999998' Name='暖通-除尘-风向符号' TemplateName='中国电子院图层配置'
+		 UserLayer='H-DUST-MARK' Version='0'/>
+	<z:row Color='16777220' Comment='暖通-除尘-风管' DefaultLayer='ACS_CFG_FG' ID='1873' LineType='Continuous'
+		 LineWeight='0.69999999999999996' MaterialName='镀锌钢板' Name='暖通-除尘-风管' ShortMarker='CC' TemplateName='中国电子院图层配置'
+		 UserLayer='H-DUST-DUCT' Version='0'/>
+	<z:row Color='16777217' Comment='暖通-除尘-风口' DefaultLayer='ACS_CFG_FK' ID='1874' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-除尘-风口' TemplateName='中国电子院图层配置' UserLayer='H-DUST-PORT'
+		 Version='0'/>
+	<z:row Color='16777217' Comment='暖通-除尘-风口-电动' DefaultLayer='ACS_CFG_FK_E' ID='1875' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-除尘-风口-电动' TemplateName='中国电子院图层配置' UserLayer='H-DUST-PORT-E'
+		 Version='0'/>
+	<z:row Color='65280' Comment='暖通-除尘-法兰' DefaultLayer='ACS_CFG_FL' ID='1876' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-除尘-法兰' TemplateName='中国电子院图层配置' UserLayer='H-DUST-FLAN'
+		 Version='0'/>
+	<z:row Color='16777220' Comment='暖通-除尘-立管系统' DefaultLayer='ACS_CFG_FL1' ID='1877' LineType='Continuous'
+		 LineWeight='0.69999999999999996' Name='暖通-除尘-立管系统' TemplateName='中国电子院图层配置'
+		 UserLayer='H-DUST-RISE' Version='0'/>
+	<z:row Color='65280' Comment='暖通-除尘-阀门' DefaultLayer='ACS_CFG_FM' ID='1878' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-除尘-阀门' TemplateName='中国电子院图层配置' UserLayer='H-DUST-VALV'
+		 Version='0'/>
+	<z:row Color='65280' Comment='暖通-除尘-阀门-电动' DefaultLayer='ACS_CFG_FM_E' ID='1879' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-除尘-阀门-电动' TemplateName='中国电子院图层配置' UserLayer='H-DUST-VALV-E'
+		 Version='0'/>
+	<z:row Color='65280' Comment='暖通-除尘-阀门-消防' DefaultLayer='ACS_CFG_FM_F' ID='1880' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-除尘-阀门-消防' TemplateName='中国电子院图层配置' UserLayer='H-DUST-VALV-X'
+		 Version='0'/>
+	<z:row Color='65280' Comment='暖通-除尘-方风管中线' DefaultLayer='ACS_CFG_FRZX' ID='1881' LineType='CENTER'
+		 LineWeight='0.25' MaterialName='镀锌钢板' Name='暖通-除尘-方风管中线' ShortMarker='CCR' TemplateName='中国电子院图层配置'
+		 UserLayer='H-DUST-DCNR' Version='0'/>
+	<z:row Color='65280' Comment='暖通-除尘-风量' DefaultLayer='ACS_CFG_RATE' ID='6061' LineType='Continuous'
+		 LineWeight='-3' Name='暖通-除尘-风量' TemplateName='中国电子院图层配置' UserLayer='H-DUST-RATE'
+		 Version='0'/>
+	<z:row Color='16776960' Comment='暖通-除尘-设备' DefaultLayer='ACS_CFG_SB' ID='1882' LineType='Continuous'
+		 LineWeight='0.34999999999999998' Name='暖通-除尘-设备' TemplateName='中国电子院图层配置' UserLayer='H-DUST-EQPM'
+		 Version='0'/>
+	<z:row Color='16776960' Comment='暖通-除尘-设备标注' DefaultLayer='ACS_CFG_SBBZ' ID='1883' LineType='Continuous'
+		 LineWeight='0.34999999999999998' Name='暖通-除尘-设备标注' TemplateName='中国电子院图层配置'
+		 UserLayer='H-DUST-EQPM-DIMS' Version='0'/>
+	<z:row Color='65280' Comment='暖通-除尘-设中' DefaultLayer='ACS_CFG_SBZX' ID='1884' LineType='CENTER'
+		 LineWeight='0.25' Name='暖通-除尘-设中' TemplateName='中国电子院图层配置' UserLayer='H-DUST-ECLN'
+		 Version='0'/>
+	<z:row Color='16777220' Comment='暖通-车库排风-扁圆风管中线' DefaultLayer='ACS_CKPF_BRZX' ID='5794'
+		 LineType='CENTER' LineWeight='-3' MaterialName='镀锌钢板' Name='暖通-车库排风-扁圆风管中线' ShortMarker='CFBR'
+		 TemplateName='中国电子院图层配置' UserLayer='H-CKPF-BRZX' Version='0'/>
+	<z:row Color='65280' Comment='暖通-车库排风-标注' DefaultLayer='ACS_CKPF_BZ' ID='5795' LineType='Continuous'
+		 LineWeight='-3' Name='暖通-车库排风-标注' TemplateName='中国电子院图层配置' UserLayer='H-CKPF-BZ'
+		 Version='0'/>
+	<z:row Color='16776960' Comment='暖通-车库排风-单线系统' DefaultLayer='ACS_CKPF_F1' ID='5796' LineType='Continuous'
+		 LineWeight='0.5' Name='暖通-车库排风-单线系统' TemplateName='中国电子院图层配置' UserLayer='H-CKPF-F1'
+		 Version='0'/>
+	<z:row Color='16776960' Comment='暖通-车库排风-2D边线' DefaultLayer='ACS_CKPF_F2' ID='5797' LineType='Continuous'
+		 LineWeight='0.5' MaterialName='镀锌钢板' Name='暖通-车库排风-2D边线' TemplateName='中国电子院图层配置'
+		 UserLayer='H-CKPF-F2' Version='0'/>
+	<z:row Color='16776960' Comment='暖通-车库排风-3D边线' DefaultLayer='ACS_CKPF_F3' ID='5798' LineType='Continuous'
+		 LineWeight='0.5' MaterialName='镀锌钢板' Name='暖通-车库排风-3D边线' TemplateName='中国电子院图层配置'
+		 UserLayer='H-CKPF-F3' Version='0'/>
+	<z:row Color='16711680' Comment='暖通-车库排风-圆风管中线' DefaultLayer='ACS_CKPF_FCZX' ID='5799'
+		 LineType='CENTER' LineWeight='-3' MaterialName='镀锌钢板' Name='暖通-车库排风-圆风管中线' ShortMarker='CFC'
+		 TemplateName='中国电子院图层配置' UserLayer='H-CKPF-FCZX' Version='0'/>
+	<z:row Color='16776960' Comment='暖通-车库排风-风向符号' DefaultLayer='ACS_CKPF_FFX' ID='5800' LineType='Continuous'
+		 LineWeight='0.34999999999999998' Name='暖通-车库排风-风向符号' TemplateName='中国电子院图层配置'
+		 UserLayer='H-CKPF-FFX' Version='0'/>
+	<z:row Color='16776960' Comment='暖通-车库排风-风管' DefaultLayer='ACS_CKPF_FG' ID='5801' LineType='Continuous'
+		 LineWeight='0.5' MaterialName='镀锌钢板' Name='暖通-车库排风-风管' ShortMarker='CKPF' TemplateName='中国电子院图层配置'
+		 UserLayer='H-CKPF-FG' Version='0'/>
+	<z:row Color='16776960' Comment='暖通-车库排风-风口' DefaultLayer='ACS_CKPF_FK' ID='5802' LineType='Continuous'
+		 LineWeight='-3' Name='暖通-车库排风-风口' TemplateName='中国电子院图层配置' UserLayer='H-CKPF-FK'
+		 Version='0'/>
+	<z:row Color='16776960' Comment='暖通-车库排风-风口-电动' DefaultLayer='ACS_CKPF_FK_E' ID='5803' LineType='Continuous'
+		 LineWeight='-3' Name='暖通-车库排风-风口-电动' TemplateName='中国电子院图层配置' UserLayer='H-CKPF-FK-E'
+		 Version='0'/>
+	<z:row Color='16777217' Comment='暖通-车库排风-法兰' DefaultLayer='ACS_CKPF_FL' ID='5804' LineType='Continuous'
+		 LineWeight='-3' Name='暖通-车库排风-法兰' TemplateName='中国电子院图层配置' UserLayer='H-CKPF-FL'
+		 Version='0'/>
+	<z:row Color='16776960' Comment='暖通-车库排风-立管系统' DefaultLayer='ACS_CKPF_FL1' ID='5805' LineType='Continuous'
+		 LineWeight='0.5' Name='暖通-车库排风-立管系统' TemplateName='中国电子院图层配置' UserLayer='H-CKPF-FL1'
+		 Version='0'/>
+	<z:row Color='16777222' Comment='暖通-车库排风-阀门' DefaultLayer='ACS_CKPF_FM' ID='5806' LineType='Continuous'
+		 LineWeight='-3' Name='暖通-车库排风-阀门' TemplateName='中国电子院图层配置' UserLayer='H-CKPF-FM'
+		 Version='0'/>
+	<z:row Color='16777222' Comment='暖通-车库排风-阀门-电动' DefaultLayer='ACS_CKPF_FM_E' ID='5807' LineType='Continuous'
+		 LineWeight='-3' Name='暖通-车库排风-阀门-电动' TemplateName='中国电子院图层配置' UserLayer='H-CKPF-FM-E'
+		 Version='0'/>
+	<z:row Color='16777222' Comment='暖通-车库排风-阀门-消防' DefaultLayer='ACS_CKPF_FM_F' ID='5808' LineType='Continuous'
+		 LineWeight='-3' Name='暖通-车库排风-阀门-消防' TemplateName='中国电子院图层配置' UserLayer='H-CKPF-FM-F'
+		 Version='0'/>
+	<z:row Color='16777220' Comment='暖通-车库排风-方风管中线' DefaultLayer='ACS_CKPF_FRZX' ID='5809'
+		 LineType='CENTER' LineWeight='-3' MaterialName='镀锌钢板' Name='暖通-车库排风-方风管中线' ShortMarker='CFR'
+		 TemplateName='中国电子院图层配置' UserLayer='H-CKPF-FRZX' Version='0'/>
+	<z:row Color='65280' Comment='暖通-车库排风-风量' DefaultLayer='ACS_CKPF_RATE' ID='6066' LineType='Continuous'
+		 LineWeight='-3' Name='暖通-车库排风-风量' TemplateName='中国电子院图层配置' UserLayer='H-CKPF-RATE'
+		 Version='0'/>
+	<z:row Color='16776960' Comment='暖通-车库排风-设备' DefaultLayer='ACS_CKPF_SB' ID='5810' LineType='Continuous'
+		 LineWeight='0.34999999999999998' Name='暖通-车库排风-设备' TemplateName='中国电子院图层配置'
+		 UserLayer='H-CKPF-SB' Version='0'/>
+	<z:row Color='16776960' Comment='暖通-车库排风-设备标注' DefaultLayer='ACS_CKPF_SBBZ' ID='5811' LineType='Continuous'
+		 LineWeight='0.34999999999999998' Name='暖通-车库排风-设备标注' TemplateName='中国电子院图层配置'
+		 UserLayer='H-CKPF-SBBZ' Version='0'/>
+	<z:row Color='65280' Comment='暖通-车库排风-设中' DefaultLayer='ACS_CKPF_SBZX' ID='5812' LineType='CENTER'
+		 LineWeight='-3' Name='暖通-车库排风-设中' TemplateName='中国电子院图层配置' UserLayer='H-CKPF-SBZX'
+		 Version='0'/>
+	<z:row Color='16777220' Comment='暖通-车库排烟-扁圆风管中线' DefaultLayer='ACS_CKPY_BRZX' ID='5813'
+		 LineType='CENTER' LineWeight='-3' MaterialName='镀锌钢板' Name='暖通-车库排烟-扁圆风管中线' ShortMarker='CYBR'
+		 TemplateName='中国电子院图层配置' UserLayer='H-CKPY-BRZX' Version='0'/>
+	<z:row Color='65280' Comment='暖通-车库排烟-标注' DefaultLayer='ACS_CKPY_BZ' ID='5814' LineType='Continuous'
+		 LineWeight='-3' Name='暖通-车库排烟-标注' TemplateName='中国电子院图层配置' UserLayer='H-CKPY-BZ'
+		 Version='0'/>
+	<z:row Color='16776960' Comment='暖通-车库排烟-单线系统' DefaultLayer='ACS_CKPY_F1' ID='5815' LineType='Continuous'
+		 LineWeight='0.5' Name='暖通-车库排烟-单线系统' TemplateName='中国电子院图层配置' UserLayer='H-CKPY-F1'
+		 Version='0'/>
+	<z:row Color='16776960' Comment='暖通-车库排烟-2D边线' DefaultLayer='ACS_CKPY_F2' ID='5816' LineType='Continuous'
+		 LineWeight='0.5' MaterialName='镀锌钢板' Name='暖通-车库排烟-2D边线' TemplateName='中国电子院图层配置'
+		 UserLayer='H-CKPY-F2' Version='0'/>
+	<z:row Color='16776960' Comment='暖通-车库排烟-3D边线' DefaultLayer='ACS_CKPY_F3' ID='5817' LineType='Continuous'
+		 LineWeight='0.5' MaterialName='镀锌钢板' Name='暖通-车库排烟-3D边线' TemplateName='中国电子院图层配置'
+		 UserLayer='H-CKPY-F3' Version='0'/>
+	<z:row Color='16711680' Comment='暖通-车库排烟-圆风管中线' DefaultLayer='ACS_CKPY_FCZX' ID='5818'
+		 LineType='CENTER' LineWeight='-3' MaterialName='镀锌钢板' Name='暖通-车库排烟-圆风管中线' ShortMarker='CYC'
+		 TemplateName='中国电子院图层配置' UserLayer='H-CKPY-FCZX' Version='0'/>
+	<z:row Color='16776960' Comment='暖通-车库排烟-风向符号' DefaultLayer='ACS_CKPY_FFX' ID='5819' LineType='Continuous'
+		 LineWeight='0.34999999999999998' Name='暖通-车库排烟-风向符号' TemplateName='中国电子院图层配置'
+		 UserLayer='H-CKPY-FFX' Version='0'/>
+	<z:row Color='16776960' Comment='暖通-车库排烟-风管' DefaultLayer='ACS_CKPY_FG' ID='5820' LineType='Continuous'
+		 LineWeight='0.5' MaterialName='镀锌钢板' Name='暖通-车库排烟-风管' ShortMarker='CYPY' TemplateName='中国电子院图层配置'
+		 UserLayer='H-CKPY-FG' Version='0'/>
+	<z:row Color='16776960' Comment='暖通-车库排烟-风口' DefaultLayer='ACS_CKPY_FK' ID='5821' LineType='Continuous'
+		 LineWeight='-3' Name='暖通-车库排烟-风口' TemplateName='中国电子院图层配置' UserLayer='H-CKPY-FK'
+		 Version='0'/>
+	<z:row Color='16776960' Comment='暖通-车库排烟-风口-电动' DefaultLayer='ACS_CKPY_FK_E' ID='5822' LineType='Continuous'
+		 LineWeight='-3' Name='暖通-车库排烟-风口-电动' TemplateName='中国电子院图层配置' UserLayer='H-CKPY-FK-E'
+		 Version='0'/>
+	<z:row Color='16777217' Comment='暖通-车库排烟-法兰' DefaultLayer='ACS_CKPY_FL' ID='5823' LineType='Continuous'
+		 LineWeight='-3' Name='暖通-车库排烟-法兰' TemplateName='中国电子院图层配置' UserLayer='H-CKPY-FL'
+		 Version='0'/>
+	<z:row Color='16776960' Comment='暖通-车库排烟-立管系统' DefaultLayer='ACS_CKPY_FL1' ID='5824' LineType='Continuous'
+		 LineWeight='0.5' Name='暖通-车库排烟-立管系统' TemplateName='中国电子院图层配置' UserLayer='H-CKPY-FL1'
+		 Version='0'/>
+	<z:row Color='16777222' Comment='暖通-车库排烟-阀门' DefaultLayer='ACS_CKPY_FM' ID='5825' LineType='Continuous'
+		 LineWeight='-3' Name='暖通-车库排烟-阀门' TemplateName='中国电子院图层配置' UserLayer='H-CKPY-FM'
+		 Version='0'/>
+	<z:row Color='16777222' Comment='暖通-车库排烟-阀门-电动' DefaultLayer='ACS_CKPY_FM_E' ID='5826' LineType='Continuous'
+		 LineWeight='-3' Name='暖通-车库排烟-阀门-电动' TemplateName='中国电子院图层配置' UserLayer='H-CKPY-FM-E'
+		 Version='0'/>
+	<z:row Color='16777222' Comment='暖通-车库排烟-阀门-消防' DefaultLayer='ACS_CKPY_FM_F' ID='5827' LineType='Continuous'
+		 LineWeight='-3' Name='暖通-车库排烟-阀门-消防' TemplateName='中国电子院图层配置' UserLayer='H-CKPY-FM-F'
+		 Version='0'/>
+	<z:row Color='16777220' Comment='暖通-车库排烟-方风管中线' DefaultLayer='ACS_CKPY_FRZX' ID='5828'
+		 LineType='CENTER' LineWeight='-3' MaterialName='镀锌钢板' Name='暖通-车库排烟-方风管中线' ShortMarker='CYR'
+		 TemplateName='中国电子院图层配置' UserLayer='H-CKPY-FRZX' Version='0'/>
+	<z:row Color='65280' Comment='暖通-车库排烟-风量' DefaultLayer='ACS_CKPY_RATE' ID='6067' LineType='Continuous'
+		 LineWeight='-3' Name='暖通-车库排烟-风量' TemplateName='中国电子院图层配置' UserLayer='H-CKPY-RATE'
+		 Version='0'/>
+	<z:row Color='16776960' Comment='暖通-车库排烟-设备' DefaultLayer='ACS_CKPY_SB' ID='5829' LineType='Continuous'
+		 LineWeight='0.34999999999999998' Name='暖通-车库排烟-设备' TemplateName='中国电子院图层配置'
+		 UserLayer='H-CKPY-SB' Version='0'/>
+	<z:row Color='16776960' Comment='暖通-车库排烟-设备标注' DefaultLayer='ACS_CKPY_SBBZ' ID='5830' LineType='Continuous'
+		 LineWeight='0.34999999999999998' Name='暖通-车库排烟-设备标注' TemplateName='中国电子院图层配置'
+		 UserLayer='H-CKPY-SBBZ' Version='0'/>
+	<z:row Color='65280' Comment='暖通-车库排烟-设中' DefaultLayer='ACS_CKPY_SBZX' ID='5831' LineType='CENTER'
+		 LineWeight='-3' Name='暖通-车库排烟-设中' TemplateName='中国电子院图层配置' UserLayer='H-CKPY-SBZX'
+		 Version='0'/>
+	<z:row Color='65280' Comment='暖通-采暖-标注' DefaultLayer='ACS_CN_BZ' ID='1885' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-采暖-标注' TemplateName='中国电子院图层配置' UserLayer='H-HEAT-DIMS'
+		 Version='0'/>
+	<z:row Color='65535' Comment='暖通-采暖-平面地沟' DefaultLayer='ACS_CN_DG' ID='1886' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-采暖-平面地沟' TemplateName='中国电子院图层配置' UserLayer='H-HEAT-CHNL'
+		 Version='0'/>
+	<z:row Color='16776960' Comment='暖通-采暖-地热盘管' DefaultLayer='ACS_CN_DRPG' ID='1887' LineType='Continuous'
+		 LineWeight='0.34999999999999998' MaterialName='PVC塑料管' Name='暖通-采暖-地热盘管' TemplateName='中国电子院图层配置'
+		 UserLayer='H-HEAT-FHCD' Version='0'/>
+	<z:row Color='16777215' Comment='暖通-采暖-大样图' DefaultLayer='ACS_CN_DYT' ID='1888' LineType='Continuous'
+		 LineWeight='0.69999999999999996' Name='暖通-采暖-大样图' TemplateName='中国电子院图层配置' UserLayer='H-HEAT-PANM'
+		 Version='0'/>
+	<z:row Color='65280' Comment='暖通-采暖-阀门' DefaultLayer='ACS_CN_FM' ID='1889' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-采暖-阀门' TemplateName='中国电子院图层配置' UserLayer='H-HEAT-VALV'
+		 Version='0'/>
+	<z:row Color='65280' Comment='暖通-采暖-阀门-电动' DefaultLayer='ACS_CN_FM_E' ID='1890' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-采暖-阀门-电动' TemplateName='中国电子院图层配置' UserLayer='H-HEAT-VALV-E'
+		 Version='0'/>
+	<z:row Color='16777215' Comment='暖通-采暖-供水干管' DefaultLayer='ACS_CN_RG' ID='1891' LineType='Continuous'
+		 LineWeight='0.69999999999999996' MaterialName='焊接钢管(1.0MPa)' Name='暖通-采暖-供水干管' ShortMarker='HWS'
+		 TemplateName='中国电子院图层配置' UserLayer='H-HEAT-SPWT' Version='0'/>
+	<z:row Color='16777215' Comment='暖通-采暖-供水干管-中区' DefaultLayer='ACS_CN_RG_1' ID='1892' LineType='Continuous'
+		 LineWeight='0.69999999999999996' MaterialName='焊接钢管(1.0MPa)' Name='暖通-采暖-供水干管-中区'
+		 ShortMarker='HWS' TemplateName='中国电子院图层配置' UserLayer='H-HEAT-SPWT-M' Version='0'/>
+	<z:row Color='16777215' Comment='暖通-采暖-供水干管-高区' DefaultLayer='ACS_CN_RG_2' ID='1893' LineType='Continuous'
+		 LineWeight='0.69999999999999996' MaterialName='焊接钢管(1.0MPa)' Name='暖通-采暖-供水干管-高区'
+		 ShortMarker='HWS' TemplateName='中国电子院图层配置' UserLayer='H-HEAT-SPWT-H' Version='0'/>
+	<z:row Color='16777215' Comment='暖通-采暖-供水干管系统图' DefaultLayer='ACS_CN_RG1' ID='1894' LineType='Continuous'
+		 LineWeight='0.69999999999999996' MaterialName='焊接钢管(1.0MPa)' Name='暖通-采暖-供水干管系统图'
+		 TemplateName='中国电子院图层配置' UserLayer='H-HEAT-SPWT-S' Version='0'/>
+	<z:row Color='16777215' Comment='暖通-采暖-供水立管' DefaultLayer='ACS_CN_RGLG' ID='1895' LineType='Continuous'
+		 LineWeight='0.69999999999999996' MaterialName='焊接钢管(1.0MPa)' Name='暖通-采暖-供水立管' TemplateName='中国电子院图层配置'
+		 UserLayer='H-HEAT-SPRD' Version='0'/>
+	<z:row Color='16777215' Comment='暖通-采暖-供水立管系统图' DefaultLayer='ACS_CN_RGLG1' ID='1896'
+		 LineType='Continuous' LineWeight='0.69999999999999996' MaterialName='焊接钢管(1.0MPa)' Name='暖通-采暖-供水立管系统图'
+		 TemplateName='中国电子院图层配置' UserLayer='H-HEAT-SPRD-S' Version='0'/>
+	<z:row Color='16777215' Comment='暖通-采暖-供水支管' DefaultLayer='ACS_CN_RGZG' ID='1897' LineType='Continuous'
+		 LineWeight='0.69999999999999996' MaterialName='焊接钢管(1.0MPa)' Name='暖通-采暖-供水支管' TemplateName='中国电子院图层配置'
+		 UserLayer='H-HEAT-SPBD' Version='0'/>
+	<z:row Color='16777215' Comment='暖通-采暖-供水支管系统图' DefaultLayer='ACS_CN_RGZG1' ID='1898'
+		 LineType='Continuous' LineWeight='0.69999999999999996' MaterialName='焊接钢管(1.0MPa)' Name='暖通-采暖-供水支管系统图'
+		 TemplateName='中国电子院图层配置' UserLayer='H-HEAT-SPBD-S' Version='0'/>
+	<z:row Color='16777215' Comment='暖通-采暖-回水干管' DefaultLayer='ACS_CN_RH' ID='1899' LineType='DASHED'
+		 LineWeight='0.69999999999999996' MaterialName='焊接钢管(1.0MPa)' Name='暖通-采暖-回水干管' ShortMarker='HWR'
+		 TemplateName='中国电子院图层配置' UserLayer='H-HEAT-RTWT' Version='0'/>
+	<z:row Color='16777215' Comment='暖通-采暖-回水干管-中区' DefaultLayer='ACS_CN_RH_1' ID='1900' LineType='DASHED'
+		 LineWeight='0.69999999999999996' MaterialName='焊接钢管(1.0MPa)' Name='暖通-采暖-回水干管-中区'
+		 ShortMarker='HWR' TemplateName='中国电子院图层配置' UserLayer='H-HEAT-RTWT-M' Version='0'/>
+	<z:row Color='16777215' Comment='暖通-采暖-回水干管-高区' DefaultLayer='ACS_CN_RH_2' ID='1901' LineType='DASHED'
+		 LineWeight='0.69999999999999996' MaterialName='焊接钢管(1.0MPa)' Name='暖通-采暖-回水干管-高区'
+		 ShortMarker='HWR' TemplateName='中国电子院图层配置' UserLayer='H-HEAT-RTWT-H' Version='0'/>
+	<z:row Color='16777215' Comment='暖通-采暖-回水干管系统图' DefaultLayer='ACS_CN_RH1' ID='1902' LineType='DASHED'
+		 LineWeight='0.69999999999999996' MaterialName='焊接钢管(1.0MPa)' Name='暖通-采暖-回水干管系统图'
+		 TemplateName='中国电子院图层配置' UserLayer='H-HEAT-RTWT-S' Version='0'/>
+	<z:row Color='16777215' Comment='暖通-采暖-回水立管' DefaultLayer='ACS_CN_RHLG' ID='1903' LineType='DASHED'
+		 LineWeight='0.69999999999999996' MaterialName='焊接钢管(1.0MPa)' Name='暖通-采暖-回水立管' TemplateName='中国电子院图层配置'
+		 UserLayer='H-HEAT-RTRD' Version='0'/>
+	<z:row Color='16777215' Comment='暖通-采暖-回水立管系统图' DefaultLayer='ACS_CN_RHLG1' ID='1904'
+		 LineType='DASHED' LineWeight='0.69999999999999996' MaterialName='焊接钢管(1.0MPa)' Name='暖通-采暖-回水立管系统图'
+		 TemplateName='中国电子院图层配置' UserLayer='H-HEAT-RTRD-S' Version='0'/>
+	<z:row Color='16777215' Comment='暖通-采暖-回水支管' DefaultLayer='ACS_CN_RHZG' ID='1905' LineType='DASHED'
+		 LineWeight='0.69999999999999996' MaterialName='焊接钢管(1.0MPa)' Name='暖通-采暖-回水支管' TemplateName='中国电子院图层配置'
+		 UserLayer='H-HEAT-RTBD' Version='0'/>
+	<z:row Color='16777215' Comment='暖通-采暖-回水支管系统图' DefaultLayer='ACS_CN_RHZG1' ID='1906'
+		 LineType='DASHED' LineWeight='0.69999999999999996' MaterialName='焊接钢管(1.0MPa)' Name='暖通-采暖-回水支管系统图'
+		 TemplateName='中国电子院图层配置' UserLayer='H-HEAT-RTBD-S' Version='0'/>
+	<z:row Color='16777215' Comment='暖通-采暖-热力一次供水管' DefaultLayer='ACS_CN_RL1G' ID='1907' LineType='Continuous'
+		 LineWeight='0.69999999999999996' MaterialName='焊接钢管(1.0MPa)' Name='暖通-采暖-热力一次供水管'
+		 ShortMarker='DHWS' TemplateName='中国电子院图层配置' UserLayer='H-HEAT-DHWS' Version='0'/>
+	<z:row Color='16777215' Comment='暖通-采暖-热力一次回水管' DefaultLayer='ACS_CN_RL1H' ID='1908' LineType='DASHED'
+		 LineWeight='0.69999999999999996' MaterialName='焊接钢管(1.0MPa)' Name='暖通-采暖-热力一次回水管'
+		 ShortMarker='DHWR' TemplateName='中国电子院图层配置' UserLayer='H-HEAT-DHWR' Version='0'/>
+	<z:row Color='16776960' Comment='暖通-采暖-设备' DefaultLayer='ACS_CN_SB' ID='1909' LineType='Continuous'
+		 LineWeight='0.34999999999999998' Name='暖通-采暖-设备' TemplateName='中国电子院图层配置' UserLayer='H-HEAT-EQPM'
+		 Version='0'/>
+	<z:row Color='16776960' Comment='暖通-采暖-散热器系统图' DefaultLayer='ACS_CN_SB1' ID='1910' LineType='Continuous'
+		 LineWeight='0.34999999999999998' Name='暖通-采暖-散热器系统图' TemplateName='中国电子院图层配置'
+		 UserLayer='H-HEAT-RTSY' Version='0'/>
+	<z:row Color='65280' Comment='暖通-采暖-设中' DefaultLayer='ACS_CN_SBZX' ID='1911' LineType='CENTER' LineWeight='0.25'
+		 Name='暖通-采暖-设中' TemplateName='中国电子院图层配置' UserLayer='H-HEAT-ECLN' Version='0'/>
+	<z:row Color='65280' Comment='公共层-图框' DefaultLayer='ACS_COM' ID='1912' LineType='Continuous' LineWeight='0.25'
+		 Name='公共层' TemplateName='中国电子院图层配置' UserLayer='U-ANNO-TTLB' Version='0'/>
+	<z:row Color='65280' Comment='公共层-表格' DefaultLayer='ACS_COM_BZ' ID='1913' LineType='Continuous' LineWeight='0.25'
+		 Name='公共层-材料设备编号标注' TemplateName='中国电子院图层配置' UserLayer='U-ANNO-FORM'
+		 Version='0'/>
+	<z:row Color='8684676' Comment='公共层-辅助定位线' DefaultLayer='ACS_COM_DW' ID='1914' LineType='Continuous'
+		 LineWeight='0.25' Name='公共层-辅助定位线' TemplateName='中国电子院图层配置' UserLayer='H-SYST-ASST'
+		 Version='0'/>
+	<z:row Color='65280' Comment='公共层-指北针' DefaultLayer='ACS_COM_DX' ID='1915' LineType='Continuous'
+		 LineWeight='0.25' Name='公共层-单线水管' TemplateName='中国电子院图层配置' UserLayer='U-ANNO-NOTH'
+		 Version='0'/>
+	<z:row Color='65280' Comment='暖通-多联机-标注' DefaultLayer='ACS_DLJ_BZ' ID='1916' LineType='continuous'
+		 LineWeight='0.25' Name='暖通-多联机-标注' TemplateName='中国电子院图层配置' UserLayer='H-FQCA-DIMS'
+		 Version='0'/>
+	<z:row Color='16777215' Comment='暖通-多联机-分歧管' DefaultLayer='ACS_DLJ_FQG' ID='1917' LineType='continuous'
+		 LineWeight='0.69999999999999996' Name='暖通-多联机-分歧管' TemplateName='中国电子院图层配置'
+		 UserLayer='H-FQCA-BNCD' Version='0'/>
+	<z:row Color='65280' Comment='暖通-多联机-分歧管标注' DefaultLayer='ACS_DLJ_FQGBZ' ID='1918' LineType='continuous'
+		 LineWeight='0.25' Name='暖通-多联机-分歧管标注' TemplateName='中国电子院图层配置' UserLayer='H-FQCA-FQGDIMS'
+		 Version='0'/>
+	<z:row Color='16711680' Comment='暖通-多联机-全热交换器' DefaultLayer='ACS_DLJ_JHQ' ID='1919' LineType='continuous'
+		 LineWeight='0.5' Name='暖通-多联机-全热交换器' TemplateName='中国电子院图层配置' UserLayer='H-FQCA-OUHQ'
+		 Version='0'/>
+	<z:row Color='16711935' Comment='暖通-多联机-冷凝水管' DefaultLayer='ACS_DLJ_LNSG' ID='1920' LineType='DASHDOT'
+		 LineWeight='0.20000000000000001' MaterialName='PVC塑料管' Name='暖通-多联机-冷凝水管' ShortMarker='ACW'
+		 TemplateName='中国电子院图层配置' UserLayer='H-FQCA-RFGD' Version='0'/>
+	<z:row Color='65280' Comment='暖通-多联机-冷凝水管标注' DefaultLayer='ACS_DLJ_LNSGBZ' ID='1921' LineType='continuous'
+		 LineWeight='0.25' Name='暖通-多联机-冷凝水管标注' TemplateName='中国电子院图层配置' UserLayer='H-FQCA-LNSGDIMS'
+		 Version='0'/>
+	<z:row Color='19609' Comment='暖通-多联机-气液管' DefaultLayer='ACS_DLJ_QYG' ID='1922' LineType='continuous'
+		 LineWeight='0.29999999999999999' MaterialName='铜管' Name='暖通-多联机-气液管' TemplateName='中国电子院图层配置'
+		 UserLayer='H-FQCA-FZWD' Version='0'/>
+	<z:row Color='65280' Comment='暖通-多联机-冷媒管标注' DefaultLayer='ACS_DLJ_QYGBZ' ID='1923' LineType='continuous'
+		 LineWeight='0.25' Name='暖通-多联机-冷媒管标注' TemplateName='中国电子院图层配置' UserLayer='H-FQCA-QYGDIMS'
+		 Version='0'/>
+	<z:row Color='65280' Comment='暖通-多联机-设备型号标注' DefaultLayer='ACS_DLJ_SBBZ' ID='1924' LineType='continuous'
+		 LineWeight='0.25' Name='暖通-多联机-设备型号标注' TemplateName='中国电子院图层配置' UserLayer='H-FQCA-SBDIMS'
+		 Version='0'/>
+	<z:row Color='65280' Comment='暖通-多联机-室内机' DefaultLayer='ACS_DLJ_SNJ' ID='1925' LineType='continuous'
+		 LineWeight='0.25' Name='暖通-多联机-室内机' TemplateName='中国电子院图层配置' UserLayer='H-FQCA-INAC'
+		 Version='0'/>
+	<z:row Color='16711680' Comment='暖通-多联机-室外机' DefaultLayer='ACS_DLJ_SWJ' ID='1926' LineType='continuous'
+		 LineWeight='0.5' Name='暖通-多联机-室外机' TemplateName='中国电子院图层配置' UserLayer='H-FQCA-OUAC'
+		 Version='0'/>
+	<z:row Color='16777219' Comment='暖通-新风-扁圆风管中线' DefaultLayer='ACS_FFG_BRZX' ID='1927' LineType='CENTER'
+		 LineWeight='-3' MaterialName='镀锌钢板' Name='暖通-新风-扁圆风管中线' ShortMarker='FBR' TemplateName='中国电子院图层配置'
+		 UserLayer='H-FRES-DCBR' Version='0'/>
+	<z:row Color='65280' Comment='暖通-新风-标注' DefaultLayer='ACS_FFG_BZ' ID='1928' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-新风-标注' TemplateName='中国电子院图层配置' UserLayer='H-FRES-DIMS'
+		 Version='0'/>
+	<z:row Color='16777227' Comment='暖通-新风-单线系统' DefaultLayer='ACS_FFG_F1' ID='1929' LineType='Continuous'
+		 LineWeight='0.69999999999999996' Name='暖通-新风-单线系统' TemplateName='中国电子院图层配置'
+		 UserLayer='H-FRES-SYSM' Version='0'/>
+	<z:row Color='16777227' Comment='暖通-新风-2D边线' DefaultLayer='ACS_FFG_F2' ID='1930' LineType='Continuous'
+		 LineWeight='0.69999999999999996' MaterialName='镀锌钢板' Name='暖通-新风-2D边线' TemplateName='中国电子院图层配置'
+		 UserLayer='H-FRES-DSDP' Version='0'/>
+	<z:row Color='16777227' Comment='暖通-新风-3D边线' DefaultLayer='ACS_FFG_F3' ID='1931' LineType='Continuous'
+		 LineWeight='0.69999999999999996' MaterialName='镀锌钢板' Name='暖通-新风-3D边线' TemplateName='中国电子院图层配置'
+		 UserLayer='H-FRES-DSDT' Version='0'/>
+	<z:row Color='16777223' Comment='暖通-新风-圆风管中线' DefaultLayer='ACS_FFG_FCZX' ID='1932' LineType='CENTER'
+		 LineWeight='0.25' MaterialName='镀锌钢板' Name='暖通-新风-圆风管中线' ShortMarker='XFC' TemplateName='中国电子院图层配置'
+		 UserLayer='H-FRES-DCNC' Version='0'/>
+	<z:row Color='16776960' Comment='暖通-新风-风向符号' DefaultLayer='ACS_FFG_FFX' ID='1933' LineType='Continuous'
+		 LineWeight='0.34999999999999998' Name='暖通-新风-风向符号' TemplateName='中国电子院图层配置'
+		 UserLayer='H-FRES-MARK' Version='0'/>
+	<z:row Color='16777227' Comment='暖通-新风-风管' DefaultLayer='ACS_FFG_FG' ID='1934' LineType='Continuous'
+		 LineWeight='0.69999999999999996' MaterialName='镀锌钢板' Name='暖通-新风-风管' ShortMarker='XF' TemplateName='中国电子院图层配置'
+		 UserLayer='H-FRES-DUCT' Version='0'/>
+	<z:row Color='16777217' Comment='暖通-新风-风口' DefaultLayer='ACS_FFG_FK' ID='1935' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-新风-风口' TemplateName='中国电子院图层配置' UserLayer='H-FRES-PORT'
+		 Version='0'/>
+	<z:row Color='16777217' Comment='暖通-新风-风口-电动' DefaultLayer='ACS_FFG_FK_E' ID='1936' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-新风-风口-电动' TemplateName='中国电子院图层配置' UserLayer='H-FRES-PORT-E'
+		 Version='0'/>
+	<z:row Color='65280' Comment='暖通-新风-法兰' DefaultLayer='ACS_FFG_FL' ID='1937' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-新风-法兰' TemplateName='中国电子院图层配置' UserLayer='H-FRES-FLAN'
+		 Version='0'/>
+	<z:row Color='16777227' Comment='暖通-新风-立管系统' DefaultLayer='ACS_FFG_FL1' ID='1938' LineType='Continuous'
+		 LineWeight='0.69999999999999996' Name='暖通-新风-立管系统' TemplateName='中国电子院图层配置'
+		 UserLayer='H-FRES-RISE' Version='0'/>
+	<z:row Color='65280' Comment='暖通-新风-阀门' DefaultLayer='ACS_FFG_FM' ID='1939' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-新风-阀门' TemplateName='中国电子院图层配置' UserLayer='H-FRES-VALV'
+		 Version='0'/>
+	<z:row Color='65280' Comment='暖通-新风-阀门-电动' DefaultLayer='ACS_FFG_FM_E' ID='1940' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-新风-阀门-电动' TemplateName='中国电子院图层配置' UserLayer='H-FRES-VALV-E'
+		 Version='0'/>
+	<z:row Color='65280' Comment='暖通-新风-阀门-消防' DefaultLayer='ACS_FFG_FM_F' ID='1941' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-新风-阀门-消防' TemplateName='中国电子院图层配置' UserLayer='H-FRES-VALV-X'
+		 Version='0'/>
+	<z:row Color='65280' Comment='暖通-新风-方风管中线' DefaultLayer='ACS_FFG_FRZX' ID='1942' LineType='CENTER'
+		 LineWeight='0.25' MaterialName='镀锌钢板' Name='暖通-新风-方风管中线' ShortMarker='XFR' TemplateName='中国电子院图层配置'
+		 UserLayer='H-FRES-DCNR' Version='0'/>
+	<z:row Color='65280' Comment='暖通-新风-风量' DefaultLayer='ACS_FFG_RATE' ID='6055' LineType='Continuous'
+		 LineWeight='-3' Name='暖通-新风-风量' TemplateName='中国电子院图层配置' UserLayer='H-FRES-RATE'
+		 Version='0'/>
+	<z:row Color='16776960' Comment='暖通-新风-设备' DefaultLayer='ACS_FFG_SB' ID='1943' LineType='Continuous'
+		 LineWeight='0.34999999999999998' Name='暖通-新风-设备' TemplateName='中国电子院图层配置' UserLayer='H-FRES-EQPM'
+		 Version='0'/>
+	<z:row Color='16776960' Comment='暖通-新风-设备标注' DefaultLayer='ACS_FFG_SBBZ' ID='1944' LineType='Continuous'
+		 LineWeight='0.34999999999999998' Name='暖通-新风-设备标注' TemplateName='中国电子院图层配置'
+		 UserLayer='H-FRES-EQPM-DIMS' Version='0'/>
+	<z:row Color='65280' Comment='暖通-新风-设中' DefaultLayer='ACS_FFG_SBZX' ID='1945' LineType='CENTER'
+		 LineWeight='0.25' Name='暖通-新风-设中' TemplateName='中国电子院图层配置' UserLayer='H-FRES-ECLN'
+		 Version='0'/>
+	<z:row Color='8421504' Comment='暖通-负荷-焓湿图' DefaultLayer='ACS_FH_HST' ID='1946' LineType='Continuous'
+		 LineWeight='0.17999999999999999' Name='暖通-负荷-焓湿图' TemplateName='中国电子院图层配置' UserLayer='H-LAOD-PSYC'
+		 Version='0'/>
+	<z:row Color='16777225' Comment='暖通-负荷-计算参数块' DefaultLayer='ACS_FH_KTFJCS' ID='1947' LineType='Continuous'
+		 LineWeight='0.17999999999999999' Name='暖通-负荷-计算参数块' TemplateName='中国电子院图层配置'
+		 UserLayer='H-LAOD-PRMB' Version='0'/>
+	<z:row Color='16777219' Comment='暖通-风烟-扁圆风管中线' DefaultLayer='ACS_FYG_BRZX' ID='1948' LineType='CENTER'
+		 LineWeight='-3' MaterialName='镀锌钢板' Name='暖通-风烟-扁圆风管中线' ShortMarker='XBR' TemplateName='中国电子院图层配置'
+		 UserLayer='H-FIRE-DCBR' Version='0'/>
+	<z:row Color='65280' Comment='暖通-风烟-标注' DefaultLayer='ACS_FYG_BZ' ID='1949' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-风烟-标注' TemplateName='中国电子院图层配置' UserLayer='H-FIRE-DIMS'
+		 Version='0'/>
+	<z:row Color='16777255' Comment='暖通-风烟-单线系统' DefaultLayer='ACS_FYG_F1' ID='1950' LineType='Continuous'
+		 LineWeight='0.69999999999999996' Name='暖通-风烟-单线系统' TemplateName='中国电子院图层配置'
+		 UserLayer='H-FIRE-SYSM' Version='0'/>
+	<z:row Color='16777255' Comment='暖通-风烟-2D边线' DefaultLayer='ACS_FYG_F2' ID='1951' LineType='Continuous'
+		 LineWeight='0.69999999999999996' MaterialName='镀锌钢板' Name='暖通-风烟-2D边线' TemplateName='中国电子院图层配置'
+		 UserLayer='H-FIRE-DSDP' Version='0'/>
+	<z:row Color='16777255' Comment='暖通-风烟-3D边线' DefaultLayer='ACS_FYG_F3' ID='1952' LineType='Continuous'
+		 LineWeight='0.69999999999999996' MaterialName='镀锌钢板' Name='暖通-风烟-3D边线' TemplateName='中国电子院图层配置'
+		 UserLayer='H-FIRE-DSDT' Version='0'/>
+	<z:row Color='16777223' Comment='暖通-风烟-圆风管中线' DefaultLayer='ACS_FYG_FCZX' ID='1953' LineType='CENTER'
+		 LineWeight='0.25' MaterialName='镀锌钢板' Name='暖通-风烟-圆风管中线' ShortMarker='FYC' TemplateName='中国电子院图层配置'
+		 UserLayer='H-FIRE-DCNC' Version='0'/>
+	<z:row Color='16776960' Comment='暖通-风烟-风向符号' DefaultLayer='ACS_FYG_FFX' ID='1954' LineType='Continuous'
+		 LineWeight='0.34999999999999998' Name='暖通-风烟-风向符号' TemplateName='中国电子院图层配置'
+		 UserLayer='H-FIRE-MARK' Version='0'/>
+	<z:row Color='16777255' Comment='暖通-风烟-风管' DefaultLayer='ACS_FYG_FG' ID='1955' LineType='Continuous'
+		 LineWeight='0.69999999999999996' MaterialName='镀锌钢板' Name='暖通-风烟-风管' ShortMarker='FY' TemplateName='中国电子院图层配置'
+		 UserLayer='H-FIRE-DUCT' Version='0'/>
+	<z:row Color='16777217' Comment='暖通-风烟-风口' DefaultLayer='ACS_FYG_FK' ID='1956' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-风烟-风口' TemplateName='中国电子院图层配置' UserLayer='H-FIRE-PORT'
+		 Version='0'/>
+	<z:row Color='16777217' Comment='暖通-风烟-风口-电动' DefaultLayer='ACS_FYG_FK_E' ID='1957' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-风烟-风口-电动' TemplateName='中国电子院图层配置' UserLayer='H-FIRE-PORT-E'
+		 Version='0'/>
+	<z:row Color='65280' Comment='暖通-风烟-法兰' DefaultLayer='ACS_FYG_FL' ID='1958' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-风烟-法兰' TemplateName='中国电子院图层配置' UserLayer='H-FIRE-FLAN'
+		 Version='0'/>
+	<z:row Color='16777255' Comment='暖通-风烟-立管系统' DefaultLayer='ACS_FYG_FL1' ID='1959' LineType='Continuous'
+		 LineWeight='0.69999999999999996' Name='暖通-风烟-立管系统' TemplateName='中国电子院图层配置'
+		 UserLayer='H-FIRE-RISE' Version='0'/>
+	<z:row Color='65280' Comment='暖通-风烟-阀门' DefaultLayer='ACS_FYG_FM' ID='1960' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-风烟-阀门' TemplateName='中国电子院图层配置' UserLayer='H-FIRE-VALV'
+		 Version='0'/>
+	<z:row Color='65280' Comment='暖通-风烟-阀门-电动' DefaultLayer='ACS_FYG_FM_E' ID='1961' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-风烟-阀门-电动' TemplateName='中国电子院图层配置' UserLayer='H-FIRE-VALV-E'
+		 Version='0'/>
+	<z:row Color='65280' Comment='暖通-风烟-阀门-消防' DefaultLayer='ACS_FYG_FM_F' ID='1962' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-风烟-阀门-消防' TemplateName='中国电子院图层配置' UserLayer='H-FIRE-VALV-F'
+		 Version='0'/>
+	<z:row Color='65280' Comment='暖通-风烟-方风管中线' DefaultLayer='ACS_FYG_FRZX' ID='1963' LineType='CENTER'
+		 LineWeight='0.25' MaterialName='镀锌钢板' Name='暖通-风烟-方风管中线' ShortMarker='FYR' TemplateName='中国电子院图层配置'
+		 UserLayer='H-FIRE-DCNR' Version='0'/>
+	<z:row Color='65280' Comment='暖通-风烟-风量' DefaultLayer='ACS_FYG_RATE' ID='6060' LineType='Continuous'
+		 LineWeight='-3' Name='暖通-风烟-风量' TemplateName='中国电子院图层配置' UserLayer='H-FIRE-RATE'
+		 Version='0'/>
+	<z:row Color='16776960' Comment='暖通-风烟-设备' DefaultLayer='ACS_FYG_SB' ID='1964' LineType='Continuous'
+		 LineWeight='0.34999999999999998' Name='暖通-风烟-设备' TemplateName='中国电子院图层配置' UserLayer='H-FIRE-EQPM'
+		 Version='0'/>
+	<z:row Color='16776960' Comment='暖通-风烟-设备标注' DefaultLayer='ACS_FYG_SBBZ' ID='1965' LineType='Continuous'
+		 LineWeight='0.34999999999999998' Name='暖通-风烟-设备标注' TemplateName='中国电子院图层配置'
+		 UserLayer='H-FIRE-EQPM-DIMS' Version='0'/>
+	<z:row Color='65280' Comment='暖通-风烟-设中' DefaultLayer='ACS_FYG_SBZX' ID='1966' LineType='CENTER'
+		 LineWeight='0.25' Name='暖通-风烟-设中' TemplateName='中国电子院图层配置' UserLayer='H-FIRE-ECLN'
+		 Version='0'/>
+	<z:row Color='16777215' Comment='暖通-供热-补水管线' DefaultLayer='ACS_GR_BS' ID='1967' LineType='Continuous'
+		 LineWeight='0.69999999999999996' Name='暖通-供热-补水管线' ShortMarker='S' TemplateName='中国电子院图层配置'
+		 UserLayer='H-STEM-MUPW' Version='0'/>
+	<z:row Color='65280' Comment='暖通-供热-标注' DefaultLayer='ACS_GR_BZ' ID='1968' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-供热-标注' TemplateName='中国电子院图层配置' UserLayer='H-STEM-DIMS'
+		 Version='0'/>
+	<z:row Color='65280' Comment='暖通-供热-阀门' DefaultLayer='ACS_GR_FM' ID='1969' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-供热-阀门' TemplateName='中国电子院图层配置' UserLayer='H-STEM-VALV'
+		 Version='0'/>
+	<z:row Color='65280' Comment='暖通-供热-凝结水管线' DefaultLayer='ACS_GR_NJ' ID='1970' LineType='DASHDOT'
+		 LineWeight='0.25' Name='暖通-供热-凝结水管线' ShortMarker='SCW' TemplateName='中国电子院图层配置'
+		 UserLayer='H-STEM-COND' Version='0'/>
+	<z:row Color='16777215' Comment='暖通-供热-膨胀管线' DefaultLayer='ACS_GR_PZ' ID='1971' LineType='Continuous'
+		 LineWeight='0.69999999999999996' Name='暖通-供热-膨胀管线' ShortMarker='S' TemplateName='中国电子院图层配置'
+		 UserLayer='H-STEM-EPPI' Version='0'/>
+	<z:row Color='16776960' Comment='暖通-供热-设备' DefaultLayer='ACS_GR_SB' ID='1972' LineType='Continuous'
+		 LineWeight='0.34999999999999998' Name='暖通-供热-设备' TemplateName='中国电子院图层配置' UserLayer='H-STEM-EQPM'
+		 Version='0'/>
+	<z:row Color='65280' Comment='暖通-供热-设中' DefaultLayer='ACS_GR_SBZX' ID='1973' LineType='CENTER' LineWeight='0.25'
+		 Name='暖通-供热-设中' TemplateName='中国电子院图层配置' UserLayer='H-STEM-ECLN' Version='0'/>
+	<z:row Color='16777215' Comment='暖通-供热-循环管线' DefaultLayer='ACS_GR_XH' ID='1974' LineType='Continuous'
+		 LineWeight='0.69999999999999996' Name='暖通-供热-循环管线' ShortMarker='S' TemplateName='中国电子院图层配置'
+		 UserLayer='H-STEM-CYPI' Version='0'/>
+	<z:row Color='16777215' Comment='暖通-供热-蒸汽管线' DefaultLayer='ACS_GR_ZQ' ID='1975' LineType='Continuous'
+		 LineWeight='0.69999999999999996' Name='暖通-供热-蒸汽管线' ShortMarker='S' TemplateName='中国电子院图层配置'
+		 UserLayer='H-STEM-VAPR' Version='0'/>
+	<z:row Color='16777219' Comment='暖通-回风-扁圆风管中线' DefaultLayer='ACS_HFG_BRZX' ID='1976' LineType='CENTER'
+		 LineWeight='-3' MaterialName='镀锌钢板' Name='暖通-回风-扁圆风管中线' ShortMarker='HBR' TemplateName='中国电子院图层配置'
+		 UserLayer='H-RETA-DCBR' Version='0'/>
+	<z:row Color='65280' Comment='暖通-回风-标注' DefaultLayer='ACS_HFG_BZ' ID='1977' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-回风-标注' TemplateName='中国电子院图层配置' UserLayer='H-RETA-DIMS'
+		 Version='0'/>
+	<z:row Color='16711871' Comment='暖通-回风-单线系统' DefaultLayer='ACS_HFG_F1' ID='1978' LineType='Continuous'
+		 LineWeight='0.69999999999999996' Name='暖通-回风-单线系统' TemplateName='中国电子院图层配置'
+		 UserLayer='H-RETA-SYSM' Version='0'/>
+	<z:row Color='16711871' Comment='暖通-回风-2D边线' DefaultLayer='ACS_HFG_F2' ID='1979' LineType='Continuous'
+		 LineWeight='0.69999999999999996' MaterialName='镀锌钢板' Name='暖通-回风-2D边线' TemplateName='中国电子院图层配置'
+		 UserLayer='H-RETA-DSDP' Version='0'/>
+	<z:row Color='16711871' Comment='暖通-回风-3D边线' DefaultLayer='ACS_HFG_F3' ID='1980' LineType='Continuous'
+		 LineWeight='0.69999999999999996' MaterialName='镀锌钢板' Name='暖通-回风-3D边线' TemplateName='中国电子院图层配置'
+		 UserLayer='H-RETA-DSDT' Version='0'/>
+	<z:row Color='16777223' Comment='暖通-回风-圆风管中线' DefaultLayer='ACS_HFG_FCZX' ID='1981' LineType='CENTER'
+		 LineWeight='0.25' MaterialName='镀锌钢板' Name='暖通-回风-圆风管中线' ShortMarker='HFC' TemplateName='中国电子院图层配置'
+		 UserLayer='H-RETA-DCNC' Version='0'/>
+	<z:row Color='16776960' Comment='暖通-回风-风向符号' DefaultLayer='ACS_HFG_FFX' ID='1982' LineType='Continuous'
+		 LineWeight='0.34999999999999998' Name='暖通-回风-风向符号' TemplateName='中国电子院图层配置'
+		 UserLayer='H-RETA-MARK' Version='0'/>
+	<z:row Color='16777415' Comment='暖通-回风-风管' DefaultLayer='ACS_HFG_FG' ID='1983' LineType='Continuous'
+		 LineWeight='0.69999999999999996' MaterialName='镀锌钢板' Name='暖通-回风-风管' ShortMarker='HF' TemplateName='中国电子院图层配置'
+		 UserLayer='H-RETA-DUCT' Version='0'/>
+	<z:row Color='65535' Comment='暖通-回风-风口' DefaultLayer='ACS_HFG_FK' ID='1984' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-回风-风口' TemplateName='中国电子院图层配置' UserLayer='H-RETA-PORT'
+		 Version='0'/>
+	<z:row Color='65535' Comment='暖通-回风-风口-电动' DefaultLayer='ACS_HFG_FK_E' ID='1985' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-回风-风口-电动' TemplateName='中国电子院图层配置' UserLayer='H-RETA-PORT-E'
+		 Version='0'/>
+	<z:row Color='65280' Comment='暖通-回风-法兰' DefaultLayer='ACS_HFG_FL' ID='1986' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-回风-法兰' TemplateName='中国电子院图层配置' UserLayer='H-RETA-FLAN'
+		 Version='0'/>
+	<z:row Color='16711871' Comment='暖通-回风-立管系统' DefaultLayer='ACS_HFG_FL1' ID='1987' LineType='Continuous'
+		 LineWeight='0.69999999999999996' Name='暖通-回风-立管系统' TemplateName='中国电子院图层配置'
+		 UserLayer='H-RETA-RISE' Version='0'/>
+	<z:row Color='65280' Comment='暖通-回风-阀门' DefaultLayer='ACS_HFG_FM' ID='1988' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-回风-阀门' TemplateName='中国电子院图层配置' UserLayer='H-RETA-VALV'
+		 Version='0'/>
+	<z:row Color='65280' Comment='暖通-回风-阀门-电动' DefaultLayer='ACS_HFG_FM_E' ID='1989' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-回风-阀门-电动' TemplateName='中国电子院图层配置' UserLayer='H-RETA-VALV-E'
+		 Version='0'/>
+	<z:row Color='65280' Comment='暖通-回风-阀门-消防' DefaultLayer='ACS_HFG_FM_F' ID='1990' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-回风-阀门-消防' TemplateName='中国电子院图层配置' UserLayer='H-RETA-VALV-F'
+		 Version='0'/>
+	<z:row Color='65280' Comment='暖通-回风-方风管中线' DefaultLayer='ACS_HFG_FRZX' ID='1991' LineType='CENTER'
+		 LineWeight='0.25' MaterialName='镀锌钢板' Name='暖通-回风-方风管中线' ShortMarker='HFR' TemplateName='中国电子院图层配置'
+		 UserLayer='H-RETA-DCNR' Version='0'/>
+	<z:row Color='65280' Comment='暖通-回风-风量' DefaultLayer='ACS_HFG_RATE' ID='6054' LineType='Continuous'
+		 LineWeight='-3' Name='暖通-回风-风量' TemplateName='中国电子院图层配置' UserLayer='H-RETA-RATE'
+		 Version='0'/>
+	<z:row Color='16776960' Comment='暖通-回风-设备' DefaultLayer='ACS_HFG_SB' ID='1992' LineType='Continuous'
+		 LineWeight='0.34999999999999998' Name='暖通-回风-设备' TemplateName='中国电子院图层配置' UserLayer='H-RETA-EQPM'
+		 Version='0'/>
+	<z:row Color='16776960' Comment='暖通-回风-设备标注' DefaultLayer='ACS_HFG_SBBZ' ID='1993' LineType='Continuous'
+		 LineWeight='0.34999999999999998' Name='暖通-回风-设备标注' TemplateName='中国电子院图层配置'
+		 UserLayer='H-RETA-EQPM-DIMS' Version='0'/>
+	<z:row Color='65280' Comment='暖通-回风-设中' DefaultLayer='ACS_HFG_SBZX' ID='1994' LineType='CENTER'
+		 LineWeight='0.25' Name='暖通-回风-设中' TemplateName='中国电子院图层配置' UserLayer='H-RETA-ECLN'
+		 Version='0'/>
+	<z:row Color='16777219' Comment='暖通-加压-扁圆风管中线' DefaultLayer='ACS_JFG_BRZX' ID='1995' LineType='CENTER'
+		 LineWeight='-3' MaterialName='镀锌钢板' Name='暖通-加压-扁圆风管中线' ShortMarker='JBR' TemplateName='中国电子院图层配置'
+		 UserLayer='H-BOST-DCBR' Version='0'/>
+	<z:row Color='65280' Comment='暖通-加压-标注' DefaultLayer='ACS_JFG_BZ' ID='1996' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-加压-标注' TemplateName='中国电子院图层配置' UserLayer='H-BOST-DIMS'
+		 Version='0'/>
+	<z:row Color='16777267' Comment='暖通-加压-单线系统' DefaultLayer='ACS_JFG_F1' ID='1997' LineType='Continuous'
+		 LineWeight='0.69999999999999996' Name='暖通-加压-单线系统' TemplateName='中国电子院图层配置'
+		 UserLayer='H-BOST-SYSM' Version='0'/>
+	<z:row Color='16777267' Comment='暖通-加压-2D边线' DefaultLayer='ACS_JFG_F2' ID='1998' LineType='Continuous'
+		 LineWeight='0.69999999999999996' MaterialName='镀锌钢板' Name='暖通-加压-2D边线' TemplateName='中国电子院图层配置'
+		 UserLayer='H-BOST-DSDP' Version='0'/>
+	<z:row Color='16777267' Comment='暖通-加压-3D边线' DefaultLayer='ACS_JFG_F3' ID='1999' LineType='Continuous'
+		 LineWeight='0.69999999999999996' MaterialName='镀锌钢板' Name='暖通-加压-3D边线' TemplateName='中国电子院图层配置'
+		 UserLayer='H-BOST-DSDT' Version='0'/>
+	<z:row Color='16777223' Comment='暖通-加压-圆风管中线' DefaultLayer='ACS_JFG_FCZX' ID='2000' LineType='CENTER'
+		 LineWeight='0.25' MaterialName='镀锌钢板' Name='暖通-加压-圆风管中线' ShortMarker='JYC' TemplateName='中国电子院图层配置'
+		 UserLayer='H-BOST-DCNC' Version='0'/>
+	<z:row Color='16776960' Comment='暖通-加压-风向符号' DefaultLayer='ACS_JFG_FFX' ID='2001' LineType='Continuous'
+		 LineWeight='0.34999999999999998' Name='暖通-加压-风向符号' TemplateName='中国电子院图层配置'
+		 UserLayer='H-BOST-MARK' Version='0'/>
+	<z:row Color='16777267' Comment='暖通-加压-风管' DefaultLayer='ACS_JFG_FG' ID='2002' LineType='Continuous'
+		 LineWeight='0.69999999999999996' MaterialName='镀锌钢板' Name='暖通-加压-风管' ShortMarker='JY' TemplateName='中国电子院图层配置'
+		 UserLayer='H-BOST-DUCT' Version='0'/>
+	<z:row Color='65535' Comment='暖通-加压-风口' DefaultLayer='ACS_JFG_FK' ID='2003' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-加压-风口' TemplateName='中国电子院图层配置' UserLayer='H-BOST-PORT'
+		 Version='0'/>
+	<z:row Color='65535' Comment='暖通-加压-风口-电动' DefaultLayer='ACS_JFG_FK_E' ID='2004' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-加压-风口-电动' TemplateName='中国电子院图层配置' UserLayer='H-BOST-PORT-E'
+		 Version='0'/>
+	<z:row Color='65280' Comment='暖通-加压-法兰' DefaultLayer='ACS_JFG_FL' ID='2005' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-加压-法兰' TemplateName='中国电子院图层配置' UserLayer='H-BOST-FLAN'
+		 Version='0'/>
+	<z:row Color='16777267' Comment='暖通-加压-立管系统' DefaultLayer='ACS_JFG_FL1' ID='2006' LineType='Continuous'
+		 LineWeight='0.69999999999999996' Name='暖通-加压-立管系统' TemplateName='中国电子院图层配置'
+		 UserLayer='H-BOST-RISE' Version='0'/>
+	<z:row Color='65280' Comment='暖通-加压-阀门' DefaultLayer='ACS_JFG_FM' ID='2007' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-加压-阀门' TemplateName='中国电子院图层配置' UserLayer='H-BOST-VALV'
+		 Version='0'/>
+	<z:row Color='65280' Comment='暖通-加压-阀门-电动' DefaultLayer='ACS_JFG_FM_E' ID='2008' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-加压-阀门-电动' TemplateName='中国电子院图层配置' UserLayer='H-BOST-VALV-E'
+		 Version='0'/>
+	<z:row Color='65280' Comment='暖通-加压-阀门-消防' DefaultLayer='ACS_JFG_FM_F' ID='2009' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-加压-阀门-消防' TemplateName='中国电子院图层配置' UserLayer='H-BOST-VALV-F'
+		 Version='0'/>
+	<z:row Color='65280' Comment='暖通-加压-方风管中线' DefaultLayer='ACS_JFG_FRZX' ID='2010' LineType='CENTER'
+		 LineWeight='0.25' MaterialName='镀锌钢板' Name='暖通-加压-方风管中线' ShortMarker='JYR' TemplateName='中国电子院图层配置'
+		 UserLayer='H-BOST-DCNR' Version='0'/>
+	<z:row Color='65280' Comment='暖通-加压-风量' DefaultLayer='ACS_JFG_RATE' ID='6057' LineType='Continuous'
+		 LineWeight='-3' Name='暖通-加压-风量' TemplateName='中国电子院图层配置' UserLayer='H-BOST-RATE'
+		 Version='0'/>
+	<z:row Color='16776960' Comment='暖通-加压-设备' DefaultLayer='ACS_JFG_SB' ID='2011' LineType='Continuous'
+		 LineWeight='0.34999999999999998' Name='暖通-加压-设备' TemplateName='中国电子院图层配置' UserLayer='H-BOST-EQPM'
+		 Version='0'/>
+	<z:row Color='16776960' Comment='暖通-加压-设备标注' DefaultLayer='ACS_JFG_SBBZ' ID='2012' LineType='Continuous'
+		 LineWeight='0.34999999999999998' Name='暖通-加压-设备标注' TemplateName='中国电子院图层配置'
+		 UserLayer='H-BOST-EQPM-DIMS' Version='0'/>
+	<z:row Color='65280' Comment='暖通-加压-设中' DefaultLayer='ACS_JFG_SBZX' ID='2013' LineType='CENTER'
+		 LineWeight='0.25' Name='暖通-加压-设中' TemplateName='中国电子院图层配置' UserLayer='H-BOST-ECLN'
+		 Version='0'/>
+	<z:row Color='65280' Comment='建筑-轴线编号标注' DefaultLayer='ACS_JZ_BZ' ID='2014' LineType='Continuous'
+		 LineWeight='0.25' Name='建筑-轴线编号标注' TemplateName='中国电子院图层配置' UserLayer='H-BULD-DIMS'
+		 Version='0'/>
+	<z:row Color='16777215' Comment='建筑-窗' DefaultLayer='ACS_JZ_C' ID='2015' LineType='Continuous' LineWeight='0.69999999999999996'
+		 Name='建筑-窗' TemplateName='中国电子院图层配置' UserLayer='H-BULD-WIND' Version='0'/>
+	<z:row Color='65280' Comment='建筑-隔断' DefaultLayer='ACS_JZ_GD' ID='2016' LineType='Continuous' LineWeight='0.25'
+		 Name='建筑-隔断' TemplateName='中国电子院图层配置' UserLayer='H-BULD-SEPA' Version='0'/>
+	<z:row Color='16777215' Comment='建筑-楼梯' DefaultLayer='ACS_JZ_LT' ID='2017' LineType='Continuous' LineWeight='0.69999999999999996'
+		 Name='建筑-楼梯' TemplateName='中国电子院图层配置' UserLayer='H-BULD-STAR' Version='0'/>
+	<z:row Color='16777215' Comment='建筑-墙线' DefaultLayer='ACS_JZ_QX' ID='2018' LineType='Continuous' LineWeight='0.69999999999999996'
+		 Name='建筑-墙线' TemplateName='中国电子院图层配置' UserLayer='H-BULD-WALL' Version='0'/>
+	<z:row Color='16777215' Comment='建筑-柱子' DefaultLayer='ACS_JZ_Z' ID='2019' LineType='Continuous' LineWeight='0.69999999999999996'
+		 Name='建筑-柱子' TemplateName='中国电子院图层配置' UserLayer='H-BULD-PILL' Version='0'/>
+	<z:row Color='65535' Comment='建筑-轴线' DefaultLayer='ACS_JZ_ZX' ID='2020' LineType='CENTER' LineWeight='0.25'
+		 Name='建筑-轴线' TemplateName='中国电子院图层配置' UserLayer='H-BULD-AXIS' Version='0'/>
+	<z:row Color='16777287' Comment='暖通-空调-补水管' DefaultLayer='ACS_KT_BJ' ID='2021' LineType='Continuous'
+		 LineWeight='0.25' MaterialName='焊接钢管(1.0MPa)' Name='暖通-空调-补水管' ShortMarker='W' TemplateName='中国电子院图层配置'
+		 UserLayer='H-DOMW-MUPW' Version='0'/>
+	<z:row Color='0' Comment='暖通-空调-补水立管' DefaultLayer='ACS_KT_BJ_L' ID='2022' LineType='continuous'
+		 LineWeight='0' MaterialName='焊接钢管(1.0MPa)' Name='暖通-空调-补水立管' ShortMarker='W' TemplateName='中国电子院图层配置'
+		 UserLayer='ACS_KT_BJ_L' Version='0'/>
+	<z:row Color='65280' Comment='暖通-空调-标注' DefaultLayer='ACS_KT_BZ' ID='2023' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-空调-标注' TemplateName='中国电子院图层配置' UserLayer='H-DOMW-DIMS'
+		 Version='0'/>
+	<z:row Color='65280' Comment='暖通-空调-阀门' DefaultLayer='ACS_KT_FM' ID='2024' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-空调-阀门' TemplateName='中国电子院图层配置' UserLayer='H-DOMW-VALV'
+		 Version='0'/>
+	<z:row Color='65280' Comment='暖通-空调-阀门-电动' DefaultLayer='ACS_KT_FM_E' ID='2025' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-空调-阀门-电动' TemplateName='中国电子院图层配置' UserLayer='H-DOMW-VALV-E'
+		 Version='0'/>
+	<z:row Color='16777222' Comment='暖通-空调-冷水供水管' DefaultLayer='ACS_KT_LG' ID='2026' LineType='Continuous'
+		 LineWeight='0.69999999999999996' MaterialName='焊接钢管(1.0MPa)' Name='暖通-空调-冷水供水管' ShortMarker='CHWS'
+		 TemplateName='中国电子院图层配置' UserLayer='H-DOMW-CHWS' Version='0'/>
+	<z:row Color='16777222' Comment='暖通-空调-冷水供水管-中区' DefaultLayer='ACS_KT_LG_1' ID='2027'
+		 LineType='Continuous' LineWeight='0.69999999999999996' MaterialName='焊接钢管(1.0MPa)' Name='暖通-空调-冷水供水管-中区'
+		 ShortMarker='CHWS' TemplateName='中国电子院图层配置' UserLayer='H-DOMW-CHWS-M' Version='0'/>
+	<z:row Color='16777222' Comment='暖通-空调-冷水供水管-高区' DefaultLayer='ACS_KT_LG_2' ID='2028'
+		 LineType='Continuous' LineWeight='0.69999999999999996' MaterialName='焊接钢管(1.0MPa)' Name='暖通-空调-冷水供水管-高区'
+		 ShortMarker='CHWS' TemplateName='中国电子院图层配置' UserLayer='H-DOMW-CHWS-H' Version='0'/>
+	<z:row Color='0' Comment='暖通-空调-冷水供水立管' DefaultLayer='ACS_KT_LG_L' ID='2029' LineType='continuous'
+		 LineWeight='0' MaterialName='焊接钢管(1.0MPa)' Name='暖通-空调-冷水供水立管' ShortMarker='CHWS'
+		 TemplateName='中国电子院图层配置' UserLayer='ACS_KT_LG_L' Version='0'/>
+	<z:row Color='16777345' Comment='暖通-空调-冷水回水管' DefaultLayer='ACS_KT_LH' ID='2030' LineType='DASHED'
+		 LineWeight='0.69999999999999996' MaterialName='焊接钢管(1.0MPa)' Name='暖通-空调-冷水回水管' ShortMarker='CHWR'
+		 TemplateName='中国电子院图层配置' UserLayer='H-DOMW-CHWR' Version='0'/>
+	<z:row Color='16777345' Comment='暖通-空调-冷水回水管-中区' DefaultLayer='ACS_KT_LH_1' ID='2031'
+		 LineType='DASHED' LineWeight='0.69999999999999996' MaterialName='焊接钢管(1.0MPa)' Name='暖通-空调-冷水回水管-中区'
+		 ShortMarker='CHWR' TemplateName='中国电子院图层配置' UserLayer='H-DOMW-CHWR-M' Version='0'/>
+	<z:row Color='16777345' Comment='暖通-空调-冷水回水管-高区' DefaultLayer='ACS_KT_LH_2' ID='2032'
+		 LineType='DASHED' LineWeight='0.69999999999999996' MaterialName='焊接钢管(1.0MPa)' Name='暖通-空调-冷水回水管-高区'
+		 ShortMarker='CHWR' TemplateName='中国电子院图层配置' UserLayer='H-DOMW-CHWR-H' Version='0'/>
+	<z:row Color='0' Comment='暖通-空调-冷水回水立管' DefaultLayer='ACS_KT_LH_L' ID='2033' LineType='continuous'
+		 LineWeight='0' MaterialName='焊接钢管(1.0MPa)' Name='暖通-空调-冷水回水立管' ShortMarker='CHWR'
+		 TemplateName='中国电子院图层配置' UserLayer='ACS_KT_LH_L' Version='0'/>
+	<z:row Color='16777226' Comment='暖通-空调-冷凝水管' DefaultLayer='ACS_KT_LN' ID='2034' LineType='Continuous'
+		 LineWeight='0.25' MaterialName='焊接钢管(1.0MPa)' Name='暖通-空调-冷凝水管' ShortMarker='ACW' TemplateName='中国电子院图层配置'
+		 UserLayer='H-DOMW-ACWP' Version='0'/>
+	<z:row Color='0' Comment='暖通-空调-冷凝水立管' DefaultLayer='ACS_KT_LN_L' ID='2035' LineType='continuous'
+		 LineWeight='0' MaterialName='焊接钢管(1.0MPa)' Name='暖通-空调-冷凝水立管' ShortMarker='AC' TemplateName='中国电子院图层配置'
+		 UserLayer='ACS_KT_LN_L' Version='0'/>
+	<z:row Color='16777215' Comment='暖通-空调-冷热水供水管' DefaultLayer='ACS_KT_LRG' ID='2036' LineType='Continuous'
+		 LineWeight='0.69999999999999996' MaterialName='焊接钢管(1.0MPa)' Name='暖通-空调-冷热水供水管'
+		 ShortMarker='ACHS' TemplateName='中国电子院图层配置' UserLayer='H-DOMW-ACHS' Version='0'/>
+	<z:row Color='16777215' Comment='暖通-空调-冷热水供水管-中区' DefaultLayer='ACS_KT_LRG_1' ID='2037'
+		 LineType='Continuous' LineWeight='0.69999999999999996' MaterialName='焊接钢管(1.0MPa)' Name='暖通-空调-冷热水供水管-中区'
+		 ShortMarker='ACHS' TemplateName='中国电子院图层配置' UserLayer='H-DOMW-ACHS-M' Version='0'/>
+	<z:row Color='16777215' Comment='暖通-空调-冷热水供水管-高区' DefaultLayer='ACS_KT_LRG_2' ID='2038'
+		 LineType='Continuous' LineWeight='0.69999999999999996' MaterialName='焊接钢管(1.0MPa)' Name='暖通-空调-冷热水供水管-高区'
+		 ShortMarker='ACHS' TemplateName='中国电子院图层配置' UserLayer='H-DOMW-ACHS-H' Version='0'/>
+	<z:row Color='0' Comment='暖通-空调-冷热水供水立管' DefaultLayer='ACS_KT_LRG_L' ID='2039' LineType='continuous'
+		 LineWeight='0' MaterialName='焊接钢管(1.0MPa)' Name='暖通-空调-冷热水供水立管' ShortMarker='ACHS'
+		 TemplateName='中国电子院图层配置' UserLayer='ACS_KT_LRG_L' Version='0'/>
+	<z:row Color='16777345' Comment='暖通-空调-冷热水回水管' DefaultLayer='ACS_KT_LRH' ID='2040' LineType='DASHED'
+		 LineWeight='0.69999999999999996' MaterialName='焊接钢管(1.0MPa)' Name='暖通-空调-冷热水回水管'
+		 ShortMarker='ACHR' TemplateName='中国电子院图层配置' UserLayer='H-DOMW-ACHR' Version='0'/>
+	<z:row Color='16777345' Comment='暖通-空调-冷热水回水管-中区' DefaultLayer='ACS_KT_LRH_1' ID='2041'
+		 LineType='DASHED' LineWeight='0.69999999999999996' MaterialName='焊接钢管(1.0MPa)' Name='暖通-空调-冷热水回水管-中区'
+		 ShortMarker='ACHR' TemplateName='中国电子院图层配置' UserLayer='H-DOMW-ACHR-M' Version='0'/>
+	<z:row Color='16777345' Comment='暖通-空调-冷热水回水管-高区' DefaultLayer='ACS_KT_LRH_2' ID='2042'
+		 LineType='DASHED' LineWeight='0.69999999999999996' MaterialName='焊接钢管(1.0MPa)' Name='暖通-空调-冷热水回水管-高区'
+		 ShortMarker='ACHR' TemplateName='中国电子院图层配置' UserLayer='H-DOMW-ACHR-H' Version='0'/>
+	<z:row Color='0' Comment='暖通-空调-冷热水回水立管' DefaultLayer='ACS_KT_LRH_L' ID='2043' LineType='continuous'
+		 LineWeight='0' MaterialName='焊接钢管(1.0MPa)' Name='暖通-空调-冷热水回水立管' TemplateName='中国电子院图层配置'
+		 UserLayer='ACS_KT_LRH_L' Version='0'/>
+	<z:row Color='65280' Comment='暖通-空调-凝结水管' DefaultLayer='ACS_KT_NJ' ID='2044' LineType='CENTER'
+		 LineWeight='0.25' MaterialName='焊接钢管(1.0MPa)' Name='暖通-空调-凝结水管' ShortMarker='C' TemplateName='中国电子院图层配置'
+		 UserLayer='H-DOMW-COND' Version='0'/>
+	<z:row Color='0' Comment='暖通-空调-凝结水立管' DefaultLayer='ACS_KT_NJ_L' ID='2045' LineType='continuous'
+		 LineWeight='0' MaterialName='焊接钢管(1.0MPa)' Name='暖通-空调-凝结水立管' TemplateName='中国电子院图层配置'
+		 UserLayer='ACS_KT_NJ_L' Version='0'/>
+	<z:row Color='16777221' Comment='暖通-空调-冷却供水管' DefaultLayer='ACS_KT_QG' ID='2046' LineType='Continuous'
+		 LineWeight='0.69999999999999996' MaterialName='焊接钢管(1.0MPa)' Name='暖通-空调-冷却供水管' ShortMarker='CWS'
+		 TemplateName='中国电子院图层配置' UserLayer='H-DOMW-ACWS' Version='0'/>
+	<z:row Color='0' Comment='暖通-空调-冷却供水立管' DefaultLayer='ACS_KT_QG_L' ID='2047' LineType='continuous'
+		 LineWeight='0' MaterialName='焊接钢管(1.0MPa)' Name='暖通-空调-冷却供水立管' TemplateName='中国电子院图层配置'
+		 UserLayer='ACS_KT_QG_L' Version='0'/>
+	<z:row Color='16711935' Comment='暖通-空调-冷却回水管' DefaultLayer='ACS_KT_QH' ID='2048' LineType='DASHED'
+		 LineWeight='0.69999999999999996' MaterialName='焊接钢管(1.0MPa)' Name='暖通-空调-冷却回水管' ShortMarker='CWR'
+		 TemplateName='中国电子院图层配置' UserLayer='H-DOMW-ACWR' Version='0'/>
+	<z:row Color='0' Comment='暖通-空调-冷却回水立管' DefaultLayer='ACS_KT_QH_L' ID='2049' LineType='continuous'
+		 LineWeight='0' MaterialName='焊接钢管(1.0MPa)' Name='暖通-空调-冷却回水立管' TemplateName='中国电子院图层配置'
+		 UserLayer='ACS_KT_QH_L' Version='0'/>
+	<z:row Color='65280' Comment='暖通-空调-流量' DefaultLayer='ACS_KT_RATE' ID='6119' LineType='Continuous'
+		 LineWeight='-3' Name='暖通-空调-流量' TemplateName='中国电子院图层配置' UserLayer='H-DOMW-RATE'
+		 Version='0'/>
+	<z:row Color='16777222' Comment='暖通-空调-热水供水管' DefaultLayer='ACS_KT_RG' ID='2050' LineType='Continuous'
+		 LineWeight='0.69999999999999996' MaterialName='焊接钢管(1.0MPa)' Name='暖通-空调-热水供水管' ShortMarker='AHWS'
+		 TemplateName='中国电子院图层配置' UserLayer='H-DOMW-AHWS' Version='0'/>
+	<z:row Color='16777222' Comment='暖通-空调-热水供水管-中区' DefaultLayer='ACS_KT_RG_1' ID='2051'
+		 LineType='Continuous' LineWeight='0.69999999999999996' MaterialName='焊接钢管(1.0MPa)' Name='暖通-空调-热水供水管-中区'
+		 ShortMarker='AHWS' TemplateName='中国电子院图层配置' UserLayer='H-DOMW-AHWS-M' Version='0'/>
+	<z:row Color='16777222' Comment='暖通-空调-热水供水管-高区' DefaultLayer='ACS_KT_RG_2' ID='2052'
+		 LineType='Continuous' LineWeight='0.69999999999999996' MaterialName='焊接钢管(1.0MPa)' Name='暖通-空调-热水供水管-高区'
+		 ShortMarker='AHWS' TemplateName='中国电子院图层配置' UserLayer='H-DOMW-AHWS-H' Version='0'/>
+	<z:row Color='0' Comment='暖通-空调-热水供水立管' DefaultLayer='ACS_KT_RG_L' ID='2053' LineType='continuous'
+		 LineWeight='0' MaterialName='焊接钢管(1.0MPa)' Name='暖通-空调-热水供水立管' TemplateName='中国电子院图层配置'
+		 UserLayer='ACS_KT_RG_L' Version='0'/>
+	<z:row Color='16777345' Comment='暖通-空调-热水回水管' DefaultLayer='ACS_KT_RH' ID='2054' LineType='DASHED'
+		 LineWeight='0.69999999999999996' MaterialName='焊接钢管(1.0MPa)' Name='暖通-空调-热水回水管' ShortMarker='AHWR'
+		 TemplateName='中国电子院图层配置' UserLayer='H-DOMW-AHWR' Version='0'/>
+	<z:row Color='16777345' Comment='暖通-空调-热水回水管-中区' DefaultLayer='ACS_KT_RH_1' ID='2055'
+		 LineType='DASHED' LineWeight='0.69999999999999996' MaterialName='焊接钢管(1.0MPa)' Name='暖通-空调-热水回水管-中区'
+		 ShortMarker='AHWR' TemplateName='中国电子院图层配置' UserLayer='H-DOMW-AHWR-M' Version='0'/>
+	<z:row Color='16777345' Comment='暖通-空调-热水回水管-高区' DefaultLayer='ACS_KT_RH_2' ID='2056'
+		 LineType='DASHED' LineWeight='0.69999999999999996' MaterialName='焊接钢管(1.0MPa)' Name='暖通-空调-热水回水管-高区'
+		 ShortMarker='AHWR' TemplateName='中国电子院图层配置' UserLayer='H-DOMW-AHWR-H' Version='0'/>
+	<z:row Color='0' Comment='暖通-空调-热水回水立管' DefaultLayer='ACS_KT_RH_L' ID='2057' LineType='continuous'
+		 LineWeight='0' MaterialName='焊接钢管(1.0MPa)' Name='暖通-空调-热水回水立管' TemplateName='中国电子院图层配置'
+		 UserLayer='ACS_KT_RH_L' Version='0'/>
+	<z:row Color='65280' Comment='暖通-空调-软化水管' DefaultLayer='ACS_KT_RUH' ID='2058' LineType='Continuous'
+		 LineWeight='0.25' MaterialName='焊接钢管(1.0MPa)' Name='暖通-空调-软化水管' ShortMarker='R' TemplateName='中国电子院图层配置'
+		 UserLayer='H-DOMW-RUH' Version='0'/>
+	<z:row Color='65282' Comment='暖通-空调-软化水立管' DefaultLayer='ACS_KT_RUH_L' ID='2059' LineType='Continuous'
+		 LineWeight='0.25' MaterialName='焊接钢管(1.0MPa)' Name='暖通-空调-软化水立管' ShortMarker='R' TemplateName='中国电子院图层配置'
+		 UserLayer='H-DOMW-RUH-L' Version='0'/>
+	<z:row Color='16776960' Comment='暖通-空调-设备' DefaultLayer='ACS_KT_SB' ID='2060' LineType='Continuous'
+		 LineWeight='0.34999999999999998' Name='暖通-空调-设备' TemplateName='中国电子院图层配置' UserLayer='H-DOMW-EQPM'
+		 Version='0'/>
+	<z:row Color='65280' Comment='暖通-空调-设备标注' DefaultLayer='ACS_KT_SBBZ' ID='2061' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-空调-设备标注' TemplateName='中国电子院图层配置' UserLayer='H-DOMW-DIMS'
+		 Version='0'/>
+	<z:row Color='65280' Comment='暖通-空调-设中' DefaultLayer='ACS_KT_SBZX' ID='2062' LineType='CENTER' LineWeight='0.25'
+		 Name='暖通-空调-设中' TemplateName='中国电子院图层配置' UserLayer='H-DOMW-ECLN' Version='0'/>
+	<z:row Color='65281' Comment='暖通-空调-自来水管' DefaultLayer='ACS_KT_ZL' ID='2063' LineType='Continuous'
+		 LineWeight='0.25' MaterialName='焊接钢管(1.0MPa)' Name='暖通-空调-自来水管' ShortMarker='ZL' TemplateName='中国电子院图层配置'
+		 UserLayer='H-DOMW-ZL' Version='0'/>
+	<z:row Color='65283' Comment='暖通-空调-自来水立管' DefaultLayer='ACS_KT_ZL_L' ID='2064' LineType='Continuous'
+		 LineWeight='0.25' MaterialName='焊接钢管(1.0MPa)' Name='暖通-空调-自来水立管' ShortMarker='ZL' TemplateName='中国电子院图层配置'
+		 UserLayer='H-DOMW-ZL-L' Version='0'/>
+	<z:row Color='16777215' Comment='暖通-空调-蒸汽管' DefaultLayer='ACS_KT_ZQ' ID='2065' LineType='Continuous'
+		 LineWeight='0.69999999999999996' MaterialName='焊接钢管(1.0MPa)' Name='暖通-空调-蒸汽管' ShortMarker='S'
+		 TemplateName='中国电子院图层配置' UserLayer='H-DOMW-VAPR' Version='0'/>
+	<z:row Color='0' Comment='暖通-空调-蒸汽立管' DefaultLayer='ACS_KT_ZQ_L' ID='2066' LineType='continuous'
+		 LineWeight='0' MaterialName='焊接钢管(1.0MPa)' Name='暖通-空调-蒸汽立管' TemplateName='中国电子院图层配置'
+		 UserLayer='ACS_KT_ZQ_L' Version='0'/>
+	<z:row Color='16777223' Comment='建筑' DefaultLayer='ACS_OTHER_AC' ID='2067' LineType='Continuous' LineWeight='0'
+		 Name='建筑' TemplateName='中国电子院图层配置' UserLayer='H_OTHER_AC' Version='0'/>
+	<z:row Color='16777223' Comment='结构' DefaultLayer='ACS_OTHER_BS' ID='2068' LineType='Continuous' LineWeight='0'
+		 Name='结构' TemplateName='中国电子院图层配置' UserLayer='H_OTHER_BS' Version='0'/>
+	<z:row Color='8421504' Comment='电力' DefaultLayer='ACS_OTHER_EL' ID='2069' LineType='Continuous' LineWeight='0'
+		 Name='电力' TemplateName='中国电子院图层配置' UserLayer='H_OTHER_EL' Version='0'/>
+	<z:row Color='65535' Comment='暖通-风幕' DefaultLayer='ACS_OTHER_FM' ID='2070' LineType='Continuous' LineWeight='0.25'
+		 Name='暖通-风幕' TemplateName='中国电子院图层配置' UserLayer='H-OTHR-FLDS' Version='0'/>
+	<z:row Color='16711935' Comment='风口标注' DefaultLayer='ACS_OTHER_HV_AO_DIM' ID='2071' LineType='Continuous'
+		 LineWeight='0' Name='风口标注' TemplateName='中国电子院图层配置' UserLayer='H_OTHER_HV_AO_DIM' Version='0'/>
+	<z:row Color='16777219' Comment='设备' DefaultLayer='ACS_OTHER_HV_EQ' ID='2072' LineType='Continuous' LineWeight='0'
+		 Name='设备' TemplateName='中国电子院图层配置' UserLayer='H_OTHER_HV_EQ' Version='0'/>
+	<z:row Color='16777222' Comment='采暖' DefaultLayer='ACS_OTHER_HV_HT' ID='2073' LineType='Continuous' LineWeight='0'
+		 Name='采暖' TemplateName='中国电子院图层配置' UserLayer='H_OTHER_HV_HT' Version='0'/>
+	<z:row Color='16777222' Comment='建筑条件' DefaultLayer='ACS_OTHER_HV_INF_AC' ID='2074' LineType='Continuous'
+		 LineWeight='0' Name='建筑条件' TemplateName='中国电子院图层配置' UserLayer='H_OTHER_HV_INF_AC' Version='0'/>
+	<z:row Color='16777222' Comment='结构条件' DefaultLayer='ACS_OTHER_HV_INF_BS' ID='2075' LineType='Continuous'
+		 LineWeight='0' Name='结构条件' TemplateName='中国电子院图层配置' UserLayer='H_OTHER_HV_INF_BS' Version='0'/>
+	<z:row Color='16777222' Comment='电力条件' DefaultLayer='ACS_OTHER_HV_INF_EL' ID='2076' LineType='Continuous'
+		 LineWeight='0' Name='电力条件' TemplateName='中国电子院图层配置' UserLayer='H_OTHER_HV_INF_EL' Version='0'/>
+	<z:row Color='16777222' Comment='工艺条件' DefaultLayer='ACS_OTHER_HV_INF_PR' ID='2077' LineType='Continuous'
+		 LineWeight='0' Name='工艺条件' TemplateName='中国电子院图层配置' UserLayer='H_OTHER_HV_INF_PR' Version='0'/>
+	<z:row Color='16777222' Comment='给排水条件' DefaultLayer='ACS_OTHER_HV_INF_WS' ID='2078' LineType='Continuous'
+		 LineWeight='0' Name='给排水条件' TemplateName='中国电子院图层配置' UserLayer='H_OTHER_HV_INF_WS'
+		 Version='0'/>
+	<z:row Color='16777222' Comment='空调配管' DefaultLayer='ACS_OTHER_HV_PP' ID='2079' LineType='Continuous'
+		 LineWeight='0' Name='空调配管' TemplateName='中国电子院图层配置' UserLayer='H_OTHER_HV_PP' Version='0'/>
+	<z:row Color='16777222' Comment='房间压差' DefaultLayer='ACS_OTHER_HV_PRESS' ID='2080' LineType='Continuous'
+		 LineWeight='0' Name='房间压差' TemplateName='中国电子院图层配置' UserLayer='H_OTHER_HV_PRESS' Version='0'/>
+	<z:row Color='16777222' Comment='空调系统' DefaultLayer='ACS_OTHER_HV_SYS' ID='2081' LineType='Continuous'
+		 LineWeight='0' Name='空调系统' TemplateName='中国电子院图层配置' UserLayer='H_OTHER_HV_SYS' Version='0'/>
+	<z:row Color='16777217' Comment='文字' DefaultLayer='ACS_OTHER_HV_TEXT' ID='2082' LineType='Continuous' LineWeight='0'
+		 Name='文字' TemplateName='中国电子院图层配置' UserLayer='H_OTHER_HV_TEXT' Version='0'/>
+	<z:row Color='16777222' Comment='系统分区' DefaultLayer='ACS_OTHER_HV_ZONE' ID='2083' LineType='Continuous'
+		 LineWeight='0' Name='系统分区' TemplateName='中国电子院图层配置' UserLayer='H_OTHER_HV_ZONE' Version='0'/>
+	<z:row Color='16777223' Comment='工艺' DefaultLayer='ACS_OTHER_PR' ID='2084' LineType='Continuous' LineWeight='0'
+		 Name='工艺' TemplateName='中国电子院图层配置' UserLayer='H_OTHER_PR' Version='0'/>
+	<z:row Color='16777223' Comment='给排水' DefaultLayer='ACS_OTHER_WS' ID='2085' LineType='Continuous' LineWeight='0'
+		 Name='给排水' TemplateName='中国电子院图层配置' UserLayer='H_OTHER_WS' Version='0'/>
+	<z:row Color='65280' Comment='暖通-说明' DefaultLayer='ACS_OTHR_NOTE' ID='2086' LineType='Continuous' LineWeight='0.25'
+		 Name='暖通-说明' TemplateName='中国电子院图层配置' UserLayer='H-NOTE' Version='0'/>
+	<z:row Color='16777219' Comment='暖通-排风-扁圆风管中线' DefaultLayer='ACS_PFG_BRZX' ID='2087' LineType='CENTER'
+		 LineWeight='-3' MaterialName='镀锌钢板' Name='暖通-排风-扁圆风管中线' ShortMarker='PBR' TemplateName='中国电子院图层配置'
+		 UserLayer='H-EXHS-DCBR' Version='0'/>
+	<z:row Color='65280' Comment='暖通-排风-标注' DefaultLayer='ACS_PFG_BZ' ID='2088' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-排风-标注' TemplateName='中国电子院图层配置' UserLayer='H-EXHS-DIMS'
+		 Version='0'/>
+	<z:row Color='32767' Comment='暖通-排风-单线系统' DefaultLayer='ACS_PFG_F1' ID='2089' LineType='Continuous'
+		 LineWeight='0.69999999999999996' Name='暖通-排风-单线系统' TemplateName='中国电子院图层配置'
+		 UserLayer='H-EXHS-SYSM' Version='0'/>
+	<z:row Color='32767' Comment='暖通-排风-2D边线' DefaultLayer='ACS_PFG_F2' ID='2090' LineType='Continuous'
+		 LineWeight='0.69999999999999996' MaterialName='镀锌钢板' Name='暖通-排风-2D边线' TemplateName='中国电子院图层配置'
+		 UserLayer='H-EXHS-DSDP' Version='0'/>
+	<z:row Color='32767' Comment='暖通-排风-3D边线' DefaultLayer='ACS_PFG_F3' ID='2091' LineType='Continuous'
+		 LineWeight='0.69999999999999996' MaterialName='镀锌钢板' Name='暖通-排风-3D边线' TemplateName='中国电子院图层配置'
+		 UserLayer='H-EXHS-DSDT' Version='0'/>
+	<z:row Color='16777223' Comment='暖通-排风-圆风管中线' DefaultLayer='ACS_PFG_FCZX' ID='2092' LineType='CENTER'
+		 LineWeight='0.25' MaterialName='镀锌钢板' Name='暖通-排风-圆风管中线' ShortMarker='PFC' TemplateName='中国电子院图层配置'
+		 UserLayer='H-EXHS-DCNC' Version='0'/>
+	<z:row Color='16776960' Comment='暖通-排风-风向符号' DefaultLayer='ACS_PFG_FFX' ID='2093' LineType='Continuous'
+		 LineWeight='0.34999999999999998' Name='暖通-排风-风向符号' TemplateName='中国电子院图层配置'
+		 UserLayer='H-EXHS-MARK' Version='0'/>
+	<z:row Color='16777245' Comment='暖通-排风-风管' DefaultLayer='ACS_PFG_FG' ID='2094' LineType='Continuous'
+		 LineWeight='0.69999999999999996' MaterialName='镀锌钢板' Name='暖通-排风-风管' ShortMarker='PF' TemplateName='中国电子院图层配置'
+		 UserLayer='H-EXHS-DUCT' Version='0'/>
+	<z:row Color='65535' Comment='暖通-排风-风口' DefaultLayer='ACS_PFG_FK' ID='2095' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-排风-风口' TemplateName='中国电子院图层配置' UserLayer='H-EXHS-PORT'
+		 Version='0'/>
+	<z:row Color='65535' Comment='暖通-排风-风口-电动' DefaultLayer='ACS_PFG_FK_E' ID='2096' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-排风-风口-电动' TemplateName='中国电子院图层配置' UserLayer='H-EXHS-PORT-E'
+		 Version='0'/>
+	<z:row Color='65280' Comment='暖通-排风-法兰' DefaultLayer='ACS_PFG_FL' ID='2097' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-排风-法兰' TemplateName='中国电子院图层配置' UserLayer='H-EXHS-FLAN'
+		 Version='0'/>
+	<z:row Color='32767' Comment='暖通-排风-立管系统' DefaultLayer='ACS_PFG_FL1' ID='2098' LineType='Continuous'
+		 LineWeight='0.69999999999999996' Name='暖通-排风-立管系统' TemplateName='中国电子院图层配置'
+		 UserLayer='H-EXHS-RISE' Version='0'/>
+	<z:row Color='65280' Comment='暖通-排风-阀门' DefaultLayer='ACS_PFG_FM' ID='2099' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-排风-阀门' TemplateName='中国电子院图层配置' UserLayer='H-EXHS-VALV'
+		 Version='0'/>
+	<z:row Color='65280' Comment='暖通-排风-阀门-电动' DefaultLayer='ACS_PFG_FM_E' ID='2100' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-排风-阀门-电动' TemplateName='中国电子院图层配置' UserLayer='H-EXHS-VALV-E'
+		 Version='0'/>
+	<z:row Color='65280' Comment='暖通-排风-阀门-消防' DefaultLayer='ACS_PFG_FM_F' ID='2101' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-排风-阀门-消防' TemplateName='中国电子院图层配置' UserLayer='H-EXHS-VALV-F'
+		 Version='0'/>
+	<z:row Color='65280' Comment='暖通-排风-方风管中线' DefaultLayer='ACS_PFG_FRZX' ID='2102' LineType='CENTER'
+		 LineWeight='0.25' MaterialName='镀锌钢板' Name='暖通-排风-方风管中线' ShortMarker='PFR' TemplateName='中国电子院图层配置'
+		 UserLayer='H-EXHS-DCNR' Version='0'/>
+	<z:row Color='65280' Comment='暖通-排风-风量' DefaultLayer='ACS_PFG_RATE' ID='6056' LineType='Continuous'
+		 LineWeight='-3' Name='暖通-排风-风量' TemplateName='中国电子院图层配置' UserLayer='H-EXHS-RATE'
+		 Version='0'/>
+	<z:row Color='16776960' Comment='暖通-排风-设备' DefaultLayer='ACS_PFG_SB' ID='2103' LineType='Continuous'
+		 LineWeight='0.34999999999999998' Name='暖通-排风-设备' TemplateName='中国电子院图层配置' UserLayer='H-EXHS-EQPM'
+		 Version='0'/>
+	<z:row Color='16776960' Comment='暖通-排风-设备标注' DefaultLayer='ACS_PFG_SBBZ' ID='2104' LineType='Continuous'
+		 LineWeight='0.34999999999999998' Name='暖通-排风-设备标注' TemplateName='中国电子院图层配置'
+		 UserLayer='H-EXHS-EQPM-DIMS' Version='0'/>
+	<z:row Color='65280' Comment='暖通-排风-设中' DefaultLayer='ACS_PFG_SBZX' ID='2105' LineType='CENTER'
+		 LineWeight='0.25' Name='暖通-排风-设中' TemplateName='中国电子院图层配置' UserLayer='H-EXHS-ECLN'
+		 Version='0'/>
+	<z:row Color='65306' Comment='暖通-人防排风-扁圆风管中线' DefaultLayer='ACS_RPG_BRZX' ID='2106'
+		 LineType='Continuous' LineWeight='0.25' MaterialName='镀锌钢板' Name='暖通-人防排风-扁圆风管中线'
+		 ShortMarker='RPBR' TemplateName='中国电子院图层配置' UserLayer='H-RPG-BRZX' Version='0'/>
+	<z:row Color='65306' Comment='暖通-人防排风-标注' DefaultLayer='ACS_RPG_BZ' ID='2107' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-人防排风-标注' TemplateName='中国电子院图层配置' UserLayer='H-RPG-BZ'
+		 Version='0'/>
+	<z:row Color='65306' Comment='暖通-人防排风-单线系统' DefaultLayer='ACS_RPG_F1' ID='2108' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-人防排风-单线系统' TemplateName='中国电子院图层配置' UserLayer='H-RPG-F1'
+		 Version='0'/>
+	<z:row Color='65306' Comment='暖通-人防排风-2D边线' DefaultLayer='ACS_RPG_F2' ID='2109' LineType='Continuous'
+		 LineWeight='0.25' MaterialName='镀锌钢板' Name='暖通-人防排风-2D边线' TemplateName='中国电子院图层配置'
+		 UserLayer='H-RPG-F2' Version='0'/>
+	<z:row Color='65306' Comment='暖通-人防排风-3D边线' DefaultLayer='ACS_RPG_F3' ID='2110' LineType='Continuous'
+		 LineWeight='0.25' MaterialName='镀锌钢板' Name='暖通-人防排风-3D边线' TemplateName='中国电子院图层配置'
+		 UserLayer='H-RPG-F3' Version='0'/>
+	<z:row Color='65306' Comment='暖通-人防排风-圆风管中线' DefaultLayer='ACS_RPG_FCZX' ID='2111' LineType='Continuous'
+		 LineWeight='0.25' MaterialName='镀锌钢板' Name='暖通-人防排风-圆风管中线' ShortMarker='RPC' TemplateName='中国电子院图层配置'
+		 UserLayer='H-RPG-FCZX' Version='0'/>
+	<z:row Color='65306' Comment='暖通-人防排风-风向符号' DefaultLayer='ACS_RPG_FFX' ID='2112' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-人防排风-风向符号' TemplateName='中国电子院图层配置' UserLayer='H-RPG-FFX'
+		 Version='0'/>
+	<z:row Color='65306' Comment='暖通-人防排风-风管' DefaultLayer='ACS_RPG_FG' ID='2113' LineType='Continuous'
+		 LineWeight='0.25' MaterialName='镀锌钢板' Name='暖通-人防排风-风管' ShortMarker='RP' TemplateName='中国电子院图层配置'
+		 UserLayer='H-RPG-FG' Version='0'/>
+	<z:row Color='65306' Comment='暖通-人防排风-风口' DefaultLayer='ACS_RPG_FK' ID='2114' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-人防排风-风口' TemplateName='中国电子院图层配置' UserLayer='H-RPG-FK'
+		 Version='0'/>
+	<z:row Color='65306' Comment='暖通-人防排风-风口-电动' DefaultLayer='ACS_RPG_FK_E' ID='2115' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-人防排风-风口-电动' TemplateName='中国电子院图层配置' UserLayer='H-RPG-FK-E'
+		 Version='0'/>
+	<z:row Color='65306' Comment='暖通-人防排风-法兰' DefaultLayer='ACS_RPG_FL' ID='2116' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-人防排风-法兰' TemplateName='中国电子院图层配置' UserLayer='H-RPG-FL'
+		 Version='0'/>
+	<z:row Color='65306' Comment='暖通-人防排风-立管系统' DefaultLayer='ACS_RPG_FL1' ID='2117' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-人防排风-立管系统' TemplateName='中国电子院图层配置' UserLayer='H-RPG-FL2'
+		 Version='0'/>
+	<z:row Color='65306' Comment='暖通-人防排风-阀门' DefaultLayer='ACS_RPG_FM' ID='2118' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-人防排风-阀门' TemplateName='中国电子院图层配置' UserLayer='H-RPG-FM'
+		 Version='0'/>
+	<z:row Color='65306' Comment='暖通-人防排风-阀门-电动' DefaultLayer='ACS_RPG_FM_E' ID='2119' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-人防排风-阀门-电动' TemplateName='中国电子院图层配置' UserLayer='H-RPG-FM-E'
+		 Version='0'/>
+	<z:row Color='65306' Comment='暖通-人防排风-阀门-消防' DefaultLayer='ACS_RPG_FM_F' ID='2120' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-人防排风-阀门-消防' TemplateName='中国电子院图层配置' UserLayer='H-RPG-FM-F'
+		 Version='0'/>
+	<z:row Color='65306' Comment='暖通-人防排风-方风管中线' DefaultLayer='ACS_RPG_FRZX' ID='2121' LineType='Continuous'
+		 LineWeight='0.25' MaterialName='镀锌钢板' Name='暖通-人防排风-方风管中线' ShortMarker='RPR' TemplateName='中国电子院图层配置'
+		 UserLayer='H-RPG-FRZX' Version='0'/>
+	<z:row Color='65280' Comment='暖通-人防排风-风量' DefaultLayer='ACS_RPG_RATE' ID='6065' LineType='Continuous'
+		 LineWeight='-3' Name='暖通-人防排风-风量' TemplateName='中国电子院图层配置' UserLayer='H-RPG-RATE'
+		 Version='0'/>
+	<z:row Color='65306' Comment='暖通-人防排风-设备' DefaultLayer='ACS_RPG_SB' ID='2122' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-人防排风-设备' TemplateName='中国电子院图层配置' UserLayer='H-RPG-SB'
+		 Version='0'/>
+	<z:row Color='65306' Comment='暖通-人防排风-设备标注' DefaultLayer='ACS_RPG_SBBZ' ID='2123' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-人防排风-设备标注' TemplateName='中国电子院图层配置' UserLayer='H-RPG-SBBZ'
+		 Version='0'/>
+	<z:row Color='65306' Comment='暖通-人防排风-设中' DefaultLayer='ACS_RPG_SBZX' ID='2124' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-人防排风-设中' TemplateName='中国电子院图层配置' UserLayer='H-RPG-SBZX'
+		 Version='0'/>
+	<z:row Color='65291' Comment='暖通-人防送风-扁圆风管中线' DefaultLayer='ACS_RSG_BRZX' ID='2125'
+		 LineType='Continuous' LineWeight='0.25' MaterialName='镀锌钢板' Name='暖通-人防送风-扁圆风管中线'
+		 ShortMarker='RSBR' TemplateName='中国电子院图层配置' UserLayer='H-RSG-BRZX' Version='0'/>
+	<z:row Color='65301' Comment='暖通-人防送风-标注' DefaultLayer='ACS_RSG_BZ' ID='2126' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-人防送风-标注' TemplateName='中国电子院图层配置' UserLayer='H-RSG-BZ'
+		 Version='0'/>
+	<z:row Color='65304' Comment='暖通-人防送风-单线系统' DefaultLayer='ACS_RSG_F1' ID='2127' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-人防送风-单线系统' TemplateName='中国电子院图层配置' UserLayer='H-RSG-F1'
+		 Version='0'/>
+	<z:row Color='65302' Comment='暖通-人防送风-2D边线' DefaultLayer='ACS_RSG_F2' ID='2128' LineType='Continuous'
+		 LineWeight='0.25' MaterialName='镀锌钢板' Name='暖通-人防送风-2D边线' TemplateName='中国电子院图层配置'
+		 UserLayer='H-RSG-F2' Version='0'/>
+	<z:row Color='65303' Comment='暖通-人防送风-3D边线' DefaultLayer='ACS_RSG_F3' ID='2129' LineType='Continuous'
+		 LineWeight='0.25' MaterialName='镀锌钢板' Name='暖通-人防送风-3D边线' TemplateName='中国电子院图层配置'
+		 UserLayer='H-RSG-F3' Version='0'/>
+	<z:row Color='65290' Comment='暖通-人防送风-圆风管中线' DefaultLayer='ACS_RSG_FCZX' ID='2130' LineType='Continuous'
+		 LineWeight='0.25' MaterialName='镀锌钢板' Name='暖通-人防送风-圆风管中线' ShortMarker='RSC' TemplateName='中国电子院图层配置'
+		 UserLayer='H-RSG-FCZX' Version='0'/>
+	<z:row Color='65306' Comment='暖通-人防送风-风向符号' DefaultLayer='ACS_RSG_FFX' ID='2131' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-人防送风-风向符号' TemplateName='中国电子院图层配置' UserLayer='H-RSG-FFX'
+		 Version='0'/>
+	<z:row Color='65288' Comment='暖通-人防送风-风管' DefaultLayer='ACS_RSG_FG' ID='2132' LineType='Continuous'
+		 LineWeight='0.25' MaterialName='镀锌钢板' Name='暖通-人防送风-风管' ShortMarker='RS' TemplateName='中国电子院图层配置'
+		 UserLayer='H-RSG-FG' Version='0'/>
+	<z:row Color='65292' Comment='暖通-人防送风-风口' DefaultLayer='ACS_RSG_FK' ID='2133' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-人防送风-风口' TemplateName='中国电子院图层配置' UserLayer='H-RSG-FK'
+		 Version='0'/>
+	<z:row Color='65293' Comment='暖通-人防送风-风口-电动' DefaultLayer='ACS_RSG_FK_E' ID='2134' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-人防送风-风口-电动' TemplateName='中国电子院图层配置' UserLayer='H-RSG-FK-E'
+		 Version='0'/>
+	<z:row Color='65294' Comment='暖通-人防送风-法兰' DefaultLayer='ACS_RSG_FL' ID='2135' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-人防送风-法兰' TemplateName='中国电子院图层配置' UserLayer='H-RSG-FL'
+		 Version='0'/>
+	<z:row Color='65305' Comment='暖通-人防送风-立管系统' DefaultLayer='ACS_RSG_FL1' ID='2136' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-人防送风-立管系统' TemplateName='中国电子院图层配置' UserLayer='H-RSG-FL2'
+		 Version='0'/>
+	<z:row Color='65295' Comment='暖通-人防送风-阀门' DefaultLayer='ACS_RSG_FM' ID='2137' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-人防送风-阀门' TemplateName='中国电子院图层配置' UserLayer='H-RSG-FM'
+		 Version='0'/>
+	<z:row Color='65296' Comment='暖通-人防送风-阀门-电动' DefaultLayer='ACS_RSG_FM_E' ID='2138' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-人防送风-阀门-电动' TemplateName='中国电子院图层配置' UserLayer='H-RSG-FM-E'
+		 Version='0'/>
+	<z:row Color='65297' Comment='暖通-人防送风-阀门-消防' DefaultLayer='ACS_RSG_FM_F' ID='2139' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-人防送风-阀门-消防' TemplateName='中国电子院图层配置' UserLayer='H-RSG-FM-F'
+		 Version='0'/>
+	<z:row Color='65289' Comment='暖通-人防送风-方风管中线' DefaultLayer='ACS_RSG_FRZX' ID='2140' LineType='Continuous'
+		 LineWeight='0.25' MaterialName='镀锌钢板' Name='暖通-人防送风-方风管中线' ShortMarker='RSR' TemplateName='中国电子院图层配置'
+		 UserLayer='H-RSG-FRZX' Version='0'/>
+	<z:row Color='65280' Comment='暖通-人防送风-风量' DefaultLayer='ACS_RSG_RATE' ID='6064' LineType='Continuous'
+		 LineWeight='-3' Name='暖通-人防送风-风量' TemplateName='中国电子院图层配置' UserLayer='H-RSG-RATE'
+		 Version='0'/>
+	<z:row Color='65298' Comment='暖通-人防送风-设备' DefaultLayer='ACS_RSG_SB' ID='2141' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-人防送风-设备' TemplateName='中国电子院图层配置' UserLayer='H-RSG-SB'
+		 Version='0'/>
+	<z:row Color='65300' Comment='暖通-人防送风-设备标注' DefaultLayer='ACS_RSG_SBBZ' ID='2142' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-人防送风-设备标注' TemplateName='中国电子院图层配置' UserLayer='H-RSG-SBBZ'
+		 Version='0'/>
+	<z:row Color='65299' Comment='暖通-人防送风-设中' DefaultLayer='ACS_RSG_SBZX' ID='2143' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-人防送风-设中' TemplateName='中国电子院图层配置' UserLayer='H-RSG-SBZX'
+		 Version='0'/>
+	<z:row Color='16777219' Comment='暖通-送补-扁圆风管中线' DefaultLayer='ACS_SBG_BRZX' ID='2144' LineType='CENTER'
+		 LineWeight='-3' MaterialName='镀锌钢板' Name='暖通-送补-扁圆风管中线' ShortMarker='SBBR' TemplateName='中国电子院图层配置'
+		 UserLayer='H-SAMA-DCBR' Version='0'/>
+	<z:row Color='65280' Comment='暖通-送补-标注' DefaultLayer='ACS_SBG_BZ' ID='2145' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-送补-标注' TemplateName='中国电子院图层配置' UserLayer='H-SAMA-DIMS'
+		 Version='0'/>
+	<z:row Color='16777215' Comment='暖通-送补-单线系统' DefaultLayer='ACS_SBG_F1' ID='2146' LineType='Continuous'
+		 LineWeight='0.69999999999999996' Name='暖通-送补-单线系统' TemplateName='中国电子院图层配置'
+		 UserLayer='H-SAMA-SYSM' Version='0'/>
+	<z:row Color='16777215' Comment='暖通-送补-2D边线' DefaultLayer='ACS_SBG_F2' ID='2147' LineType='Continuous'
+		 LineWeight='0.69999999999999996' MaterialName='镀锌钢板' Name='暖通-送补-2D边线' TemplateName='中国电子院图层配置'
+		 UserLayer='H-SAMA-DSDP' Version='0'/>
+	<z:row Color='16777215' Comment='暖通-送补-3D边线' DefaultLayer='ACS_SBG_F3' ID='2148' LineType='Continuous'
+		 LineWeight='0.69999999999999996' MaterialName='镀锌钢板' Name='暖通-送补-3D边线' TemplateName='中国电子院图层配置'
+		 UserLayer='H-SAMA-DSDT' Version='0'/>
+	<z:row Color='16777223' Comment='暖通-送补-圆风管中线' DefaultLayer='ACS_SBG_FCZX' ID='2149' LineType='CENTER'
+		 LineWeight='0.25' MaterialName='镀锌钢板' Name='暖通-送补-圆风管中线' ShortMarker='SBC' TemplateName='中国电子院图层配置'
+		 UserLayer='H-SAMA-DCNC' Version='0'/>
+	<z:row Color='16776960' Comment='暖通-送补-风向符号' DefaultLayer='ACS_SBG_FFX' ID='2150' LineType='Continuous'
+		 LineWeight='0.34999999999999998' Name='暖通-送补-风向符号' TemplateName='中国电子院图层配置'
+		 UserLayer='H-SAMA-MARK' Version='0'/>
+	<z:row Color='16777215' Comment='暖通-送补-风管' DefaultLayer='ACS_SBG_FG' ID='2151' LineType='Continuous'
+		 LineWeight='0.69999999999999996' MaterialName='镀锌钢板' Name='暖通-送补-风管' ShortMarker='SBF' TemplateName='中国电子院图层配置'
+		 UserLayer='H-SAMA-DUCT' Version='0'/>
+	<z:row Color='65535' Comment='暖通-送补-风口' DefaultLayer='ACS_SBG_FK' ID='2152' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-送补-风口' TemplateName='中国电子院图层配置' UserLayer='H-SAMA-PORT'
+		 Version='0'/>
+	<z:row Color='65535' Comment='暖通-送补-风口-电动' DefaultLayer='ACS_SBG_FK_E' ID='2153' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-送补-风口-电动' TemplateName='中国电子院图层配置' UserLayer='H-SAMA-PORT_E'
+		 Version='0'/>
+	<z:row Color='65280' Comment='暖通-送补-法兰' DefaultLayer='ACS_SBG_FL' ID='2154' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-送补-法兰' TemplateName='中国电子院图层配置' UserLayer='H-SAMA-FLAN'
+		 Version='0'/>
+	<z:row Color='16777215' Comment='暖通-送补-立管系统' DefaultLayer='ACS_SBG_FL1' ID='2155' LineType='Continuous'
+		 LineWeight='0.69999999999999996' Name='暖通-送补-立管系统' TemplateName='中国电子院图层配置'
+		 UserLayer='H-SAMA-RISE' Version='0'/>
+	<z:row Color='65280' Comment='暖通-送补-阀门' DefaultLayer='ACS_SBG_FM' ID='2156' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-送补-阀门' TemplateName='中国电子院图层配置' UserLayer='H-SAMA-VALV'
+		 Version='0'/>
+	<z:row Color='65280' Comment='暖通-送补-阀门-电动' DefaultLayer='ACS_SBG_FM_E' ID='2157' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-送补-阀门-电动' TemplateName='中国电子院图层配置' UserLayer='H-SAMA-VALV-E'
+		 Version='0'/>
+	<z:row Color='65280' Comment='暖通-送补-阀门-消防' DefaultLayer='ACS_SBG_FM_F' ID='2158' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-送补-阀门-消防' TemplateName='中国电子院图层配置' UserLayer='H-SAMA-VALV-X'
+		 Version='0'/>
+	<z:row Color='65280' Comment='暖通-送补-方风管中线' DefaultLayer='ACS_SBG_FRZX' ID='2159' LineType='CENTER'
+		 LineWeight='0.25' MaterialName='镀锌钢板' Name='暖通-送补-方风管中线' ShortMarker='SBR' TemplateName='中国电子院图层配置'
+		 UserLayer='H-SAMA-DCNR' Version='0'/>
+	<z:row Color='65280' Comment='暖通-送补-风量' DefaultLayer='ACS_SBG_RATE' ID='6062' LineType='Continuous'
+		 LineWeight='-3' Name='暖通-送补-风量' TemplateName='中国电子院图层配置' UserLayer='H-SAMA-RATE'
+		 Version='0'/>
+	<z:row Color='16776960' Comment='暖通-送补-设备' DefaultLayer='ACS_SBG_SB' ID='2160' LineType='Continuous'
+		 LineWeight='0.34999999999999998' Name='暖通-送补-设备' TemplateName='中国电子院图层配置' UserLayer='H-SAMA-EQPM'
+		 Version='0'/>
+	<z:row Color='16776960' Comment='暖通-送补-设备标注' DefaultLayer='ACS_SBG_SBBZ' ID='2161' LineType='Continuous'
+		 LineWeight='0.34999999999999998' Name='暖通-送补-设备标注' TemplateName='中国电子院图层配置'
+		 UserLayer='H-SAMA-EQPM-DIMS' Version='0'/>
+	<z:row Color='65280' Comment='暖通-送补-设中' DefaultLayer='ACS_SBG_SBZX' ID='2162' LineType='CENTER'
+		 LineWeight='0.25' Name='暖通-送补-设中' TemplateName='中国电子院图层配置' UserLayer='H-SAMA-ECLN'
+		 Version='0'/>
+	<z:row Color='16777219' Comment='暖通-送风-扁圆风管中线' DefaultLayer='ACS_SFG_BRZX' ID='2163' LineType='CENTER'
+		 LineWeight='-3' MaterialName='镀锌钢板' Name='暖通-送风-扁圆风管中线' ShortMarker='SBR' TemplateName='中国电子院图层配置'
+		 UserLayer='H-SUPA-DCBR' Version='0'/>
+	<z:row Color='65280' Comment='暖通-送风-标注' DefaultLayer='ACS_SFG_BZ' ID='2164' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-送风-标注' TemplateName='中国电子院图层配置' UserLayer='H-SUPA-DIMS'
+		 Version='0'/>
+	<z:row Color='16777215' Comment='暖通-送风-单线系统' DefaultLayer='ACS_SFG_F1' ID='2165' LineType='Continuous'
+		 LineWeight='0.69999999999999996' Name='暖通-送风-单线系统' TemplateName='中国电子院图层配置'
+		 UserLayer='H-SUPA-SYSM' Version='0'/>
+	<z:row Color='16777215' Comment='暖通-送风-2D边线' DefaultLayer='ACS_SFG_F2' ID='2166' LineType='Continuous'
+		 LineWeight='0.69999999999999996' MaterialName='镀锌钢板' Name='暖通-送风-2D边线' TemplateName='中国电子院图层配置'
+		 UserLayer='H-SUPA-DSDP' Version='0'/>
+	<z:row Color='16777215' Comment='暖通-送风-3D边线' DefaultLayer='ACS_SFG_F3' ID='2167' LineType='Continuous'
+		 LineWeight='0.69999999999999996' MaterialName='镀锌钢板' Name='暖通-送风-3D边线' TemplateName='中国电子院图层配置'
+		 UserLayer='H-SUPA-DSDT' Version='0'/>
+	<z:row Color='16777223' Comment='暖通-送风-圆风管中线' DefaultLayer='ACS_SFG_FCZX' ID='2168' LineType='CENTER'
+		 LineWeight='0.25' MaterialName='镀锌钢板' Name='暖通-送风-圆风管中线' ShortMarker='SFC' TemplateName='中国电子院图层配置'
+		 UserLayer='H-SUPA-DCNC' Version='0'/>
+	<z:row Color='16776960' Comment='暖通-送风-风向符号' DefaultLayer='ACS_SFG_FFX' ID='2169' LineType='Continuous'
+		 LineWeight='0.34999999999999998' Name='暖通-送风-风向符号' TemplateName='中国电子院图层配置'
+		 UserLayer='H-SUPA-MARK' Version='0'/>
+	<z:row Color='16777215' Comment='暖通-送风-风管' DefaultLayer='ACS_SFG_FG' ID='2170' LineType='Continuous'
+		 LineWeight='0.69999999999999996' MaterialName='镀锌钢板' Name='暖通-送风-风管' ShortMarker='SF' TemplateName='中国电子院图层配置'
+		 UserLayer='H-SUPA-DUCT' Version='0'/>
+	<z:row Color='65535' Comment='暖通-送风-风口' DefaultLayer='ACS_SFG_FK' ID='2171' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-送风-风口' TemplateName='中国电子院图层配置' UserLayer='H-SUPA-PORT'
+		 Version='0'/>
+	<z:row Color='65535' Comment='暖通-送风-风口-电动' DefaultLayer='ACS_SFG_FK_E' ID='2172' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-送风-风口-电动' TemplateName='中国电子院图层配置' UserLayer='H-SUPA-PORT-E'
+		 Version='0'/>
+	<z:row Color='65280' Comment='暖通-送风-法兰' DefaultLayer='ACS_SFG_FL' ID='2173' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-送风-法兰' TemplateName='中国电子院图层配置' UserLayer='H-SUPA-FLAN'
+		 Version='0'/>
+	<z:row Color='16777215' Comment='暖通-送风-立管系统' DefaultLayer='ACS_SFG_FL1' ID='2174' LineType='Continuous'
+		 LineWeight='0.69999999999999996' Name='暖通-送风-立管系统' TemplateName='中国电子院图层配置'
+		 UserLayer='H-SUPA-RISE' Version='0'/>
+	<z:row Color='65280' Comment='暖通-送风-阀门' DefaultLayer='ACS_SFG_FM' ID='2175' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-送风-阀门' TemplateName='中国电子院图层配置' UserLayer='H-SUPA-VALV'
+		 Version='0'/>
+	<z:row Color='65280' Comment='暖通-送风-阀门-电动' DefaultLayer='ACS_SFG_FM_E' ID='2176' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-送风-阀门-电动' TemplateName='中国电子院图层配置' UserLayer='H-SUPA-VALV-E'
+		 Version='0'/>
+	<z:row Color='65280' Comment='暖通-送风-阀门-消防' DefaultLayer='ACS_SFG_FM_F' ID='2177' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-送风-阀门-消防' TemplateName='中国电子院图层配置' UserLayer='H-SUPA-VALV-F'
+		 Version='0'/>
+	<z:row Color='65280' Comment='暖通-送风-方风管中线' DefaultLayer='ACS_SFG_FRZX' ID='2178' LineType='CENTER'
+		 LineWeight='0.25' MaterialName='镀锌钢板' Name='暖通-送风-方风管中线' ShortMarker='SFR' TemplateName='中国电子院图层配置'
+		 UserLayer='H-SUPA-DCNR' Version='0'/>
+	<z:row Color='65280' Comment='暖通-送风-风量' DefaultLayer='ACS_SFG_RATE' ID='6053' LineType='Continuous'
+		 LineWeight='-3' Name='暖通-送风-风量' TemplateName='中国电子院图层配置' UserLayer='H-SUPA-RATE'
+		 Version='0'/>
+	<z:row Color='16776960' Comment='暖通-送风-设备' DefaultLayer='ACS_SFG_SB' ID='2179' LineType='Continuous'
+		 LineWeight='0.34999999999999998' Name='暖通-送风-设备' TemplateName='中国电子院图层配置' UserLayer='H-SUPA-EQPM'
+		 Version='0'/>
+	<z:row Color='16776960' Comment='暖通-送风-设备标注' DefaultLayer='ACS_SFG_SBBZ' ID='2180' LineType='Continuous'
+		 LineWeight='0.34999999999999998' Name='暖通-送风-设备标注' TemplateName='中国电子院图层配置'
+		 UserLayer='H-SUPA-EQPM-DIMS' Version='0'/>
+	<z:row Color='65280' Comment='暖通-送风-设中' DefaultLayer='ACS_SFG_SBZX' ID='2181' LineType='CENTER'
+		 LineWeight='0.25' Name='暖通-送风-设中' TemplateName='中国电子院图层配置' UserLayer='H-SUPA-ECLN'
+		 Version='0'/>
+	<z:row Color='16777219' Comment='暖通-净化-扁圆风管中线' DefaultLayer='ACS_UFG_BRZX' ID='2182' LineType='CENTER'
+		 LineWeight='-3' MaterialName='镀锌钢板' Name='暖通-净化-扁圆风管中线' ShortMarker='UBR' TemplateName='中国电子院图层配置'
+		 UserLayer='H-PURG-DCBR' Version='0'/>
+	<z:row Color='65280' Comment='暖通-净化-标注' DefaultLayer='ACS_UFG_BZ' ID='2183' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-净化-标注' TemplateName='中国电子院图层配置' UserLayer='H-PURG-DIMS'
+		 Version='0'/>
+	<z:row Color='16711935' Comment='暖通-净化-单线系统' DefaultLayer='ACS_UFG_F1' ID='2184' LineType='Continuous'
+		 LineWeight='0.69999999999999996' Name='暖通-净化-单线系统' TemplateName='中国电子院图层配置'
+		 UserLayer='H-PURG-SYSM' Version='0'/>
+	<z:row Color='16711935' Comment='暖通-净化-2D边线' DefaultLayer='ACS_UFG_F2' ID='2185' LineType='Continuous'
+		 LineWeight='0.69999999999999996' MaterialName='镀锌钢板' Name='暖通-净化-2D边线' TemplateName='中国电子院图层配置'
+		 UserLayer='H-PURG-DSDP' Version='0'/>
+	<z:row Color='16711935' Comment='暖通-净化-3D边线' DefaultLayer='ACS_UFG_F3' ID='2186' LineType='Continuous'
+		 LineWeight='0.69999999999999996' MaterialName='镀锌钢板' Name='暖通-净化-3D边线' TemplateName='中国电子院图层配置'
+		 UserLayer='H-PURG-DSDT' Version='0'/>
+	<z:row Color='16777223' Comment='暖通-净化-圆风管中线' DefaultLayer='ACS_UFG_FCZX' ID='2187' LineType='CENTER'
+		 LineWeight='0.25' MaterialName='镀锌钢板' Name='暖通-净化-圆风管中线' ShortMarker='JHC' TemplateName='中国电子院图层配置'
+		 UserLayer='H-PURG-DCNC' Version='0'/>
+	<z:row Color='16776960' Comment='暖通-净化-风向符号' DefaultLayer='ACS_UFG_FFX' ID='2188' LineType='Continuous'
+		 LineWeight='0.34999999999999998' Name='暖通-净化-风向符号' TemplateName='中国电子院图层配置'
+		 UserLayer='H-PURG-MARK' Version='0'/>
+	<z:row Color='16777221' Comment='暖通-净化-风管' DefaultLayer='ACS_UFG_FG' ID='2189' LineType='Continuous'
+		 LineWeight='0.69999999999999996' MaterialName='镀锌钢板' Name='暖通-净化-风管' ShortMarker='JH' TemplateName='中国电子院图层配置'
+		 UserLayer='H-PURG-DUCT' Version='0'/>
+	<z:row Color='16777217' Comment='暖通-净化-风口' DefaultLayer='ACS_UFG_FK' ID='2190' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-净化-风口' TemplateName='中国电子院图层配置' UserLayer='H-PURG-PORT'
+		 Version='0'/>
+	<z:row Color='16777217' Comment='暖通-净化-风口-电动' DefaultLayer='ACS_UFG_FK_E' ID='2191' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-净化-风口-电动' TemplateName='中国电子院图层配置' UserLayer='H-PURG-PORT-E'
+		 Version='0'/>
+	<z:row Color='65280' Comment='暖通-净化-法兰' DefaultLayer='ACS_UFG_FL' ID='2192' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-净化-法兰' TemplateName='中国电子院图层配置' UserLayer='H-PURG-FLAN'
+		 Version='0'/>
+	<z:row Color='16711935' Comment='暖通-净化-立管系统' DefaultLayer='ACS_UFG_FL1' ID='2193' LineType='Continuous'
+		 LineWeight='0.69999999999999996' Name='暖通-净化-立管系统' TemplateName='中国电子院图层配置'
+		 UserLayer='H-PURG-RISE' Version='0'/>
+	<z:row Color='65280' Comment='暖通-净化-阀门' DefaultLayer='ACS_UFG_FM' ID='2194' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-净化-阀门' TemplateName='中国电子院图层配置' UserLayer='H-PURG-VALV'
+		 Version='0'/>
+	<z:row Color='65280' Comment='暖通-净化-阀门-电动' DefaultLayer='ACS_UFG_FM_E' ID='2195' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-净化-阀门-电动' TemplateName='中国电子院图层配置' UserLayer='H-PURG-VALV-E'
+		 Version='0'/>
+	<z:row Color='65280' Comment='暖通-净化-阀门-消防' DefaultLayer='ACS_UFG_FM_F' ID='2196' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-净化-阀门-消防' TemplateName='中国电子院图层配置' UserLayer='H-PURG-VALV-F'
+		 Version='0'/>
+	<z:row Color='65280' Comment='暖通-净化-方风管中线' DefaultLayer='ACS_UFG_FRZX' ID='2197' LineType='CENTER'
+		 LineWeight='0.25' MaterialName='镀锌钢板' Name='暖通-净化-方风管中线' ShortMarker='JHR' TemplateName='中国电子院图层配置'
+		 UserLayer='H-PURG-DCNR' Version='0'/>
+	<z:row Color='65280' Comment='暖通-净化-风量' DefaultLayer='ACS_UFG_RATE' ID='6058' LineType='Continuous'
+		 LineWeight='-3' Name='暖通-净化-风量' TemplateName='中国电子院图层配置' UserLayer='H-PURG-RATE'
+		 Version='0'/>
+	<z:row Color='16776960' Comment='暖通-净化-设备' DefaultLayer='ACS_UFG_SB' ID='2198' LineType='Continuous'
+		 LineWeight='0.34999999999999998' Name='暖通-净化-设备' TemplateName='中国电子院图层配置' UserLayer='H-PURG-EQPM'
+		 Version='0'/>
+	<z:row Color='16776960' Comment='暖通-净化-设备标注' DefaultLayer='ACS_UFG_SBBZ' ID='2199' LineType='Continuous'
+		 LineWeight='0.34999999999999998' Name='暖通-净化-设备标注' TemplateName='中国电子院图层配置'
+		 UserLayer='H-PURG-EQPM-DIMS' Version='0'/>
+	<z:row Color='65280' Comment='暖通-净化-设中' DefaultLayer='ACS_UFG_SBZX' ID='2200' LineType='CENTER'
+		 LineWeight='0.25' Name='暖通-净化-设中' TemplateName='中国电子院图层配置' UserLayer='H-PURG-ECLN'
+		 Version='0'/>
+	<z:row Color='16777220' Comment='暖通-消防-扁圆风管中线' DefaultLayer='ACS_XFG_BRZX' ID='2201' LineType='CENTER'
+		 LineWeight='-3' MaterialName='镀锌钢板' Name='暖通-消防-扁圆风管中线' ShortMarker='NXBR' TemplateName='中国电子院图层配置'
+		 UserLayer='H-XFG-BRZX' Version='0'/>
+	<z:row Color='65280' Comment='暖通-消防-标注' DefaultLayer='ACS_XFG_BZ' ID='2202' LineType='Continuous'
+		 LineWeight='-3' Name='暖通-消防-标注' TemplateName='中国电子院图层配置' UserLayer='H-XFG-BZ' Version='0'/>
+	<z:row Color='16776960' Comment='暖通-消防-单线系统' DefaultLayer='ACS_XFG_F1' ID='2203' LineType='Continuous'
+		 LineWeight='0.5' Name='暖通-消防-单线系统' TemplateName='中国电子院图层配置' UserLayer='H-XFG-F1'
+		 Version='0'/>
+	<z:row Color='16776960' Comment='暖通-消防-2D边线' DefaultLayer='ACS_XFG_F2' ID='2204' LineType='Continuous'
+		 LineWeight='0.5' MaterialName='镀锌钢板' Name='暖通-消防-2D边线' TemplateName='中国电子院图层配置'
+		 UserLayer='H-XFG-F2' Version='0'/>
+	<z:row Color='16776960' Comment='暖通-消防-3D边线' DefaultLayer='ACS_XFG_F3' ID='2205' LineType='Continuous'
+		 LineWeight='0.5' MaterialName='镀锌钢板' Name='暖通-消防-3D边线' TemplateName='中国电子院图层配置'
+		 UserLayer='H-XFG-F3' Version='0'/>
+	<z:row Color='16711680' Comment='暖通-消防-圆风管中线' DefaultLayer='ACS_XFG_FCZX' ID='2206' LineType='CENTER'
+		 LineWeight='-3' MaterialName='镀锌钢板' Name='暖通-消防-圆风管中线' ShortMarker='NXFC' TemplateName='中国电子院图层配置'
+		 UserLayer='H-XFG-FCZX' Version='0'/>
+	<z:row Color='16776960' Comment='暖通-消防-风向符号' DefaultLayer='ACS_XFG_FFX' ID='2207' LineType='Continuous'
+		 LineWeight='0.34999999999999998' Name='暖通-消防-风向符号' TemplateName='中国电子院图层配置'
+		 UserLayer='H-XFG-FFX' Version='0'/>
+	<z:row Color='16776960' Comment='暖通-消防-风管' DefaultLayer='ACS_XFG_FG' ID='2208' LineType='Continuous'
+		 LineWeight='0.5' MaterialName='镀锌钢板' Name='暖通-消防-风管' ShortMarker='NXF' TemplateName='中国电子院图层配置'
+		 UserLayer='H-XFG-FG' Version='0'/>
+	<z:row Color='16776960' Comment='暖通-消防-风口' DefaultLayer='ACS_XFG_FK' ID='2209' LineType='Continuous'
+		 LineWeight='-3' Name='暖通-消防-风口' TemplateName='中国电子院图层配置' UserLayer='H-XFG-FK' Version='0'/>
+	<z:row Color='16776960' Comment='暖通-消防-风口-电动' DefaultLayer='ACS_XFG_FK_E' ID='2210' LineType='Continuous'
+		 LineWeight='-3' Name='暖通-消防-风口-电动' TemplateName='中国电子院图层配置' UserLayer='H-XFG-FK-E'
+		 Version='0'/>
+	<z:row Color='16777217' Comment='暖通-消防-法兰' DefaultLayer='ACS_XFG_FL' ID='2211' LineType='Continuous'
+		 LineWeight='-3' Name='暖通-消防-法兰' TemplateName='中国电子院图层配置' UserLayer='H-XFG-FL' Version='0'/>
+	<z:row Color='16776960' Comment='暖通-消防-立管系统' DefaultLayer='ACS_XFG_FL1' ID='2212' LineType='Continuous'
+		 LineWeight='0.5' Name='暖通-消防-立管系统' TemplateName='中国电子院图层配置' UserLayer='H-XFG-FL1'
+		 Version='0'/>
+	<z:row Color='16777222' Comment='暖通-消防-阀门' DefaultLayer='ACS_XFG_FM' ID='2213' LineType='Continuous'
+		 LineWeight='-3' Name='暖通-消防-阀门' TemplateName='中国电子院图层配置' UserLayer='H-XFG-FM' Version='0'/>
+	<z:row Color='16777222' Comment='暖通-消防-阀门-电动' DefaultLayer='ACS_XFG_FM_E' ID='2214' LineType='Continuous'
+		 LineWeight='-3' Name='暖通-消防-阀门-电动' TemplateName='中国电子院图层配置' UserLayer='H-XFG-FM-E'
+		 Version='0'/>
+	<z:row Color='16777222' Comment='暖通-消防-阀门-消防' DefaultLayer='ACS_XFG_FM_F' ID='2215' LineType='Continuous'
+		 LineWeight='-3' Name='暖通-消防-阀门-消防' TemplateName='中国电子院图层配置' UserLayer='H-XFG-FM-F'
+		 Version='0'/>
+	<z:row Color='16777220' Comment='暖通-消防-方风管中线' DefaultLayer='ACS_XFG_FRZX' ID='2216' LineType='CENTER'
+		 LineWeight='-3' MaterialName='镀锌钢板' Name='暖通-消防-方风管中线' ShortMarker='NXFR' TemplateName='中国电子院图层配置'
+		 UserLayer='H-XFG-FRZX' Version='0'/>
+	<z:row Color='65280' Comment='暖通-消防-风量' DefaultLayer='ACS_XFG_RATE' ID='6063' LineType='Continuous'
+		 LineWeight='-3' Name='暖通-消防-风量' TemplateName='中国电子院图层配置' UserLayer='H-XFG-RATE'
+		 Version='0'/>
+	<z:row Color='16776960' Comment='暖通-消防-设备' DefaultLayer='ACS_XFG_SB' ID='2217' LineType='Continuous'
+		 LineWeight='0.34999999999999998' Name='暖通-消防-设备' TemplateName='中国电子院图层配置' UserLayer='H-XFG-SB'
+		 Version='0'/>
+	<z:row Color='16776960' Comment='暖通-消防-设备标注' DefaultLayer='ACS_XFG_SBBZ' ID='2218' LineType='Continuous'
+		 LineWeight='0.34999999999999998' Name='暖通-消防-设备标注' TemplateName='中国电子院图层配置'
+		 UserLayer='H-XFG-SBBZ' Version='0'/>
+	<z:row Color='65280' Comment='暖通-消防-设中' DefaultLayer='ACS_XFG_SBZX' ID='2219' LineType='CENTER'
+		 LineWeight='-3' Name='暖通-消防-设中' TemplateName='中国电子院图层配置' UserLayer='H-XFG-SBZX'
+		 Version='0'/>
+	<z:row Color='16777219' Comment='暖通-排烟-扁圆风管中线' DefaultLayer='ACS_YFG_BRZX' ID='2220' LineType='CENTER'
+		 LineWeight='-3' MaterialName='镀锌钢板' Name='暖通-排烟-扁圆风管中线' ShortMarker='YBR' TemplateName='中国电子院图层配置'
+		 UserLayer='H-SMOK-DCBR' Version='0'/>
+	<z:row Color='65280' Comment='暖通-排烟-标注' DefaultLayer='ACS_YFG_BZ' ID='2221' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-排烟-标注' TemplateName='中国电子院图层配置' UserLayer='H-SMOK-DIMS'
+		 Version='0'/>
+	<z:row Color='16777275' Comment='暖通-排烟-单线系统' DefaultLayer='ACS_YFG_F1' ID='2222' LineType='Continuous'
+		 LineWeight='0.69999999999999996' Name='暖通-排烟-单线系统' TemplateName='中国电子院图层配置'
+		 UserLayer='H-SMOK-SYSM' Version='0'/>
+	<z:row Color='16777275' Comment='暖通-排烟-2D边线' DefaultLayer='ACS_YFG_F2' ID='2223' LineType='Continuous'
+		 LineWeight='0.69999999999999996' MaterialName='镀锌钢板' Name='暖通-排烟-2D边线' TemplateName='中国电子院图层配置'
+		 UserLayer='H-SMOK-DSDP' Version='0'/>
+	<z:row Color='16777275' Comment='暖通-排烟-3D边线' DefaultLayer='ACS_YFG_F3' ID='2224' LineType='Continuous'
+		 LineWeight='0.69999999999999996' MaterialName='镀锌钢板' Name='暖通-排烟-3D边线' TemplateName='中国电子院图层配置'
+		 UserLayer='H-SMOK-DSDT' Version='0'/>
+	<z:row Color='16777223' Comment='暖通-排烟-圆风管中线' DefaultLayer='ACS_YFG_FCZX' ID='2225' LineType='CENTER'
+		 LineWeight='0.25' MaterialName='镀锌钢板' Name='暖通-排烟-圆风管中线' ShortMarker='PYC' TemplateName='中国电子院图层配置'
+		 UserLayer='H-SMOK-DCNC' Version='0'/>
+	<z:row Color='16776960' Comment='暖通-排烟-风向符号' DefaultLayer='ACS_YFG_FFX' ID='2226' LineType='Continuous'
+		 LineWeight='0.34999999999999998' Name='暖通-排烟-风向符号' TemplateName='中国电子院图层配置'
+		 UserLayer='H-SMOK-MARK' Version='0'/>
+	<z:row Color='16777275' Comment='暖通-排烟-风管' DefaultLayer='ACS_YFG_FG' ID='2227' LineType='Continuous'
+		 LineWeight='0.69999999999999996' MaterialName='镀锌钢板' Name='暖通-排烟-风管' ShortMarker='PY' TemplateName='中国电子院图层配置'
+		 UserLayer='H-SMOK-DUCT' Version='0'/>
+	<z:row Color='16777217' Comment='暖通-排烟-风口' DefaultLayer='ACS_YFG_FK' ID='2228' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-排烟-风口' TemplateName='中国电子院图层配置' UserLayer='H-SMOK-PORT'
+		 Version='0'/>
+	<z:row Color='16777217' Comment='暖通-排烟-风口-电动' DefaultLayer='ACS_YFG_FK_E' ID='2229' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-排烟-风口-电动' TemplateName='中国电子院图层配置' UserLayer='H-SMOK-PORT-E'
+		 Version='0'/>
+	<z:row Color='65280' Comment='暖通-排烟-法兰' DefaultLayer='ACS_YFG_FL' ID='2230' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-排烟-法兰' TemplateName='中国电子院图层配置' UserLayer='H-SMOK-FLAN'
+		 Version='0'/>
+	<z:row Color='16777275' Comment='暖通-排烟-立管系统' DefaultLayer='ACS_YFG_FL1' ID='2231' LineType='Continuous'
+		 LineWeight='0.69999999999999996' Name='暖通-排烟-立管系统' TemplateName='中国电子院图层配置'
+		 UserLayer='H-SMOK-RISE' Version='0'/>
+	<z:row Color='65280' Comment='暖通-排烟-阀门' DefaultLayer='ACS_YFG_FM' ID='2232' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-排烟-阀门' TemplateName='中国电子院图层配置' UserLayer='H-SMOK-VALV'
+		 Version='0'/>
+	<z:row Color='65280' Comment='暖通-排烟-阀门-电动' DefaultLayer='ACS_YFG_FM_E' ID='2233' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-排烟-阀门-电动' TemplateName='中国电子院图层配置' UserLayer='H-SMOK-VALV-E'
+		 Version='0'/>
+	<z:row Color='65280' Comment='暖通-排烟-阀门-消防' DefaultLayer='ACS_YFG_FM_F' ID='2234' LineType='Continuous'
+		 LineWeight='0.25' Name='暖通-排烟-阀门-消防' TemplateName='中国电子院图层配置' UserLayer='H-SMOK-VALV-X'
+		 Version='0'/>
+	<z:row Color='65280' Comment='暖通-排烟-方风管中线' DefaultLayer='ACS_YFG_FRZX' ID='2235' LineType='CENTER'
+		 LineWeight='0.25' MaterialName='镀锌钢板' Name='暖通-排烟-方风管中线' ShortMarker='PYR' TemplateName='中国电子院图层配置'
+		 UserLayer='H-SMOK-DCNR' Version='0'/>
+	<z:row Color='65280' Comment='暖通-排烟-风量' DefaultLayer='ACS_YFG_RATE' ID='6059' LineType='Continuous'
+		 LineWeight='-3' Name='暖通-排烟-风量' TemplateName='中国电子院图层配置' UserLayer='H-SMOK-RATE'
+		 Version='0'/>
+	<z:row Color='16776960' Comment='暖通-排烟-设备' DefaultLayer='ACS_YFG_SB' ID='2236' LineType='Continuous'
+		 LineWeight='0.34999999999999998' Name='暖通-排烟-设备' TemplateName='中国电子院图层配置' UserLayer='H-SMOK-EQPM'
+		 Version='0'/>
+	<z:row Color='16776960' Comment='暖通-排烟-设备标注' DefaultLayer='ACS_YFG_SBBZ' ID='2237' LineType='Continuous'
+		 LineWeight='0.34999999999999998' Name='暖通-排烟-设备标注' TemplateName='中国电子院图层配置'
+		 UserLayer='H-SMOK-EQPM-DIMS' Version='0'/>
+	<z:row Color='65280' Comment='暖通-排烟-设中' DefaultLayer='ACS_YFG_SBZX' ID='2238' LineType='CENTER'
+		 LineWeight='0.25' Name='暖通-排烟-设中' TemplateName='中国电子院图层配置' UserLayer='H-SMOK-ECLN'
+		 Version='0'/>
+</rs:data>
+</xml>
